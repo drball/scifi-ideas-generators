@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scifi ideas generators</title>
+    <link>/</link>
+    <description>Recent content on Scifi ideas generators</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright notice</copyright>
+    <lastBuildDate>Wed, 13 May 2020 09:19:46 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spaceship Name Generator</title>
+      <link>/spaceship-name-generator/</link>
+      <pubDate>Wed, 13 May 2020 09:19:46 +0100</pubDate>
+      
+      <guid>/spaceship-name-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alien Species Generator</title>
+      <link>/alien-species-generator/</link>
+      <pubDate>Wed, 13 May 2020 09:19:17 +0100</pubDate>
+      
+      <guid>/alien-species-generator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

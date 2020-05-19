@@ -7,26 +7,7 @@ copyright = "&copy; Copyright notice"
 theme = "potato-dark"
 
 [params]
-  paginate = 10
-  # Social accounts. Link to these accounts are displayed in the header and
-  # footer
-  twitter = "Your Twitter username"
-  facebook = "Your Facebook username"
-  instagram = "Your Instagram username"
-  github = "Your GitHub username"
-  gitlab = "Your GitLab username"
-  npm = "Your npm username"
-  codepen = "Your CodePen username"
-  dribbble = "Your Dribbble username"
-  fivehundredpx = "Your 500px username" # 500px
-  flickr = "Your Flickr username"
-  pinterest = "Your Pinterest username"
-  tumblr = "Your Tumblr username"
-  vimeo = "Your Vimeo username"
-  youtube = "Your YouTube username"
-  linkedin = "Your LinkedIn username"
-  # Disqus shortname
-  disqus = ""
+
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
   # Logo image. This is displayed ogp image.
@@ -42,11 +23,6 @@ theme = "potato-dark"
     name = "About"
     url = "/about"
     weight = 2
-
-[[menu.main]]
-    identifier = "theme"
-    name = "Theme"
-    weight = 3
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
