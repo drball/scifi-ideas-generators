@@ -6,6 +6,7 @@ Title = "Scifi ideas generators"
 copyright = "&copy; Copyright notice"
 theme = "potato-dark"
 
+
 [params]
 
   # Google Analytics API key.
@@ -48,3 +49,12 @@ theme = "potato-dark"
   name  = "date"
   weight = 10
   pattern = "2017"
+
+
+[[redirects]]
+    from = "/old-path"
+    to = "/new-path"
+    status = 301
+    force = false
+    query = {path = ":path"}
+    conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
