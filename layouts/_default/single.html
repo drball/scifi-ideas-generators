@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+  <header>
+    <h1 class="main-title">{{ .Title }}</h1>
+  </header>
+
+  <section id="js-article" class="p-article__body">
+    {{ .Content }}
+  </section>
+
+</article>
+{{ partial "footer.html" . }}
