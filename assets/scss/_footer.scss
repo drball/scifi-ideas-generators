@@ -1,0 +1,49 @@
+.footer {
+    border-top: 4px solid $orange;
+    color: #909090;
+    padding: 20px 0 20px;
+    background: $footer-bg;
+
+
+    h2 {
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0 0 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .p-menu__lists {
+        margin: 0;
+        padding: 0 0 0 20px;
+        //list-style-type: none;
+
+        li {
+            list-style: square;
+        }
+
+        a,
+        a:visited {
+            color: #BCBCBC;
+            font-size: 16px;
+        }
+
+        a:hover,
+        a:active {
+            color: white;
+        }
+    }
+
+    &-container {
+        padding: 0 30px;
+        background: $footer-bg;
+
+        @media (min-width: $breakpoint-medium) {
+            padding: 0 20px;
+        }
+    }
+
+}
