@@ -1,2 +1,16 @@
 [context.production.environment]
   HUGO_VERSION = "0.71.0"
+
+
+[[redirects]]
+from = "/spaceships"
+to = "/spaceship-name-generator"
+status = 301
+
+from = "/home"
+to = "/spaceship-name-generator"
+status = 301
+
+from = "/aliens"
+to = "/alien-species-name-generator"
+status = 301

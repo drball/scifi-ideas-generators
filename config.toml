@@ -10,19 +10,19 @@ theme = "potato-dark"
 [params]
 
   # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
+  ga_api_key = "UA-26882192-1"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
 
 [[menu.main]]
-    name = "Blog"
-    url = "/"
+    name = "Spaceship name generator"
+    url = "/spaceship-name-generator"
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Alien species name generator"
+    url = "/alien-species-name-generator"
     weight = 2
 
 [related]
