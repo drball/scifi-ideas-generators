@@ -1,5 +1,5 @@
 #Uncomment as needed
-#baseurl = "Your site URL"
+baseurl = "www.scifiideas.com"
 languageCode = "en-us"
 Title = "Scifi ideas generators"
 # Copyright notice. This is displayer in the footer.
@@ -51,10 +51,3 @@ theme = "potato-dark"
   pattern = "2017"
 
 
-[[redirects]]
-    from = "/old-path"
-    to = "/new-path"
-    status = 301
-    force = false
-    query = {path = ":path"}
-    conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
