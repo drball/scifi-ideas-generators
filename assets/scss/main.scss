@@ -5,25 +5,7 @@
 #main{
     border-radius: 0.15%;
     padding: 15px 20px;
-    background: #f2f0ec;
-}
-
-@media(min-width:640px) {
-    #main {
-        padding: 50px 55px;
-    }
-}
-
-/*ul.p-menu__lists::before {
-    content: "‣";
-    color: #ED5276;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: monospace, sans-serif;
-}
-*/
-.p-title__link {
-    color: #ccc;
+    background: white;
 }
 
 .p-subtitle{
