@@ -1,5 +1,5 @@
 #Uncomment as needed
-baseurl = "www.scifiideas.com"
+baseurl = "https://www.scifiideas.com"
 languageCode = "en-us"
 Title = "Scifi ideas generators"
 # Copyright notice. This is displayer in the footer.
