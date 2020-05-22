@@ -7,10 +7,12 @@ from = "/spaceships"
 to = "/spaceship-name-generator"
 status = 301
 
+[[redirects]]
 from = "/home"
 to = "/spaceship-name-generator"
 status = 301
 
+[[redirects]]
 from = "/aliens"
 to = "/alien-species-name-generator"
 status = 301
