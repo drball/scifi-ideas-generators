@@ -1,0 +1,277 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    <header>
+        <h1 class="main-title">{{ .Title }}</h1>
+    </header>
+
+    <section id="js-article" class="p-article__body">
+        {{ .Content }}
+    </section>
+
+    <div id="generated-names">
+
+    </div>
+
+    <button class="button generate-button" onclick=generateNew()>Generate name</button>
+
+</article>
+
+<script>
+    var output = $("#generated-names");
+    var num = 100;
+
+    var prefix = [
+        "HMS",
+        "HMS",
+        "USS",
+        "USS",
+        "USS",
+        "JMC",
+        "STS",
+        "IKS",
+        "SS",
+        "ISV",
+        "UNS",
+        "EAS"
+    ];
+
+    var names = [
+        "Aegean",
+        "Agamemnon",
+        "Agrippa",
+        "Ajax",
+        "Akira",
+        "Andromeda",
+        "Anubis",
+        "Apollo",
+        "Archer",
+        "Archimedes",
+        "Argo",
+        "Ariane",
+        "Artemis",
+        "Asimov",
+        "Banshee",
+        "Basilisk",
+        "Beetle",
+        "Beluga",
+        "Barracuda",
+        "Calypso",
+        "Comet",
+        "Daedalus",
+        "Defiant",
+        "Deliverance",
+        "Delta",
+        "Discovery",
+        "Endeavor",
+        "Enterprise",
+        "Fireball",
+        "Firefly",
+        "Fortitude",
+        "Gamma",
+        "Gallimimus",
+        "Hades",
+        "Harlequin",
+        "Hellbound",
+        "Hellhound",
+        "Hera",
+        "Hercules",
+        "Hood",
+        "Hornet",
+        "Hypnos",
+        "Icarus",
+        "Iksha",
+        "Intruder",
+        "Iris",
+        "Kasimov",
+        "Kulakov",
+        "Liberty",
+        "Liberator",
+        "Lucifer",
+        "Lucius",
+        "Manhattan",
+        "Mermaid",
+        "Morabito",
+        "Nakhimov",
+        "Nebulon",
+        "Nemesis",
+        "Nexus",
+        "Nostromo",
+        "Olympia",
+        "Olympic",
+        "Pantheon",
+        "Pegasus",
+        "Pegasus",
+        "Perilous",
+        "Phoenix",
+        "Pike",
+        "Pirahna",
+        "Planet",
+        "Prince",
+        "Pulsar",
+        "Razor",
+        "Reliant",
+        "Roberts",
+        "Ryvius",
+        "Santa Maria",
+        "Saratoga",
+        "Scimitar",
+        "Scorpio",
+        "Serenity",
+        "Sovereign",
+        "Starfarer",
+        "Stargazer",
+        "Swordfish",
+        "Thor",
+        "Tigershark",
+        "Tyrannosaurus",
+        "Unicorn",
+        "Vanguard",
+        "Vengeance",
+        "Verne",
+        "Vision",
+        "Vortex",
+        "Vulcan",
+        "Wasp",
+        "Western",
+        "Wyvern",
+        "Xerxes",
+        "Yamato",
+        "Yantar",
+        "Zeus"
+    ];
+
+    var lastName = [
+        "1",
+        "Antigua",
+        "Barge",
+        "Battleship",
+        "Bomber",
+        "Corsair",
+        "Corvette",
+        "Cruiser",
+        "Crusader",
+        "Crusader",
+        "Defence",
+        "Destroyer",
+        "Dreadnought",
+        "Essex",
+        "Explorer",
+        "Explorer",
+        "Express",
+        "Falcon",
+        "Flyer",
+        "Forge",
+        "Fortress",
+        "Freelancer",
+        "Gold",
+        "Hawk",
+        "Hulk",
+        "II",
+        "IV",
+        "Lander",
+        "Midget",
+        "Moonlander",
+        "Nirvana",
+        "Nova",
+        "Observer",
+        "One",
+        "Patrol Ship",
+        "Privateer",
+        "Raider",
+        "Resistence",
+        "Rikers",
+        "Rocket",
+        "Scow",
+        "Silver",
+        "Star",
+        "Starfighter",
+        "Thunder",
+        "Trawler",
+        "Transporter",
+        "Triumph",
+        "Vega",
+        "Warrior",
+        "Wisp",
+        "XL",
+        "XL5"
+    ];
+
+    var verbs = [
+        "Black",
+        "Blackstone",
+        "Blue",
+        "Dark",
+        "Deadly",
+        "Death",
+        "Delta",
+        "Eastern",
+        "Epsilon",
+        "Flying",
+        "Gamma",
+        "Giant",
+        "Goddess",
+        "Golden",
+        "Great",
+        "Grey",
+        "Half",
+        "Heart of",
+        "Mighty",
+        "Real",
+        "Red",
+        "Royal",
+        "Stolen",
+        "Slim",
+        "Western",
+        "White",
+        "Yellow",
+        "Zero",
+    ];
+
+    generateNew = function(){
+        output.html("");
+
+        for (i = 0; i <= num; i++) {
+
+            var final = "";
+            var type = Math.floor(Math.random() * 100);
+            var prefixChance = Math.floor(Math.random() * 100);
+            var randomName = names[Math.floor(Math.random() * names.length)];
+            var randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+            var randomLastName = lastName[Math.floor(Math.random() * lastName.length)];
+            var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
+
+            if(type <= 25){
+                final = "The " + randomVerb + " " + randomName;
+
+            } else if (type > 25 && type <= 55){
+
+                if(prefixChance > 50){
+                    final = "The " + randomName;
+                } else {
+                    final = "The " + randomPrefix + " " + randomName;
+                }
+
+            } else if (type > 55 && type <= 75){
+
+                if(prefixChance <= 30){
+                    final = "The " + randomPrefix + " " + randomVerb + " " + randomLastName;
+                } else if (prefixChance > 30 && prefixChance < 60) {
+                    final = randomVerb + " " + randomLastName;
+                } else {
+                    final = "The " + randomVerb + " " + randomLastName;
+                }
+
+            } else {
+                final = randomName;
+            }
+
+            output.prepend("<p>"+final+"</p>");
+        }
+
+    }
+
+    generateNew();
+
+</script>
+{{ partial "footer.html" . }}

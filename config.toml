@@ -50,4 +50,5 @@ theme = "potato-dark"
   weight = 10
   pattern = "2017"
 
-
+[markup.goldmark.renderer]
+    unsafe= true

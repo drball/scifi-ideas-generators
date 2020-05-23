@@ -169,6 +169,19 @@ img {
     max-width: 1000px;
 }
 
+.button {
+    display: inline-block;
+    background: $orange;
+    color: white;
+    font-family: $font-oswald;
+    font-size: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    border: 0;
+    border-radius: 7px;
+}
+
 
 @import "topbar";
 @import "grid";
