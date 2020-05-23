@@ -8,6 +8,16 @@ to = "/spaceship-name-generator"
 status = 301
 
 [[redirects]]
+from = "/spaceship-generator"
+to = "/spaceship-name-generator"
+status = 301
+
+[[redirects]]
+from = "/spaceships-generator"
+to = "/spaceship-name-generator"
+status = 301
+
+[[redirects]]
 from = "/home"
 to = "/spaceship-name-generator"
 status = 301
