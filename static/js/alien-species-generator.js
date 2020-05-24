@@ -204,7 +204,6 @@ newAlienSpeciesName = function(){
             final =  randomStart + randomEnd;
         }
     }
-    console.log("sdfsdf");
 
     return "<p>"+final+"</p>";
 }
