@@ -3,7 +3,6 @@
 
 /* Changes */
 #main{
-    border-radius: 0.15%;
     padding: 15px 20px;
     background: white;
 }
@@ -140,6 +139,7 @@ img {
 .main {
     padding: 15px 20px;
     background: white;
+    border-radius: 0;
 
     p {
         font-size: 14px;

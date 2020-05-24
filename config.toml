@@ -22,7 +22,7 @@ theme = "potato-dark"
 
 [[menu.main]]
     name = "Alien species name generator"
-    url = "/alien-species-name-generator"
+    url = "/alien-species-generator"
     weight = 2
 
 [[menu.main]]
