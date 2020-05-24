@@ -15,6 +15,21 @@ theme = "potato-dark"
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
 
+[[menu.footer]]
+    name = "Spaceship name generator"
+    url = "/spaceship-name-generator"
+    weight = 1
+
+[[menu.footer]]
+    name = "Alien species name generator"
+    url = "/alien-species-generator"
+    weight = 2
+
+[[menu.footer]]
+    name = "Planet name generator"
+    url = "/planet-name-generator"
+    weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"
@@ -26,9 +41,10 @@ theme = "potato-dark"
     weight = 2
 
 [[menu.main]]
-        name = "Planet name generator"
-        url = "/planet-name-generator"
-        weight = 2
+    name = "Planet name generator"
+    url = "/planet-name-generator"
+    weight = 2
+
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.

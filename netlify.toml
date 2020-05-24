@@ -26,3 +26,33 @@ status = 301
 from = "/aliens"
 to = "/alien-species-name-generator"
 status = 301
+
+[[redirects]]
+from = "/sfi/story-ideas/car-hackers-automated-car-revolution/"
+to = "/posts/car-hackers-automated-car-revolution/"
+status = 301
+
+[[redirects]]
+from = "/sfi/story-ideas/story-idea-control-planet-13"
+to = "/posts/car-hackers-automated-car-revolution/"
+status = 301
+
+[[redirects]]
+from = "/writing-2/writing-advice/a-guide-to-science-fiction-subgenres/"
+to = "/posts/a-guide-to-science-fiction-subgenres/"
+status = 301
+
+[[redirects]]
+from = "/sfi/story-ideas/10-ideas-for-a-time-travel-story/"
+to = "/posts/10-ideas-for-a-time-travel-story/"
+status = 301
+
+[[redirects]]
+from = "/writing-2/writing-advice/25-different-science-fiction-settings/"
+to = "/posts/25-different-science-fiction-settings/"
+status = 301
+
+[[redirects]]
+from = "/sfi/x-ifs-alternate-history-scenarios/"
+to = "/posts/x-ifs-alternate-history-scenarios/"
+status = 301

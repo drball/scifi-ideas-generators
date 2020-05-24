@@ -13,6 +13,15 @@
 
         <div class="article__middle-col">
             {{ .Content }}
+
+            <ul class="p-menu__lists">
+                {{ range .Site.RegularPages }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Title}}</a>
+                </li>
+                {{ end }}
+            </ul>
+
         </div>
 
         <div class="article__right-col">

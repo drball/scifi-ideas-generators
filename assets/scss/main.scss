@@ -48,6 +48,7 @@ h6 {
     line-height: 1.2;
 }
 
+li,
 p {
     font-size: 1.6rem;
     color: inherit;
@@ -66,15 +67,13 @@ a:visited {
 }
 
 ul li {
+    color: $text-dark;
     list-style: disc
 }
 
 ol li {
+    color: $text-dark;
     list-style: decimal
-}
-
-li {
-    font-size: 1.6rem
 }
 
 blockquote {
@@ -269,6 +268,26 @@ img {
 
     &:last-child {
         margin-bottom: 0;
+    }
+}
+
+.p-menu__lists {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: square;
+    }
+
+    a,
+    a:visited {
+        color: $text-dark;
+        font-size: 16px;
+    }
+
+    a:hover,
+    a:active {
+        color: black;
     }
 }
 

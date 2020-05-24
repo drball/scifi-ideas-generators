@@ -1,15 +1,25 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 <article class="p-article">
-    <header class="main-title-wrapper">
-        <h1 class="main-title">{{ .Title }}</h1>
-    </header>
+    {{ partial "article-title.html" . }}
 
     <section class="article">
-        {{ .Content }}
 
-        <!-- this is a single template -->
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+        </div>
+
+        {{ partial "right-col.html" . }}
+
     </section>
 
+    {{ partial "bottom-ad.html" . }}
+
 </article>
+
+
 {{ partial "footer.html" . }}
+
+
