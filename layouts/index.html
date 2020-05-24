@@ -1,12 +1,24 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 <article class="p-article">
-    <header>
+    <header class="main-title-wrapper">
         <h1 class="main-title">{{ .Title }}</h1>
     </header>
 
-    <section id="js-article" class="p-article__body">
-        {{ .Content }}
+    <section class="article">
+
+        <div class="article__left-col">
+
+        </div>
+
+        <div class="article__middle-col">
+            {{ .Content }}
+        </div>
+
+        <div class="article__right-col">
+
+        </div>
+
     </section>
 
 </article>

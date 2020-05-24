@@ -9,6 +9,10 @@
         font-size: 18px;
         font-weight: normal;
         margin: 0 0 5px;
+
+        @media (min-width: $breakpoint-large) {
+            font-size: 22px;
+        }
     }
 
     p {
