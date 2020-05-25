@@ -149,7 +149,7 @@ img {
 
 .main-wrapper {
     padding: 0 15px;
-    background: url(#{$images-path}/green-space.jpg) no-repeat center;
+    background: url(#{$images-path}/green-space.webp) no-repeat center;
     background-size: cover;
 
     @media (min-width: $breakpoint-medium) {
