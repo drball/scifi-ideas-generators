@@ -169,9 +169,9 @@ img {
 }
 
 .main-title-wrapper {
-    @media (min-width: $breakpoint-large) {
+    @media (min-width: $breakpoint-xlarge) {
         padding: 0 15px;
-        margin: 0 120px;
+        margin: 0 $col-width 0 0;
     }
 }
 
@@ -215,17 +215,17 @@ img {
         }
     }
 
-    &__left-col {
-        width: 120px;
-        display: none;
-
-        @media (min-width: $breakpoint-large) {
-            display: block;
-        }
-    }
+    //&__left-col {
+    //    width: $col-width;
+    //    display: none;
+    //
+    //    @media (min-width: $breakpoint-xxlarge) {
+    //        display: block;
+    //    }
+    //}
 
     &__right-col {
-        width: 120px;
+        width: $col-width;
         display: none;
 
         @media (min-width: $breakpoint-medium) {

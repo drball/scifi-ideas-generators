@@ -7,9 +7,7 @@
 
     <section class="article">
 
-        <div class="article__left-col">
-
-        </div>
+        {{ partial "left-col.html" . }}
 
         <div class="article__middle-col">
             {{ .Content }}
@@ -21,14 +19,13 @@
                 </li>
                 {{ end }}
             </ul>
-
         </div>
 
-        <div class="article__right-col">
-
-        </div>
+        {{ partial "right-col.html" . }}
 
     </section>
+
+    {{ partial "bottom-ad.html" . }}
 
 </article>
 {{ partial "footer.html" . }}
