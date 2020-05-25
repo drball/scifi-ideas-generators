@@ -139,6 +139,7 @@ img {
     padding: 15px 20px;
     background: white;
     border-radius: 0;
+    min-height: 50vh;
 
     p {
         font-size: 14px;
@@ -157,10 +158,14 @@ img {
 }
 
 .main-title {
-    font-size: 58px;
+    font-size: 32px;
     color: #B7B7B7;
     margin: 0 auto 10px;
     font-weight: $font-weight-medium;
+
+    @media (min-width: $breakpoint-medium) {
+        font-size: 58px;
+    }
 }
 
 .main-title-wrapper {
@@ -273,7 +278,7 @@ img {
 
 .p-menu__lists {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 20px;
 
     li {
         list-style: square;
@@ -288,6 +293,20 @@ img {
     a:hover,
     a:active {
         color: black;
+    }
+}
+
+.hide-for-medium {
+    @media (min-width: $breakpoint-medium) {
+        display: none;
+    }
+}
+
+.show-for-medium {
+    display: none;
+
+    @media (min-width: $breakpoint-medium) {
+        display: block;
     }
 }
 
