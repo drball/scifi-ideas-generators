@@ -23,8 +23,18 @@ to = "/spaceship-name-generator"
 status = 301
 
 [[redirects]]
+from = "/planet-generator/"
+to = "/planet-name-generator"
+status = 301
+
+[[redirects]]
 from = "/aliens"
 to = "/alien-species-name-generator"
+status = 301
+
+[[redirects]]
+from = "/alien-species-name-generator"
+to = "/alien-species-generator"
 status = 301
 
 [[redirects]]
