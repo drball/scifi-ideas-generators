@@ -229,6 +229,7 @@ generateNew = function () {
         var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
         var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
         var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
+        var secondWordChance = suffix[Math.floor(Math.random() * suffix.length)];
 
         final = randomPart1 + randomPart2;
 
@@ -236,11 +237,19 @@ generateNew = function () {
             final = randomPrefix + " " + final;
         }
 
+        if (secondWordChance <= 20) {
+            var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
+            var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
+
+            final = final + " " + randomPart1 + randomPart2;
+        }
+
         if (suffixChance <= 25){
             final = final + " " + randomSuffix;
         } else if(suffixChance > 25 && suffixChance <= 50) {
             final = final + " " + Math.floor(Math.random() * 400);
         }
+
 
 
         output.prepend("<p>"+final+"</p>");
