@@ -3,6 +3,7 @@ var num = 30;
 
 
 var part1 = [
+    "Æ",
     "Arc",
     "A",
     "An",
@@ -85,6 +86,8 @@ var part1 = [
     "Ven",
     "Ver",
     "Vul",
+    "X'",
+    "Xe'",
     "Xy",
 ];
 
@@ -103,9 +106,10 @@ var part2 = [
     "atoid",
     "budram",
     "can",
-    "can",
+    "cania",
     "cania",
     "cury",
+    "con",
     "da",
     "daleko",
     "dalekon",
@@ -118,7 +122,9 @@ var part2 = [
     "eaux",
     "eus",
     "fall",
+    "gania",
     "gill",
+    "golia",
     "ian",
     "illian",
     "idian",
@@ -153,7 +159,9 @@ var part2 = [
     "ryn",
     "sea",
     "tan",
+    "tania",
     "to",
+    "tonia",
     "topia",
     "tos",
     "trock",
@@ -186,6 +194,10 @@ var prefix = [
     "Delta",
     "The planet of",
     "The moon of",
+    "The ringed planet of",
+    "The robot world of",
+    "The mountainous planet of",
+    "The lava world of",
     "New",
     "White",
     "East",
@@ -195,7 +207,13 @@ var prefix = [
 ];
 
 var suffix = [
-    "Prime", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIV", "XV", "XVI", "World",
+    "Alpha",
+    "Beta",
+    "Gamma",
+    "Prime",
+    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12",
+    "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIV", "XV", "XVI",
+    "World", "Moon", "gas giant"
 ]
 
 generateNew = function () {

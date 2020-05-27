@@ -17,6 +17,8 @@ var prefix = [
 ];
 
 var names = [
+    "Æthelwulf",
+    "Æthelred",
     "Aion",
     "Aegean",
     "Agamemnon",
@@ -37,6 +39,8 @@ var names = [
     "Asteria",
     "Athena",
     "Atwood",
+    "Atlantis",
+    "Atlantic",
     "Banshee",
     "Basilisk",
     "Beetle",
@@ -59,6 +63,7 @@ var names = [
     "Gamma",
     "Gallimimus",
     "Gibson",
+    "Goole",
     "Hades",
     "Harlequin",
     "Hellbound",
@@ -123,6 +128,7 @@ var names = [
     "Stegosaurus",
     "Swordfish",
     "Thor",
+    "Thorn",
     "Tigershark",
     "Tyrannosaurus",
     "Tyche",
