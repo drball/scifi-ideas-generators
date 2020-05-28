@@ -30,6 +30,11 @@ theme = "potato-dark"
     url = "/planet-name-generator"
     weight = 2
 
+[[menu.footer]]
+    name = "Sci-fi character name generator"
+    url = "/sci-fi-character-name-generator"
+    weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"
@@ -44,6 +49,7 @@ theme = "potato-dark"
     name = "Planet name generator"
     url = "/planet-name-generator"
     weight = 2
+
 
 
 [related]
