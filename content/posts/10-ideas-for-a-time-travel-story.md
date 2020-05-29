@@ -1,6 +1,7 @@
 ---
 title: "10 Ideas for a Time Travel Story"
 date: 2020-05-24T23:13:53+01:00
+description: "A list of 10 quick ideas for a time travel story" 
 ---
 
 <p>Here are 10 quick ideas for a time travel&nbsp;story, including everything from colonies in the distant past and future, to time traveling Jews, Jesus, and&nbsp;jealous&nbsp;husbands.</p>

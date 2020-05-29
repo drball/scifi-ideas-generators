@@ -1,6 +1,7 @@
 ---
 title: "Story Idea: Control Planet 13"
 date: 2020-05-24T23:09:20+01:00
+description: "A story idea by Amber Seree"
 ---
 
 <h2>THE WORLD</h2>

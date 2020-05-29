@@ -17,6 +17,8 @@
     <meta property="og:site_name" content="{{ .Site.Title }}"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
 
+    <script src="/js/jquery.min.js"></script>
+
     {{ with .Params.thumbnail }}
     <meta property="og:image" content="{{ . | absURL }}"/>
     <meta name="twitter:image" content="{{ . | absURL }}"/>
@@ -50,8 +52,6 @@
     <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}"/>
     {{ end }}
     {{ end }}
-    <script src="/js/jquery.min.js"></script>
-
 
     <meta name="google-site-verification" content="gcwoPdDd88LxhIsJ_eFIzehFI0I44ve16eYlTzqk1pY" />
 

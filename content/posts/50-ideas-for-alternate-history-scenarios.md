@@ -1,6 +1,7 @@
 ---
 title: "What If? 50 Ideas for Alternate History Scenarios"
 date: 2020-05-24T23:13:53+01:00
+description: "Writers! Need some inspiration for an alternate history scenario for your next story?"
 ---
 
 <p>Need some inspiration for an alternate history scenario? Need a point in time for your alternate timeline to diverge? Here&rsquo;s a list of 50 questions to excite your imagination, invalidate your history textbooks, and&nbsp;infuriate your stuffy childhood history teacher.</p>

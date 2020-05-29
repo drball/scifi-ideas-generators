@@ -1,6 +1,8 @@
 ---
 title: "Car-hackers of the driverless revolution"
 date: 2014-05-13T08:31:40+01:00
+description: ""
+
 ---
 
 “The safest way to travel” was how they sold the driverless revolution at first, and we loved it. “Car accidents are a thing of the past”. It was true, computers were much faster at making those important decisions about road safety. Cars automatically slammed their own brakes on if a pedestrian ran into the road. Something though that arrogant teenagers started to abuse, once they’d realised they be safe every time, sometimes causing traffic chaos.

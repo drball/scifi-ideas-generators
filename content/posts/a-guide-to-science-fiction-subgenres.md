@@ -1,6 +1,7 @@
 ---
 title: "A Guide to Science Fiction Subgenres"
 date: 2020-05-24T23:13:53+01:00
+description: "The scifi genre can be divided into dozens of subgenres, each with their own unique themes & attributes."
 ---
 
 The world of science fiction is literally epic and incredibly complex. The genre can be divided into dozens of subgenres, each with their own unique themes and attributes. Any one science fiction story can cross the boundaries of several of these subgenres, or even break off into its own cult category. Charting the entire universe of scifi subgenres would therefore be impossible, but here are some of its most heavily populated worlds.

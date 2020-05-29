@@ -1,6 +1,7 @@
 ---
 title: "Sciency words: The Gaia principle"
 date: 2015-07-09T08:31:40+01:00
+description: "This post is part of a special series that first appeared on Planet Pailly"
 ---
 
 <p><em>Today&rsquo;s post is part of a special series that first appeared on&nbsp;<a title="Planet Pailly" href="https://web.archive.org/web/20161025030923/https://planetpailly.wordpress.com/" target="_blank">Planet Pailly</a>. Every Thursday, we take a look at a new and interesting scientific term to help us all expand our scientific vocabularies together. Today&rsquo;s word is:</em></p>

@@ -1,6 +1,7 @@
 ---
 title: "25 different Sci-Fi Settings"
 date: 2020-05-24T23:13:53+01:00
+
 ---
 
 <p>We recently received this list of science fiction story settings from Venezuelan writer Vladmir Vasquez. Vladmir runs the Spanish language sci-fi blog &ldquo;<a title="http://lacuevadellobo.blogspot.co.uk/" href="https://web.archive.org/web/20191023144723/http://lacuevadellobo.blogspot.co.uk/" target="_blank">La Cueva del Lobo</a>&ldquo;, but he decided to share his list of ideas on our site too so as to reach a wider audience.</p>
