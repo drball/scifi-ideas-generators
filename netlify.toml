@@ -38,6 +38,11 @@ to = "/alien-species-generator"
 status = 301
 
 [[redirects]]
+from = "/category/sfi/alien-ideas/alien-profiles/"
+to = "/alien-species-generator"
+status = 301
+
+[[redirects]]
 from = "/sfi/story-ideas/car-hackers-automated-car-revolution/"
 to = "/posts/car-hackers-automated-car-revolution/"
 status = 301
@@ -70,4 +75,9 @@ status = 301
 [[redirects]]
 from = "/science-2/sciency-words-the-gaia-principle/"
 to = "/posts/sciency-words-the-gaia-principle/"
+status = 301
+
+[[redirects]]
+from = "/category/sfi/story-ideas/"
+to = "/posts/25-different-science-fiction-settings/"
 status = 301
