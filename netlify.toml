@@ -66,3 +66,8 @@ status = 301
 from = "/sfi/x-ifs-alternate-history-scenarios/"
 to = "/posts/50-ideas-for-alternate-history-scenarios/"
 status = 301
+
+[[redirects]]
+from = "/science-2/sciency-words-the-gaia-principle/"
+to = "/posts/sciency-words-the-gaia-principle/"
+status = 301
