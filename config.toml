@@ -12,8 +12,8 @@ theme = "potato-dark"
   # Google Analytics API key.
   ga_api_key = "UA-26882192-1"
   # Logo image. This is displayed ogp image.
-  logo = "/path/to/logo"
-  favicon = "/path/to/favicon"
+  logo = "/images/og-image.png"
+  favicon = "/favicon"
 
 [[menu.footer]]
     name = "Spaceship name generator"
