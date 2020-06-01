@@ -6,4 +6,6 @@ description: "A random spaceship name generator to help science fiction writers 
    
 ---
 
-SciFi Ideas has created this random spaceship name generator to help science fiction writers and role-players quickly create names for the spaceships that feature in their stories. The spaceship name generator will randomly display a ship name from our database. Don’t like the ship name you’ve been given? Press the button to generate some more!
+SciFi Ideas has created this random spaceship name generator to help science fiction writers and role-players quickly create names for the spaceships that feature in their stories. The spaceship name generator will randomly display a ship name from our database. Maybe also useful for naming spaceships in games like <em>Kerbal Space Program</em>, or <em>Elite Dangerous</em>.
+
+Don’t like the ship name you’ve been given? Press the button to generate some more!
