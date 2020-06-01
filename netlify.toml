@@ -33,11 +33,6 @@ to = "/alien-species-name-generator"
 status = 301
 
 [[redirects]]
-from = "/alien-species-name-generator"
-to = "/alien-species-generator"
-status = 301
-
-[[redirects]]
 from = "/category/sfi/alien-ideas/alien-profiles/"
 to = "/alien-species-generator"
 status = 301
