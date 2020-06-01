@@ -310,6 +310,24 @@ img {
     }
 }
 
+.alien-species {
+    margin: 0 0 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    p {
+        line-height: 1.5;
+        margin: 0 0 8px;
+        font-weight: normal;
+    }
+
+    em {
+        font-weight: $font-weight-bold;
+        font-style: normal;
+    }
+}
 
 @import "topbar";
 @import "grid";
