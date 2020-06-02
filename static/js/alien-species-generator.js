@@ -536,6 +536,8 @@ var quirk = [
     "When they die, they turn to stone.",
     "They can't live without robot helpers.",
     "They can't live without their slaves.",
+    "They mostly live in a constructed ring around their home planet.",
+    "They constructed a dyson sphere around their sun.",
     "They have an extremely low-tech civilization and do not build their own starships, but they have been known to hitchhike on alien trading vessels.",
     "The entire species is addicted to a plant pollon that is common on their world. The microscopic pollen is carried on the wind and reaches every island and continent.",
     "They naturally produce a chemical that can be used to cure many different illnesses. Because of this, many members of their species have been captured by another race and used for medical experiments.",
