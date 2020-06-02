@@ -15,11 +15,14 @@ var adjectives = [
     "bright white",
     "bright yellow",
     "brown",
+    "blue",
     "burrowing",
     "bulbous",
     "carnivorous",
     "carnivorous",
+    "calm",
     "cat-like",
+    "changelings",
     "cheeky",
     "clumsy",
     "color-blind",
@@ -42,6 +45,7 @@ var adjectives = [
     "hairy",
     "hairless",
     "hard-shelled",
+    "hard-skinned",
     "humanoid",
     "incestuous",
     "intelligent",
@@ -65,6 +69,7 @@ var adjectives = [
     "selfish",
     "sentient",
     "serene, tree-like",
+    "shape-shifters",
     "shy",
     "short-sighted",
     "slimy",
@@ -77,9 +82,13 @@ var adjectives = [
     "telepathic",
     "terrifying",
     "time-travelling",
-    "multi-dimensional",
+    "tiny",
+    "tough skinned",
     "transparent",
     "mammalian",
+    "mammalian",
+    "multi-dimensional",
+    "mauve",
     "ugly",
     "urchin",
     "vicious",
@@ -225,6 +234,7 @@ var skills = [
     "constant hunger for carbon",
     "constant hunger for alcohol",
     "constant hunger for silicon",
+    "constant hunger for beef",
     "giant teeth",
     "giant ears",
     "large, hairy ears",
@@ -239,7 +249,31 @@ var skills = [
     "super-human strength",
     "4 eyelids",
     "yellow eyes & purple skin",
-    "no visible genitalia. They reproduce through spores"
+    "no visible genitalia. They reproduce through spores",
+    "a giant nose",
+    "no nose, so they can't smell",
+    "horns",
+    "flaky skin",
+    "skin as hard as steel",
+    "a giant, protruding jaw",
+    "a sloped forehead",
+    "exterior lungs",
+    "genitalia on their head",
+    "noses on their bottom",
+    "a keen sense of smell",
+    "hairy eyeballs",
+    "transparent eyelids, so they can see predators while blinking",
+    "360-degree vision",
+    "heads that can rotate 350 degrees",
+    "thick necks",
+    "incredible thin necks",
+    "incredible thin arms",
+    "weak elbows",
+    "weak legs",
+    "weak arms",
+    "incredible upper-body strength",
+    "detachable limbs",
+    "a detachable tail",
 ];
 
 
@@ -268,7 +302,11 @@ var they = [
     "never stop growing",
     "are so light, they float above the ground",
     "only live for 20 days",
+    "only live for 60 days",
+    "only live long enough to reproduce",
     "secrete poisonous toxins",
+    "secrete a sweet smell to attract a mate",
+    "build nests made from hair to attract a mate",
     "periodically hunt & eat type of smaller creature on their planet",
     "only eat once a year, & sleep for 10 days after eating",
     "only eat twice a year",
@@ -276,12 +314,17 @@ var they = [
     "have to drink every 30 minutes, or they'll die",
     "consider eating in public to be impolite",
     "live in herds",
+    "live alone",
     "are mostly nomadic",
     "live in metal houses",
     "live in wooden houses",
     "can naturally create pearls, which they trade with offworlders",
     "breathe methane",
     "love biscuits",
+    "love eating fish",
+    "love coffee",
+    "love drinking tea made from ground bones",
+    "love playing tricks on their family",
     "disintegrate if injured",
     "have no anus, & never defecate",
     "reproduce asexually",
@@ -308,6 +351,9 @@ var they = [
     "can lose up to a quarter of their body weight when they defecate",
     "mostly live on moons around populated planets",
     "travel the galaxy by hitchiking",
+    "love to gamble",
+    "are excellent at all sports",
+    "love to play games",
 ];
 
 //-- new sentence - about society, etc
@@ -325,18 +371,33 @@ var quirk = [
     "Often, they are made slaves by other species.",
     "For some unknown reason, they find death to be outrageously funny. Perhaps it is a coping mechanism.",
     "A social taboo forbids them to speak directly with members of other species.",
+    "A social taboo forbids them to speak directly with members of the opposite sex.",
+    "A social taboo forbids them to show their faces in public.",
+    "They shed their skin once a year.",
+    "They shed their skin once a month.",
     "They drink a wine fermented from their own droppings. The drink is a powerful intoxicant. While originally used for ceremonial purposes, it has since become a popular recreational drug",
     "They live in a utopia & utilize a primitive form of light technology.",
     "Their warriors follow a very honorable code, like that of a disciplined samurai or knight.",
     "They have no form of government.",
     "They have never invented religion.",
+    "They have never invented sausages.",
+    "They have never invented sandwiches.",
+    "They have only recently invented the burrito.",
     "The most rich members of society ritually go on a pilgrimage to a waterfall in the mountains whenever there is an eclipse",
     "The oldest members of the society are ritually slaughtered & fed to the young.",
     "The oldest members of the society are sent to die in the wilderness.",
     "The society is ruled by a council of eldars.",
+    "The society is ruled by a council of businessmen.",
+    "The society is ruled by the military.",
     "The majority live in treehouses in the forest.",
+    "They have three genders.",
+    "They have three genders. It takes all three to create an offspring.",
     "The majority live in trees.",
     "The majority live underground.",
+    "The majority live in caverns, deep below the planet's crust.",
+    "The majority live near lava pools for warmth.",
+    "They drink from the same pool they defecate into.",
+    "They drink from an ancient pool which is thought to extend their life.",
     "They ritually bathe in a ceremonial lake that has become so polluted that it kills 200 people a day.",
     "Their government believes that all members of society should be equal, & they actively redistribute wealth from the rich to the poor.",
     "Their species has been around for over a millennia, & has established a multi-star empire.",
@@ -345,6 +406,7 @@ var quirk = [
     "They recently had a revolution where the richest members of society were killed, & the wealth was redistributed.",
     "They can heal twice as fast as a Human",
     "Naturally-occurring algae under their skin allows them to photosynthesize sunlight.",
+    "Chlorophyll in their skin allows them to photosynthesize sunlight.",
     "When sleeping, they create a cocoon, which they eat the next day.",
     "To breed, they need to lay their eggs in the corpse of another creature",
     "When breeding, the male normally doesn't survive.",
@@ -360,8 +422,10 @@ var quirk = [
     "They often mate for life.",
     "They mostly mate for life.",
     "They spawn young every 20 days.",
+    "They spend most of their free time gardening.",
     "The majority live in transparent towers made from crystal.",
     "When fully grown, an individual has to move away from the herd to find more food.",
+    "When fully grown, an individual is encouraged to travel & learn more about the other cultures on the planet.",
     "When an individual reaches a certain age, they plant themselves in fertile ground & remain there for the rest of their life.",
     "They are extremely resilient, but have one weakness that luckily nobody has found yet.",
     "They are extremely tolerant of cold weather, but will melt in the heat.",
@@ -377,12 +441,34 @@ var quirk = [
     "The whole entire planet is under one planetary rule by a fair royal family. They have special soldiers known only as Guardians - the most powerful people in the universe.",
     "They are governed by a council of elders which makes important decisions based on a game of chance.",
     "They evolved in a different galaxy.",
+    "The atmosphere of their planet has become toxic due to centuries of war & pollution. The rich now live inside large bio-domes, safe from the deadly effects of breathing the atmosphere, while the poor are forced to live outside",
+    "There is a huge divide between the rich & the poor.",
+    "Their currency is the bones of their ancestors.",
+    "They use shiny stones for currency.",
+    "They use leaves for currency. Inflation is astronomical in autumn.",
+    "They use contactless payments.",
+    "They still use chip & pin payments.",
+    "They invented the credit card before they invented the wheel.",
+    "They never invented the wheel.",
+    "Their language consists mostly of swearwords.",
+    "They keep rocks as pets.",
+    "They eat rodents.",
+    "They are ruled by an emotionally-unstable King.",
+    "They are ruled by a gentle Queen.",
+    "They are ruled by a kind, supportive King.",
+    "They are ruled by a democratically-elected leader.",
+    "They are symbolically ruled by a democratically-elected fruit.",
+    "When reaching adulthood, the males have to spend time surviving in the desert.",
+    "A mother will give birth into another creature's nest, so that she doesn't have to take care of it.",
+    "A mother abandons her offspring just after birth. It will be raised by the father.",
 ];
 
 var summary = [
     "are not known to be harmful to Humans",
     "are not known to be harmful to Humans",
-    "are not known to be harmful to Humans",
+    "are not known to be dangerous to Humans",
+    "are tolerant of Humans",
+    "are incredibly argumentative",
     "have never encountered a Human",
     "have never left their planet",
     "are thought to be extinct",
@@ -424,6 +510,7 @@ var summary = [
     "are reasonably good at operating heavy machinery, & this has become their major talent",
     "smell like sulphur",
     "smell like strawberries",
+    "taste like chicken",
     "are almost extinct",
     "went extinct over 100 years ago, but their memory lives on in wooden carvings",
     "became extinct over 100 years ago, but their civilisation can be viewed using virtual realty simulations",
@@ -434,14 +521,16 @@ var summary = [
     "are in danger of extinction & in need of conservation",
     "are thriving",
     "need a new planet, as theirs is in danger",
+    "are trying to evacuate their planet, as it's falling into a black hole",
     "have just discovered space travel",
     "have just invented spacecraft capable of FTL travel",
     "have just invented guns",
     "have just invented a new controversial religion",
+    "have just invented the combustion engine",
+    "never invented the combustion engine",
     "are quickly destroying their habitat & need to expand to a new planet",
     "can only survive on planets in a binary-star system",
-    "The atmosphere of their planet has become toxic due to centuries of war & pollution. The rich now live inside large bio-domes, safe from the deadly effects of breathing the atmosphere, while the poor are forced to live outside.",
-    "They are a peaceful civilization, dedicated to creative & leisure pursuits, such as art, music, dance & topiary. They have advanced scientific knowledge & an evolved sense of morality."
+    "are a peaceful civilization, dedicated to creative & leisure pursuits, such as art, music, dance & topiary. They have advanced scientific knowledge & an evolved sense of morality"
 ];
 
 
@@ -452,6 +541,7 @@ var summary = [
 newAlienSpeciesDescription = function(){
 
     var final = "";
+    var they2Chance = Math.floor(Math.random() * 100);
     var quirkChance = Math.floor(Math.random() * 100);
     var typeChance = Math.floor(Math.random() * 100);
     var summaryChance = Math.floor(Math.random() * 100);
@@ -474,6 +564,11 @@ newAlienSpeciesDescription = function(){
         final = randomAdjectives + " " + randomTypeOfSpecies + " who have " + randomSkills;
     }
 
+    if(they2Chance < 50){
+        var randomThey2 = they[Math.floor(Math.random() * they.length)];
+        final = final + ". They " + randomThey2;
+    }
+
     final = final.substr(0,1).toUpperCase() + final.substr(1) + ".";
 
     if(quirkChance < 70){
@@ -490,7 +585,6 @@ newAlienSpeciesDescription = function(){
     }
 
     return final;
-
 }
 
 generateNew = function(){

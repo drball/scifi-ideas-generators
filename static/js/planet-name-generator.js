@@ -6,6 +6,7 @@ var part1 = [
     "Æ",
     "Arc",
     "A",
+    "Am",
     "An",
     "Ant",
     "Aer",
@@ -55,6 +56,7 @@ var part1 = [
     "Far",
     "Fur",
     "Fung",
+    "Galad",
     "Gunt",
     "Gren",
     "H",
@@ -65,6 +67,8 @@ var part1 = [
     "Jan",
     "Ko",
     "K'",
+    "Kaan",
+    "Khan",
     "Lad",
     "Leg",
     "Lo",
@@ -80,6 +84,7 @@ var part1 = [
     "Miran",
     "Mun",
     "Nar",
+    "Nad",
     "Night",
     "Nir",
     "Nit",
@@ -97,6 +102,7 @@ var part1 = [
     "Pr",
     "Pra",
     "Pran",
+    "Por",
     "Pool",
     "Pling",
     "Rem",
@@ -108,6 +114,8 @@ var part1 = [
     "Sev",
     "Shan",
     "Shandak",
+    "Siden",
+    "Sizen",
     "Sot",
     "Sot Ank",
     "Sot Lo",
@@ -150,6 +158,7 @@ var part2 = [
     "addon",
     "adon",
     "acan",
+    "anbula",
     "angolia",
     "angalia",
     "ankor",
@@ -164,6 +173,7 @@ var part2 = [
     "anella",
     "ania",
     "arnia",
+    "aran",
     "ara",
     "arth",
     "atoid",
@@ -186,6 +196,7 @@ var part2 = [
     "ella",
     "elos",
     "elius",
+    "elerth",
     "elialia",
     "eria",
     "era",
@@ -217,6 +228,8 @@ var part2 = [
     "kail",
     "kien",
     "las",
+    "lax",
+    "lak",
     "land",
     "lejos",
     "lok",
@@ -254,6 +267,7 @@ var part2 = [
     "pidor",
     "pid",
     "pod",
+    "reus",
     "rock",
     "rog",
     "ryn",
@@ -270,6 +284,7 @@ var part2 = [
     "tos",
     "trock",
     "tropic",
+    "udros",
     "um",
     "umi",
     "uram",
@@ -280,6 +295,7 @@ var part2 = [
     "uridan",
     "uridian",
     "us",
+    "utlis",
     "va",
     "vana",
     "vas",
@@ -333,7 +349,8 @@ var suffix = [
     "Prime",
     "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12",
     "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIV", "XV", "XVI",
-    "World", "Moon", "gas giant"
+    "World", "Moon", "gas giant",
+    "e1", "e2", "e3", "e4"
 ]
 
 generateNew = function () {
@@ -369,8 +386,6 @@ generateNew = function () {
         } else if(suffixChance > 25 && suffixChance <= 50) {
             final = final + " " + Math.floor(Math.random() * 400);
         }
-
-
 
         output.prepend("<p>"+final+"</p>");
     }
