@@ -9,4 +9,4 @@ Writing a scifi story but struggling to come up with a name? This generator will
 
 They're inspired by popular story titles, but generated using random words. Maybe the story tiles generated here will inspire you to create a new story? 
 
-CLick the button to generate some new story titles. 
+Click the button to generate some new story titles. 
