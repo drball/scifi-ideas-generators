@@ -1,0 +1,67 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    {{ partial "article-title.html" . }}
+
+    <section class="article">
+
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+
+            {{ partial "content-ad.html" . }}
+
+            <h2>Sci-fi Story ideas</h2>
+
+            <div class="generated-content paragraphs">
+                <!-- names appear here -->
+
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+                <p class="story-idea"></p>
+
+            </div>
+
+            <button class="button generate-button" onclick=generateAll()>Generate more!</button>
+        </div>
+
+        {{ partial "right-col.html" . }}
+
+    </section>
+
+    {{ partial "bottom-ad.html" . }}
+
+</article>
+
+
+<script src="/js/spaceship-name-generator.js"></script>
+<script src="/js/simple-character-name-generator.js"></script>
+<script src="/js/story-idea-generator.js"></script>
+
+{{ partial "footer.html" . }}

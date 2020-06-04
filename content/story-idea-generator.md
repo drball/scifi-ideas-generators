@@ -1,8 +1,8 @@
 ---
 title: "Random Story Idea Generator"
 date: 2020-05-13T09:19:46+01:00
-description: "A random spaceship name generator to help science fiction writers & role-players quickly create names for the spaceships that feature in their stories. The spaceship name generator will randomly display a ship name from our database."
-   
+description: "A random generator for creating sci-fi story ideas to inspire you to write it!"
+layout: story-idea-generator
 ---
 
 We created this random story idea generator to provide inspiration to science fiction writers, or roleplayers. While a little imagination is required (as is 99.9% of the creative process), we hope you will find it a useful way to slap your muse around the face and engage your creativity.

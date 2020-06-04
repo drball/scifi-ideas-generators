@@ -362,23 +362,18 @@ generateNew = function () {
         // var type = Math.floor(Math.random() * 100);
         var prefixChance = Math.floor(Math.random() * 100);
         var suffixChance = Math.floor(Math.random() * 100);
-        var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
-        var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
         var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
         var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
         var secondWordChance = suffix[Math.floor(Math.random() * suffix.length)];
 
-        final = randomPart1 + randomPart2;
+        final = planetName();
 
         if (prefixChance <= 20) {
             final = randomPrefix + " " + final;
         }
 
         if (secondWordChance <= 20) {
-            var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
-            var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
-
-            final = final + " " + randomPart1 + randomPart2;
+            final = final + " " + planetName();
         }
 
         if (suffixChance <= 25){
@@ -389,7 +384,13 @@ generateNew = function () {
 
         output.prepend("<p>"+final+"</p>");
     }
+}
 
+planetName = function(){
+    var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
+    var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
+
+    return randomPart1 + randomPart2;
 }
 
 generateNew();

@@ -357,48 +357,51 @@ var suffix = [
     "E1", "B2", "C3", "D4"
 ]
 
-generateNew = function () {
+generateAll = function () {
     output.html("");
 
     for (i = 0; i <= num; i++) {
 
-        var final = "";
-        var typeChance = Math.floor(Math.random() * 100);
-        var prefixChance = Math.floor(Math.random() * 100);
-        var suffixChance = Math.floor(Math.random() * 100);
-        var randomName = firstName[Math.floor(Math.random() * firstName.length)];
-        var randomJob = job[Math.floor(Math.random() * job.length)];
-        var randomType = type[Math.floor(Math.random() * type.length)];
-        var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
-        var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
-        var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
-        var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
-
-        if (typeChance <= 20){
-            final = randomJob + " " + randomName;
-        } else if(typeChance > 20 && typeChance <= 40) {
-            final = randomName + "bot";
-        } else if(typeChance > 40 && typeChance <= 70) {
-            final = randomJob + " " + randomType;
-        } else if(typeChance > 70 && typeChance <= 90) {
-            final = randomType + " " + randomName;
-        } else {
-            final = randomPart1 + randomPart2 + "bot";
-        }
-
-        if (prefixChance <= 60) {
-            final = randomPrefix + " " + final;
-        }
-
-        if (suffixChance <= 50){
-            final = final + " " + randomSuffix;
-        } else if(suffixChance > 50 && suffixChance <= 70) {
-            final = final + " " + Math.floor(Math.random() * 700);
-        }
-
-        output.prepend("<p>"+final+"</p>");
+        output.prepend("<p>"+robotName()+"</p>");
     }
-
 }
 
-generateNew();
+robotName = function(){
+    var final = "";
+    var typeChance = Math.floor(Math.random() * 100);
+    var prefixChance = Math.floor(Math.random() * 100);
+    var suffixChance = Math.floor(Math.random() * 100);
+    var randomName = firstName[Math.floor(Math.random() * firstName.length)];
+    var randomJob = job[Math.floor(Math.random() * job.length)];
+    var randomType = type[Math.floor(Math.random() * type.length)];
+    var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
+    var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
+    var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
+    var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
+
+    if (typeChance <= 20){
+        final = randomJob + " " + randomName;
+    } else if(typeChance > 20 && typeChance <= 40) {
+        final = randomName + "bot";
+    } else if(typeChance > 40 && typeChance <= 70) {
+        final = randomJob + " " + randomType;
+    } else if(typeChance > 70 && typeChance <= 90) {
+        final = randomType + " " + randomName;
+    } else {
+        final = randomPart1 + randomPart2 + "bot";
+    }
+
+    if (prefixChance <= 60) {
+        final = randomPrefix + " " + final;
+    }
+
+    if (suffixChance <= 50){
+        final = final + " " + randomSuffix;
+    } else if(suffixChance > 50 && suffixChance <= 70) {
+        final = final + " " + Math.floor(Math.random() * 700);
+    }
+
+    return final;
+}
+
+generateAll();

@@ -90,6 +90,8 @@ var names = [
     "Lucius",
     "Manhattan",
     "Mermaid",
+    "Millennium",
+    "Centenary",
     "Morabito",
     "Nakhimov",
     "Nebulon",
@@ -268,47 +270,63 @@ var verbs = [
     "Zero",
 ];
 
-generateNew = function(){
+generateAll = function(){
     output.html("");
 
     for (i = 0; i <= num; i++) {
-
-        var final = "";
-        var type = Math.floor(Math.random() * 100);
-        var prefixChance = Math.floor(Math.random() * 100);
-        var randomName = names[Math.floor(Math.random() * names.length)];
-        var randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
-        var randomLastName = lastName[Math.floor(Math.random() * lastName.length)];
-        var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
-
-        if(type <= 25){
-            final = "The " + randomVerb + " " + randomName;
-
-        } else if (type > 25 && type <= 55){
-
-            if(prefixChance > 50){
-                final = "The " + randomName;
-            } else {
-                final = "The " + randomPrefix + " " + randomName;
-            }
-
-        } else if (type > 55 && type <= 75){
-
-            if(prefixChance <= 30){
-                final = "The " + randomPrefix + " " + randomVerb + " " + randomLastName;
-            } else if (prefixChance > 30 && prefixChance < 60) {
-                final = randomVerb + " " + randomLastName;
-            } else {
-                final = "The " + randomVerb + " " + randomLastName;
-            }
-
-        } else {
-            final = randomName;
-        }
-
-        output.prepend("<p>"+final+"</p>");
+        output.prepend("<p>"+spaceshipNameWithThe()+"</p>");
     }
-
 }
 
-generateNew();
+spaceshipName = function(){
+    var final = "";
+    var type = Math.floor(Math.random() * 100);
+    var prefixChance = Math.floor(Math.random() * 100);
+    var randomName = names[Math.floor(Math.random() * names.length)];
+    var randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+    var randomLastName = lastName[Math.floor(Math.random() * lastName.length)];
+    var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
+
+    if(type <= 25){
+        final = randomVerb + " " + randomName;
+
+    } else if (type > 25 && type <= 55){
+
+        if(prefixChance > 50){
+            final = randomName;
+        } else {
+            final = randomPrefix + " " + randomName;
+        }
+
+    } else if (type > 55 && type <= 75){
+
+        if(prefixChance <= 30){
+            final = randomPrefix + " " + randomVerb + " " + randomLastName;
+        } else if (prefixChance > 30 && prefixChance < 60) {
+            final = randomVerb + " " + randomLastName;
+        } else {
+            final = randomVerb + " " + randomLastName;
+        }
+
+    } else {
+        final = randomName;
+    }
+
+    return final;
+}
+
+spaceshipNameWithThe = function(){
+
+    var prefixChance = Math.floor(Math.random() * 100);
+
+    if(prefixChance <= 50){
+        final = "The " + spaceshipName();
+    } else {
+        final = spaceshipName();
+    }
+
+
+    return final;
+}
+
+generateAll();
