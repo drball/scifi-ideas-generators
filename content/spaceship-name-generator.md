@@ -2,7 +2,7 @@
 title: "Spaceship Name Generator"
 date: 2020-05-13T09:19:46+01:00
 layout: spaceship-name-generator
-description: "A random spaceship name generator to help science fiction writers & role-players quickly create names for the spaceships that feature in their stories. The spaceship name generator will randomly display a ship name from our database."
+description: "Need a spaceship name for your sci-fi story, novel, or game? Here are some suggestions from our random Spaceship Name Generator."
    
 ---
 

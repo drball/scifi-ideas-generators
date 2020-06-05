@@ -1,7 +1,7 @@
 ---
 title: "Sci-fi character name generator"
 date: 2020-05-13T09:19:17+01:00
-description: "A random alien species name generator to help scifi writers & roleplayers come up with new alien species"
+description: "Need a random name for your sci-fi project? Our generator picks from Human names from all over the world & generates some new ones."
 layout: scifi-character-name-generator
 ---
 

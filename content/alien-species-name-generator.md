@@ -1,7 +1,7 @@
 ---
 title: "Alien Species Name Generator"
 date: 2020-06-01T08:28:49+01:00
-description: "A random nae for your alien species"
+description: "Need a name for a fictional alien species in your sci-fi story, novel, or game? Here are some random suggestions."
 layout: alien-species-name-generator
 ---
 

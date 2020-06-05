@@ -1,7 +1,7 @@
 ---
 title: "Alien Species Generator"
 date: 2020-06-01T08:28:49+01:00
-description: "A random alien species generator to help scifi writers & roleplayers come up with new alien species"
+description: "Need a fictional alien species in your sci-fi story, novel, or game? Here are some randomly generated suggestions"
 layout: alien-species-generator
 ---
 
