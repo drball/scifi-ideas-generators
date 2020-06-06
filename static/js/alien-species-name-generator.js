@@ -181,6 +181,13 @@ var endPlural = [
     "pons"
 ];
 
+function newSimpleAlienSpeciesName(){
+    var randomStart = start[Math.floor(Math.random() * start.length)];
+    var randomEnd = end[Math.floor(Math.random() * end.length)];
+
+    return randomStart + randomEnd;
+}
+
 newAlienSpeciesName = function(){
     var final = "";
     var prefixChance = Math.floor(Math.random() * 100);

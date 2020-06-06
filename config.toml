@@ -47,7 +47,7 @@ theme = "potato-dark"
 
     [[menu.footer]]
         name = "Future food generator"
-        url = "/alien-food-generator"
+        url = "/futuristic-food-generator"
         weight = 2
 
 [[menu.main]]

@@ -1,5 +1,5 @@
 function randomAlienFoodAdj(){
-    return newAlienSpeciesName();
+    return newSimpleAlienSpeciesName();
 }
 
 generateIdea = function(){
@@ -7,8 +7,10 @@ generateIdea = function(){
     final = "";
     var typeChance = Math.floor(Math.random() * 100);
 
-    if(typeChance < 65){
+    if(typeChance < 40){
         final = randomAlienFoodAdj() + " " + randomFoodIngredient() + " " + randomFoodType();
+    } else if(typeChance >= 40 && typeChance < 70) {
+        final = randomFoodAdj() + " " + newSimpleAlienSpeciesName() + " " + randomFoodType();
     } else {
         final = randomAlienFoodAdj() + " " + randomFoodPart1() + "-" + randomFoodPart2();
     }
