@@ -40,6 +40,11 @@ theme = "potato-dark"
     url = "/technobabble-generator"
     weight = 2
 
+[[menu.footer]]
+    name = "Random story idea generator"
+    url = "/story-idea-generator"
+    weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"

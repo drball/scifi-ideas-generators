@@ -60,6 +60,7 @@ var locationStart = [
     "In deep space",
     "On a tidally locked world with a thin atmosphere",
     "On a desert world with high gravity",
+    "On an unstable moon",
 ];
 
 var simpleSetting = [
@@ -67,6 +68,9 @@ var simpleSetting = [
     "aboard a spaceship",
     "on an alien planet",
     "on a farming colony",
+    "in a small European town",
+    "in a small American town",
+    "in a rural village",
 ]
 
 var planetType = [
@@ -241,6 +245,7 @@ var peoplePlural = [
     "black men",
     "black women",
     "cats",
+    "cannibals",
     "celebrities",
     "celebrity chefs",
     "cleaners",
@@ -258,8 +263,10 @@ var peoplePlural = [
     "explorers",
     "footballers",
     "gamers",
+    "ghosts",
     "Youtubers",
     "geography teachers",
+    "gangsters",
     "genetically enhanced apes",
     "god-like beings",
     "hispanic men",
@@ -275,6 +282,7 @@ var peoplePlural = [
     "maths teachers",
     "military generals",
     "millionaires",
+    "mermaids",
     "neanderthals",
     "normal teenagers",
     "nurses",
@@ -282,6 +290,7 @@ var peoplePlural = [
     "old women",
     "overweight people",
     "princes",
+    "pirates",
     "puppies",
     "reality TV stars",
     "repair staff",
@@ -299,6 +308,7 @@ var peoplePlural = [
     "teenagers with special powers",
     "teenagers",
     "time travellers",
+    "thugs",
     "unemployed people",
     "vampires",
     "vikings",
@@ -436,11 +446,17 @@ var personTypeMale = [
 ];
 
 var personAdjective = [
+    "an adventurous",
+    "a debonair",
     "a witty",
     "a drug-addicted",
     "a tired",
     "a dejected",
     "a busy",
+    "a smart-ass",
+    "a wisecracking",
+    "a hypocritical",
+    "a workaholic",
     "a bored",
     "a dangerous",
     "a grumpy",
@@ -450,11 +466,16 @@ var personAdjective = [
     "a normal",
     "a well-loved",
     "a flamboyant",
+    "an incompetent",
+    "a scruffy-looking",
+    "an unwashed",
     "a robot",
+    "a malfunctioning robot",
     "a sad",
     "a grieving",
     "an unhappy",
     "a gay",
+    "a rude",
     "a heterosexual",
     "an assertive",
     "a troubled",
@@ -468,6 +489,8 @@ var peopleAdjective = [
     "robot",
     "cyborg",
     "goth",
+    "grumpy",
+    "rude",
     "educated",
     "alien",
     "android",
@@ -616,7 +639,7 @@ function randomSearchFor(){
     return searchFor[Math.floor(Math.random() * searchFor.length)];
 }
 
-function randomMaleEnding(){
+function randomMaleLocationEnding(){
 
     var personEnding = [
         "he's kidnapped by pirates",
@@ -635,6 +658,12 @@ function randomMaleEnding(){
         "he becomes involved in a murder",
         "he's mysteriously killed, & his sister has to investigate",
         "he goes missing, & the space police have to investigate",
+        "he is kidnapped and imprisoned in an abandoned prison, he must win the trust of his captor in order to escape",
+        "he adopts a false identity and finds himself in trouble with the law",
+        "he's abducted by aliens, & a clone is created to replace him. The story is told from the perspective of both the original and the clone",
+        "he tries to build a time machine using scrap components",
+        "he becomes infected with a deadly alien virus",
+        "he is kidnapped & imprisoned in a nightmarish virtual reality matrix. He realizes that killing himself is the only way to escape",
     ];
 
     return personEnding[Math.floor(Math.random() * personEnding.length)];
@@ -650,13 +679,29 @@ function randomExploreThing(){
         "the bones of dead alien dinosaurs",
         "the fossilized remains of a monster",
         "an abandoned spaceship",
+        "an abandoned spaceship. They soon realise why it was abandoned",
         "an abandoned spacestation",
+        "an abandoned spacestation. They have to figure out why it was abandoned",
         "an abandoned colony",
         "an alien solar system",
         "an alien moon",
+        "an alien moon, which has an important secret",
         "an uncharted moon",
         "a jungle planet",
         "an island of mysterious creatures",
+        "a mysterious temple",
+        "a mysterious pyramid",
+        "a crashed spaceship exactly like their own",
+        "what looks to be an exact duplicate of a small town in America",
+        "a colony of attractive people",
+        "a colony of people where everything seems too good to be true",
+        "a beautiful garden, where they later discover the plants are deadly",
+        "a beautiful garden, which they later discover something sinister happened",
+        "a wormhole. What's through on the other side?",
+        "a portal to a parallel universe where everyone is the same, except for one big difference",
+        "a portal to the past",
+        "a temple where a god-like being grants them 3 wishes",
+        "a temple where a god-like being reveals something important to them",
     ];
 
     return exploreThing[Math.floor(Math.random() * exploreThing.length)];
@@ -712,6 +757,9 @@ function randomOfficialGroup(){
         "UK Armed Forces",
         "RAF",
         "United Earth Government",
+        "Russian Military",
+        "Chinese Military",
+        "Hong Kong riot police",
     ];
 
     return group[Math.floor(Math.random() * group.length)];
@@ -743,7 +791,7 @@ function randomDoing(){
     return options[Math.floor(Math.random() * options.length)];
 }
 
-function randomANoun(){
+function randomASentientNoun(){
     //--has to be something we refer to as "it"
 
     var options = [
@@ -752,7 +800,7 @@ function randomANoun(){
         "an albatross",
         "a robot",
         "a sex robot",
-        "a missile",
+        "a sentient war robot",
         "an artificial intelligence",
         "a cyborg",
         "a cyborg rabbit",
@@ -761,6 +809,15 @@ function randomANoun(){
         "a hologram",
         "a programmed VR character",
         "a recycled robot",
+        "a talking toaster",
+        "a computer program",
+        "a dinosaur",
+        "a bear",
+        "a lion",
+        "a lion with a robot head",
+        "a sentient TV",
+        "a blob",
+        "a tree",
 
     ];
 
@@ -872,6 +929,7 @@ function randomPrison(){
         "on an abandoned spaceship",
         "on an alien planet",
         "on an deserted planet with no food",
+        "in a subterranean research facility",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
@@ -947,7 +1005,7 @@ function randomRobotEnd(){
 
 function randomHumansFate(){
     var option = [
-        "use Humans as slaved",
+        "use Humans as slaves",
         "save the planet from itself",
         "destroy all our weapons & force us to live in peace",
         "heal all our sick. For a price",
@@ -967,10 +1025,261 @@ function randomHumansFate(){
     return option[Math.floor(Math.random() * option.length)];
 }
 
+function randomVIPEnd(){
+    var option = [
+        "is cloned, allowing him to be in two places at once, but when the secret comes out there is public outrage.",
+        "is cloned, allowing him to be in two places at once, but when the clone is murdered in public, the other has to go into hiding.",
+        "is abducted by aliens, & a clone is created to replace him. The story is told from the perspective of both the original & the clone. ",
+        "is murdered, & the police suspect aliens.",
+        "is abducted by aliens, & the Military have to figure out how to get him back.",
+        "is kidnapped & held to ransom. Will the public club together to pay the price?",
+        "is teleported to an alien planet to take part in a humiliating gameshow.",
+        "dies in an embarassing way. TV producers pretend he's still alive by showing old video clips.",
+        "dies before an important event. His staff pretend he's still alive with a complex series of levers & pulleys.",
+        "dies before an important event. His staff pretend he's still alive using CGI.",
+        "reveals he's actually an alien",
+        "reveals he's been speaking to aliens, & becomes an interpreter for them. Do people believe him?",
+        "turns evil. A team is sent to imprison him.",
+        "invents a new religion where people have to kill their neighbours. Someone must stop him.",
+        "is taken to an island & has to survive alone. This is broadcast on all TV channels.",
+        "is eaten by an alien on live TV.",
+        "is replaced by an alien lookalike, & secretly kills people.",
+        "marries an alien.",
+
+
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomVIP(){
+    //--must be male or generic
+    var option = [
+        "Tom Cruise",
+        "The President of Earth",
+        "The President of the European Union",
+        "The British Prime Minister",
+        "The Australian Prime Minister",
+        "The Indian Prime Minister",
+        "The Chinese Emperor",
+        "Dwayne Johnson",
+        "Tom Hanks",
+        "Jay Z",
+        "Elton John",
+        "Chris Pratt",
+        "Prince Harry",
+        "Prince George",
+        "Prince Louis",
+        "Drake",
+        "Elon Musk",
+        "The inventor of the first FTL drive",
+        "The world's best surgeon",
+        "The scientist who cured cancer",
+        "David Letterman",
+        "Conan O'Brien",
+        "Piers Morgan",
+        "Jerry Springer",
+        "Wayne Brady",
+        "Sanjeev Bhaskar",
+        "Nish Kumar",
+        "Romesh Ranganathan",
+        "Donald Trump",
+        "George Bush",
+        "Ricky Gervais",
+        "Simon Cowell",
+        "Gordon Ramsay",
+        "James Cordon",
+        "Dev Patel",
+        "Mike Tyson",
+        "Dave Chapelle",
+        "Aamir Khan",
+        "The managing director of the world's biggest tech company",
+        "The German Prime Minister",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomInventorFemale(){
+    var option = [
+        "a scientist",
+        "a popular scientist",
+        "a famous scientist",
+        "a bio-engineer",
+        "a bio-chemist",
+        "an inventor",
+        "an engineer",
+        "an physicist",
+        "the President of America",
+        "the German Prime Minister",
+        "a Bavarian Princess",
+        "a rich businesswoman",
+        "an agronomist",
+        "a chemist",
+        "an epidemiologist",
+        "a microbiologist",
+        "a geneticist",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomGunAbility(){
+    var option = [
+        "turns people to stone",
+        "can destroy a whole city",
+        "freezes people",
+        "shrinks people",
+        "makes people invincible",
+        "changes people's gender",
+        "changes people's opinions",
+        "mind controls people",
+        "can erase someone from history",
+        "disintegrates someone with no trace",
+        "pauses time",
+        "creates a black hole",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomInventorFemaleEnd(){
+    var option = [
+        "creates a gun that "+randomGunAbility()+". When her creation falls into the hands of a malevolent alien power, she must fight to stop them using it to destroy humanity. The main character has a mental breakdown and begins to wonder if any of this is really happening.",
+        "creates a clone of herself, she creates her own worst enemy. The clone gets loose & tries to steal her life & her boyfriend, imprisoning her in a "+randomPrison()+". The story is told from the perspective of both the original & the clone.",
+        "creates a clone of herself, she falls in love with it, although society won't accept her.",
+        "creates a device that "+randomGunAbility()+". When her creation falls into the hands of the "+randomOfficialGroup()+" she realises she needs to destroy it.",
+        "creates a weapon that "+randomGunAbility()+". She sells the idea & becomes rich. Although isn't happy.",
+        "creates a gun that "+randomGunAbility()+". She uses it against her rivals to gain political power, until someone uses it against her.",
+        "creates a gun that "+randomGunAbility()+". She uses it on herself, & the police have to investigate what happened.",
+        "creates a virus that "+randomGunAbility()+". When it is stolen by "+randomPeoplePlural()+", she must try & stop it by any means necessary.",
+        "creates a deadly virus. When it is stolen by "+randomPeoplePlural()+", she must try & stop it by any means necessary.",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomAPreciousThing(){
+    var option = [
+        "a gem",
+        "a diamond",
+        "a company",
+        "a bag of money",
+        "a treasure chest",
+        "an ancient artifact",
+        "a device that allows you to live forever",
+        "an alien weapon",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomHappening(){
+    var option = [
+        "steals "+randomAPreciousThing()+" & has to escape with it.",
+        "steals "+randomAPreciousThing()+" from " + randomInventorFemale() + " who wants it back.",
+        "has to protect "+randomASentientNoun()+" from psycho "+randomPeoplePlural()+".",
+        "inherits "+randomAPreciousThing()+" but a group of angry "+randomPeoplePlural()+" want it instead.",
+        "is given a gun that "+randomGunAbility()+", but has to escape from a gang of psycho "+randomPeoplePlural()+" who want it for themselves.",
+        "has to protect "+randomInventorFemale()+", from a gang of psycho "+randomPeoplePlural()+" with a weapon that "+randomGunAbility()+".",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomVillainPlot(){
+    var option = [
+        "steals "+randomAPreciousThing(),
+        "builds towers all over the world to control people's minds",
+        "tries to plant a bomb",
+        "plants a bomb in an unknown place in the city",
+        "creates thousands of clones to control the world",
+        "plans on stealing a powerful weapon",
+        "tries to get elected as President of Earth",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomSaveTheDay(){
+    var option = [
+        "using scientific knowledge from a rare book",
+        "figuring out the plan & being one step ahead",
+        "travelling to the future & seeing the consequences, then travelling to the past to stop it",
+        "seducing the villain",
+        "seducing the villain's assistant to learn of the plan, then enlisting them to help stop it",
+        "travelling back in time & killing the villain as a baby",
+        "out-thinking the villain",
+        "gathering an army of friends who can help",
+        "performing a heist",
+        "using the power of love",
+        "using the power of pop music",
+        "learning the plan, then calling the police",
+        "escaping, then coming back in secret",
+        "completing a series of challenges & riddles set by the villain",
+        "stealing something precious to the villain, & escaping with it",
+        "distracting the villain for long enough",
+        "discovering & using a new skill",
+        "having a vision about the consequences, then taking matters into their own hands when no-one believes them",
+        "finding the only person who can help",
+        "by writing a strongly-worded letter",
+        "by revealing the plot to the general public",
+        "using the help of the Internet",
+        "doing what they'd vowed never to do again",
+    ];
+
+    return option[Math.floor(Math.random() * option.length)];
+}
+
+function randomAVillain(){
+    var villain = "";
+
+    var option = [
+        "a pirate",
+        "an alien",
+        "a dictator",
+        "a psychopath",
+        "a soldier",
+        "a madman",
+        "an inventor",
+        "an unhappy student",
+        "a murderer",
+        "a war criminal",
+        "a robot invented for killing",
+        "an invisible villain",
+        "an alligator",
+        "a rabid bear",
+        "an intelligent ape",
+        "an imaginary fantasy creature",
+        "a bogeyman",
+        "a spurned senator",
+        "a failed popstar",
+        "a disgraced celebrity",
+        "an alien parasite",
+        "an alien dissident",
+        "a terrorist",
+        "a rich villain",
+        "a powerful politician",
+        "a powerful company director",
+    ];
+
+    var typeChance = Math.floor(Math.random() * 3);
+
+    if (typeChance < 2){
+        villain = option[Math.floor(Math.random() * option.length)];
+    }else {
+        villain = randomASentientNoun();
+    }
+
+    villain = villain.substr(0,1).toUpperCase() + villain.substr(1);
+
+    return villain;
+}
+
 generateIdea = function(){
     var final = "";
 
-    var type = Math.floor(Math.random() * 18);
+    var type = Math.floor(Math.random() * 22);
 
     switch (type) {
         case 0:
@@ -1004,7 +1313,10 @@ generateIdea = function(){
                 person = randomMachineType();
             }
 
-            final = randomANoun() + " begins to experience memories of a past life in which it was a " + person + ".";
+            var sentientNoun = randomASentientNoun();
+            var sentientNoun = sentientNoun.substr(0,1).toUpperCase() + sentientNoun.substr(1);
+
+            final = randomASentientNoun() + " begins to experience memories of a past life in which it was a " + person + ".";
             break;
 
         case 7:
@@ -1018,7 +1330,7 @@ generateIdea = function(){
                 person = "a " + randomPersonTypeMale();
             }
 
-            final = "When " + person + " travels to " + randomPlaceAdjective() + " " + randomPlaceType() + " in search of " + randomSearchFor() + ", " + randomMaleEnding() + ".";
+            final = "When " + person + " travels to " + randomPlaceAdjective() + " " + randomPlaceType() + " in search of " + randomSearchFor() + ", " + randomMaleLocationEnding() + ".";
             break;
 
         case 9:
@@ -1061,7 +1373,22 @@ generateIdea = function(){
             break;
 
         case 18:
-            final =  "A large alien armada arrives in Earth orbit. The aliens broadcast a message to the world, saying that they intend to " + randomHumansFate() + ".";
+            final =  randomVIP() + " " + randomVIPEnd();
+            break;
+
+        case 19:
+            final =  "In the near future, " + randomInventorFemale() + " " +randomInventorFemaleEnd();
+            break;
+
+        case 20:
+        case 21:
+            final =  "A story about " + randomPersonAdjective() + " " + randomPersonTypeMale() + " who " + randomHappening();
+            break;
+
+        case 22:
+            var personAdjective = randomPersonAdjective();
+            personAdjective = personAdjective.substr(0,1).toUpperCase() + personAdjective.substr(1);
+            final =  randomAVillain() + " " + randomVillainPlot() + ". " + personAdjective + " " + randomPersonTypeMale() + " saves the day by " + randomSaveTheDay() + ".";
             break;
     }
 
