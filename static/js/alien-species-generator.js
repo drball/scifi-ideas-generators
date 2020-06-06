@@ -397,6 +397,11 @@ var they = [
     "produce silk from glands in their abdomens",
     "change colour when angry",
     "are extremely hostile towards all species but their own",
+    "shed their skin",
+    "live in their mother's pouch when they're young",
+    "grow antlers in summer, but they fall off in winter",
+    "grow hair in winter, but this sheds in spring",
+    "migrate twice a year",
 ];
 
 //-- new sentence - about society, etc
