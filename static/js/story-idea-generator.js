@@ -1260,6 +1260,7 @@ function randomAVillain(){
         "an alien parasite",
         "an alien dissident",
         "a terrorist",
+        "a religious terrorist",
         "a rich villain",
         "a powerful politician",
         "a powerful company director",
