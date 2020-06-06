@@ -45,6 +45,11 @@ theme = "potato-dark"
     url = "/story-idea-generator"
     weight = 2
 
+    [[menu.footer]]
+        name = "Future food generator"
+        url = "/alien-food-generator"
+        weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"
