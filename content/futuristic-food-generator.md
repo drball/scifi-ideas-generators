@@ -1,10 +1,10 @@
 ---
 title: "Futuristic Food Generator"
 date: 2020-06-06T08:28:49+01:00
-description: "What do aliens in your sci-fi story eat? Generate alien-sounding food"
+description: "What do characters in your sci-fi story eat? Generate futuristic-sounding food suitable for hungry astronauts & aliens."
 layout: future-food-generator
 ---
 
-What do aliens eat? 
+What do the characters in your sci-fi story eat? Let this Future Food Generator decide for you! Generate futuristic-sounding food (most if also gross-sounding) suitable for hungry astronauts & aliens on a long spaceship journey.
 
-Don’t like the food you’ve been served? Press the button to generate a new alien food name. 
+Don’t like the futuristic meal you’ve been served? Press the button to generate a new futuristic food recipe. 

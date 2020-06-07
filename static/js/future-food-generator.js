@@ -145,6 +145,8 @@ function randomFoodAdj(){
         "malignant",
         "\"Natural\"",
         "\"Iced\"",
+        "reconstituted",
+        "ground",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
