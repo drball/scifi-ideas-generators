@@ -87,3 +87,17 @@ from = "/writing-2/solarpunk-we-are-golden-and-our-future-is-bright/"
 to = "/posts/solarpunk-we-are-golden-and-our-future-is-bright/"
 status = 301
 
+[[redirects]]
+from = "/category/inspiration/starting-points/"
+to = "/story-idea-generator/"
+status = 301
+
+[[redirects]]
+from = "/category/inspiration/starting-points/*"
+to = "/story-idea-generator/"
+status = 301
+
+[[redirects]]
+from = "/sfi/story-ideas/*"
+to = "/story-idea-generator/"
+status = 301
