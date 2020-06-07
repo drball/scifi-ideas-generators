@@ -82,3 +82,8 @@ from = "/science-2/life-evolve-inside-gas-giant/"
 to = "/posts/life-evolve-inside-gas-giant/"
 status = 301
 
+[[redirects]]
+from = "/writing-2/solarpunk-we-are-golden-and-our-future-is-bright/"
+to = "/posts/solarpunk-we-are-golden-and-our-future-is-bright/"
+status = 301
+
