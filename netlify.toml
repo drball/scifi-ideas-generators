@@ -76,3 +76,9 @@ status = 301
 from = "/category/sfi/story-ideas/"
 to = "/posts/25-different-science-fiction-settings/"
 status = 301
+
+[[redirects]]
+from = "/science-2/life-evolve-inside-gas-giant/"
+to = "/posts/life-evolve-inside-gas-giant/"
+status = 301
+

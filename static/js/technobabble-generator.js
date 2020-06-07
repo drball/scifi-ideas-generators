@@ -65,7 +65,9 @@ var thingAdjective = [
     "backup",
     "barium",
     "beryllium",
+    "bionic",
     "faulty",
+    "faulty carbon",
     "bottom",
     "boron",
     "cadmium",
@@ -87,6 +89,7 @@ var thingAdjective = [
     "gamma",
     "graviton",
     "germanium",
+    "grease resistant",
     "hyperdrive",
     "hyper sensitive",
     "iron",
@@ -117,6 +120,7 @@ var thingAdjective = [
     "radial",
     "rear",
     "rear-side",
+    "revolving",
     "side",
     "subatomic",
     "sensitive",
@@ -177,7 +181,7 @@ var thingDesc = [
     "vacuum",
     "warp",
     "wave",
-    "quantum"
+    "quantum",
 ];
 
 var thing = [
@@ -210,6 +214,7 @@ var thing = [
     "flinger",
     "gel",
     "gel core",
+    "generator",
     "housing",
     "jumpdrive",
     "launcher",
@@ -243,6 +248,7 @@ var thing = [
     "thrust engine",
     "transporter",
     "transporter beams",
+    "turbine",
     "collector",
     "collector brackets",
 ];

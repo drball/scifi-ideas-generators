@@ -5,7 +5,7 @@ description: "Need an alien character name in your project? Here are some random
 layout: alien-name-generator
 ---
 
-Need an alien character name in your project? This is a random alien name generator to help science fiction writers & role-players quickly create names for their alien characters. 
+Need an alien character name for your project? This is a random alien name generator to help science fiction writers & role-players quickly create names for their alien characters. 
 
 With several hundred thousand possible combinations, the usefulness, legibility, & strangeness of the generated alien names does vary significantly!
 
