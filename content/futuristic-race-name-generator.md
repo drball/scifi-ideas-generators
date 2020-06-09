@@ -1,7 +1,7 @@
 ---
 title: "Futuristic Race Name Generator"
 date: 2020-06-06T08:28:49+01:00
-description: "What do characters in your sci-fi story eat? Generate futuristic-sounding food suitable for hungry astronauts & aliens."
+description: "Some scifi stories involve a futuristic race, like Speed Racer, “Sugar Rush” in Wreck-It Ralf, the racetrack in Ready Player One, even the “Kessel Run” described in Star Wars."
 layout: motorsport-race-generator
 ---
 
