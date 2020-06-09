@@ -40,7 +40,9 @@ function randomFoodAdj(){
         "baked",
         "quadratic",
         "freeze-dried",
+        "freeze-dried",
         "dessicated",
+        "dehydrated",
         "lightly dusted",
         "sweetened",
         "unsweetened",
@@ -370,6 +372,7 @@ function randomFoodType(){
         "treats",
         "snacks",
         "gas",
+        "paste in a tube",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
@@ -386,6 +389,8 @@ function randomFoodPrefix(){
         "A container of",
         "A sachet of",
         "A sachet of",
+        "A pill of",
+        "A dermal patch of",
         "A takeaway delivery of",
         "An emergency supply of",
         "An emergency ration pack of",

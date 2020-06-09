@@ -386,6 +386,7 @@ generateNew = function () {
     }
 }
 
+//--a simple planet name
 planetName = function(){
     var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
     var randomPart2 = part2[Math.floor(Math.random() * part2.length)];

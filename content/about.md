@@ -1,11 +1,11 @@
 ---
-title: "About"
+title: "About SciFi Ideas"
 date: 2020-05-23T00:20:54+01:00
 
 ---
 
 
-<h2>IDEAS AND INSPIRATION FOR SCIENCE FICTION WRITERS</h2>
+<h2>Ideas & inspiration for sci-fi writers, roleplayers & game designers</h2>
 
 We write things that will inspire and encourage other scifi writers. 
 
