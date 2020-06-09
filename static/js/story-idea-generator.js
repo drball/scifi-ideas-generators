@@ -1004,6 +1004,7 @@ function randomRobotEnd(){
 }
 
 function randomHumansFate(){
+    //--aliens appear and...
     var option = [
         "use Humans as slaves",
         "save the planet from itself",
@@ -1022,6 +1023,8 @@ function randomHumansFate(){
         "give us the cure for all our most deadly illnesses, but in return we must allow them to kill 1,000 people",
         "nuke our planet unless we give them 3,000 children to take away with them",
         "live among us",
+        "uses technology to prevent everyone from sleeping",
+        "use Human beings as batteries",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
@@ -1045,9 +1048,14 @@ function randomVIPEnd(){
         "invents a new religion where people have to kill their neighbours. Someone must stop him.",
         "is taken to an island & has to survive alone. This is broadcast on all TV channels.",
         "is eaten by an alien on live TV.",
+        "discovers a portal in his garden & travels through.",
+        "is replaced with CGI to change political opinion. The original must fight to be recognised.",
         "is replaced by an alien lookalike, & secretly kills people.",
         "marries an alien.",
-
+        "has to be shrunk & travel inside himself to cure a disease",
+        "realises he's living in a virtual reality. He must play along so he's not noticed, but eventually escape.",
+        "has to go inside a mind of a dreaming man, & then inside the mind of a character in the dream.",
+        "must save a town that's being destroyed by robots.",
 
     ];
 
@@ -1140,6 +1148,7 @@ function randomGunAbility(){
         "disintegrates someone with no trace",
         "pauses time",
         "creates a black hole",
+        "cuts through any material",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
@@ -1171,6 +1180,14 @@ function randomAPreciousThing(){
         "an ancient artifact",
         "a device that allows you to live forever",
         "an alien weapon",
+        "a new technology",
+        "an advanced robot",
+        "a powerful weapon",
+        "a device that makes you irresistible to the opposite sex",
+        "an unstoppable army of robots",
+        "a portal to another universe",
+        "an entire tiny universe in a jar",
+        "a mobile fortress",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
@@ -1228,6 +1245,7 @@ function randomSaveTheDay(){
         "by revealing the plot to the general public",
         "using the help of the Internet",
         "doing what they'd vowed never to do again",
+        "going on a quest to find some technology that makes them more powerful than the villain",
     ];
 
     return option[Math.floor(Math.random() * option.length)];

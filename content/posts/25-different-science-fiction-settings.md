@@ -4,7 +4,7 @@ date: 2020-05-24T23:13:53+01:00
 
 ---
 
-<p>We recently received this list of science fiction story settings from Venezuelan writer Vladmir Vasquez. Vladmir runs the Spanish language sci-fi blog &ldquo;<a title="http://lacuevadellobo.blogspot.co.uk/" href="https://web.archive.org/web/20191023144723/http://lacuevadellobo.blogspot.co.uk/" target="_blank">La Cueva del Lobo</a>&ldquo;, but he decided to share his list of ideas on our site too so as to reach a wider audience.</p>
+<p>We recently received this list of science fiction story settings from Venezuelan writer Vladmir Vasquez. Vladmir runs the Spanish language sci-fi blog &ldquo;<a title="http://lacuevadellobo.blogspot.co.uk/" href="http://lacuevadellobo.blogspot.co.uk/" target="_blank">La Cueva del Lobo</a>&ldquo;, but he decided to share his list of ideas on our site too so as to reach a wider audience.</p>
 <p>The list contains 22 simple settings for science fiction stories. The story settings are very simple, but as Vladmir himself explained, &ldquo;the key to using this list is not to take one of the settings but to combine two or more and see what ideas are inspired by those combinations.&rdquo;</p>
 <p>Combining several of these basic settings does indeed get the imagination working, and it provides an interesting mental exercise at the very least, especially as some of the settings don&rsquo;t seem to be compatable at first glance. Take settings #2 and #6, for example; that&rsquo;s a story set on Earth but also in the whole galaxy. How can we tell a story involving the entire Milky Way from the very narrow viewpoint of one small planet? Well, maybe we should add the portals Vladmir mentions in #1 &ndash; I guess this would give us something similar to Stargate SG1, which manages to explore events of galactic significance from one small facility under Cheyenne Mountain.</p>
 <p>Anyway, I&rsquo;ll let you explore these ideas on your own.</p>
@@ -60,4 +60,4 @@ date: 2020-05-24T23:13:53+01:00
 <h2>25-IN A DISTANT GALAXY</h2>
 <p>The story takes place in a galaxy far, far away.</p>
 <p><br /><em>Article written by&nbsp;<strong>Mark Ball</strong>&nbsp;and&nbsp;<strong>Vladmir Vasquez</strong>.</em></p>
-<p><em>Vladmir Vasquez runs the Spanish language sci-fi blog&nbsp;&ldquo;<a title="http://lacuevadellobo.blogspot.co.uk/" href="https://web.archive.org/web/20191023144723/http://lacuevadellobo.blogspot.co.uk/" target="_blank">La Cueva del Lobo</a>&ldquo;.</em></p>
+<p><em>Vladmir Vasquez runs the Spanish language sci-fi blog&nbsp;&ldquo;<a title="http://lacuevadellobo.blogspot.co.uk/" href="http://lacuevadellobo.blogspot.co.uk/" target="_blank">La Cueva del Lobo</a>&ldquo;.</em></p>

@@ -44,7 +44,7 @@ status = 301
 
 [[redirects]]
 from = "/sfi/story-ideas/story-idea-control-planet-13"
-to = "/posts/car-hackers-automated-car-revolution/"
+to = "/posts/story-idea-control-planet-13/"
 status = 301
 
 [[redirects]]
@@ -73,8 +73,15 @@ to = "/posts/sciency-words-the-gaia-principle/"
 status = 301
 
 [[redirects]]
+from = "/sfi/future-food-generator/"
+to = "/futuristic-food-generator/"
+status = 301
+
+
+
+[[redirects]]
 from = "/category/sfi/story-ideas/"
-to = "/posts/25-different-science-fiction-settings/"
+to = "/story-idea-generator/"
 status = 301
 
 [[redirects]]
@@ -100,4 +107,14 @@ status = 301
 [[redirects]]
 from = "/sfi/story-ideas/*"
 to = "/story-idea-generator/"
+status = 301
+
+[[redirects]]
+from = "/sfi/planets-main/*?"
+to = "/planet-name-generator/"
+status = 301
+
+[[redirects]]
+from = "/category/sfi/alien-ideas/"
+to = "/alien-species-generator/"
 status = 301

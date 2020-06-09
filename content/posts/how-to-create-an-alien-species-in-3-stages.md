@@ -1,0 +1,62 @@
+---
+title: "How to create an alien species in 3 stages"
+date: 2020-06-06T08:01:40+01:00
+description: "I love all aliens—from little green men, to large bionic killers so I’ve put together a guide to creating an alien species from scratch"
+---
+
+<p>I love all aliens&mdash;from little green men, to large bionic killers&nbsp;(like the drool-worthy Emranti in&nbsp;<a href="http://amzn.to/1J9xdMs" target="_blank">my novel</a>)&mdash;so&nbsp;I&rsquo;ve put together&nbsp;a guide to creating an alien species from scratch.&nbsp;I tried to stay brief (really, I did) while still being comprehensive, but there&rsquo;s just so much to&nbsp;say on this delicious geekery that&nbsp;is creature&nbsp;creation, so bear with me.</p>
+<p>*cracks her knuckles*</p>
+<p><strong>Off to the&nbsp;lab!</strong></p>
+<p>There are at least as many ways to create aliens (or magical creatures) as there are writers. No two creative minds truly think alike. We take very different approaches to creating characters for our stories, to developing plots, or to picking settings.&nbsp;And when it comes to creating new species (or&nbsp;putting our own spin on already existing&nbsp;ones), our approaches vary even more.</p>
+<p>Some come up with a specific alien character, and work their way back to how his species must function and what its history (and world of origin) is. Some take a particular interest in an existing species of our world or a known fictional world, and make a significat alteration to it, then work their way out from that into all directions. Others fall in love with a celestial body, and envision what type of creatures might evolve in that environment.</p>
+<p>Which ever approach you take, whether it&rsquo;s top down,&nbsp;large scale to small, or the other way around, there are&nbsp;some&nbsp;<strong>big, important aspects</strong>&nbsp;you need to consider in order to&nbsp;achieve&nbsp;one of the most important criterias of good speculative fiction:&nbsp;<strong>internal&nbsp;consistency</strong>.</p>
+<p>Suspension of disbelief is the blood in our story&rsquo;s veins, and to keep&nbsp;it flowing unobstructed as we introduce&nbsp;<em>foreign bodies&nbsp;</em>(*cough*&nbsp;<strong>aliens</strong>&nbsp;*cough*) (ouch, sorry,&nbsp;that&rsquo;s gotta be the worst pun in the history of all puns, I&rsquo;ll go sit in the corner for a minute), we should pay attention to following&nbsp;things.</p>
+<h3><strong>1. THE ALIENS&rsquo; ROLE&nbsp;IN YOUR STORY</strong></h3>
+<p>Writers argue about many things, most of the times, but on one thing we all agree:<strong>&nbsp;Story comes first</strong>. So before you set out to create your aliens, you must first&nbsp;understand what&nbsp;<em>kind</em>&nbsp;of aliens your story needs.&nbsp;What kind of aliens would push the plot forward, and&nbsp;have the biggest impact on readers?</p>
+<p>Answer the following questions:</p>
+<ul>
+<li>Are the aliens good or evil? Neither? Somewhere in between?</li>
+<li>Do your aliens have to be intelligent, socially evolved, maybe even technological? Or are monstrous beasts enough to satisfy the story&rsquo;s needs?</li>
+<li>Do you need your characters to communicate with the aliens? How can you make communication difficult? (Consider these&nbsp;<a href="http://www.veronicasicoe.com/blog/2014/04/interspecies-information-exchange/" target="_blank">Interspecies Information Exchange</a>&nbsp;problems)</li>
+<li>What do the aliens in your story&nbsp;<em>want</em>? What are they after? What is&nbsp;your characters&rsquo; position&nbsp;in relation to that?</li>
+</ul>
+<p>The answers to these questions&nbsp;will largely determine the direction in which your species development&nbsp;will go, and how much you have to focus on specific things.</p>
+<h3><strong>2.&nbsp;BIG-PICTURE&nbsp;SPECIES AND WORLD DESIGN</strong></h3>
+<p>Worldbuilding is great fun. You can go all the way from writing sketches, to generating huge amounts of material for your aliens, but if only a fraction of that material is really necessary to tell a riveting story, then all that wonderful worldbuilding work isn&rsquo;t really writing, is it?&nbsp;<em>*narrows her eyes*</em>&nbsp;It&rsquo;s procrastination. Admit it. Delicious procrastination, but procrastination nonetheless. Trust me, I&rsquo;m guilty of that as much as everyone, so I know. I&nbsp;<em>know</em>.&nbsp;Let&rsquo;s keep to the essentials here.</p>
+<p>To design your alien species and stick to the basics, develop a brief,&nbsp;grand scale information about&nbsp;<a href="http://www.veronicasicoe.com/blog/2014/04/the-origins-of-your-alien-species/" target="_blank">The Origin Of Your Alien Species</a>&nbsp;and investigate following things:</p>
+<ul>
+<li><strong>Biological peculiarities</strong><br />&ndash; do they have tentacles, 10 limbs, are they humanoid, and if so just&nbsp;<a href="http://www.veronicasicoe.com/blog/2015/04/humanoid-aliens-how-much-likeness-is-plausible/" target="_blank">How Much Likeness to Humans is Plausible?</a></li>
+<li><strong>Social life</strong>, and by extension&nbsp;<em><strong>Sexual&nbsp;</strong></em><strong>l</strong><strong>ife</strong>&nbsp;because no species is entirely created in a vat<br />&ndash; in fact, procreation and social structure&nbsp;are tightly related, and you can&rsquo;t develop&nbsp;either properly without at least considering the other and its impact. Besides, it&rsquo;s fun imagining how your aliens might do the rumpy-pumpy.&nbsp;You don&rsquo;t even have to go very far to get inspired, as our very own earthly fauna has&nbsp;some rather &lsquo;outlandish&rsquo; things to offer, as I&rsquo;ve noted in&nbsp;<a href="http://www.veronicasicoe.com/blog/2015/05/alien-sex-the-stranger-the-better/" target="_blank">Alien Sex &ndash; The Stranger, The Better</a>.</li>
+<li><strong>Cultural diversity and values</strong><br />&ndash; political structures, religions, sub-races, economy, all of these need at least a cursory glance (and a few sentences in your notes) just so nothing glaring slips you by to be pointed at in a reader review later.</li>
+<li><strong>Psychology</strong><br />&ndash; perhaps the most important aspect of your species&mdash;at least pertaining to your&nbsp;<em>story</em>&mdash;is the&nbsp;psychological aspect of the individuals in your species: their instincts and how they affect their thinking, their emotions&nbsp;and how they influence their decision, their propensity toward something or their aversion to another. All of this matters if it&rsquo;s big scale, such as the human propensity toward comfort and satisfying immediate needs, even at the cost of the future of our entire species.</li>
+</ul>
+<p>If your story ventures into the&nbsp;<em>actual world</em>&nbsp;of these aliens, instead of having them drop in on our world(s), you must also do some worldbuilding. How much will depend on how much of a role the setting plays in your&nbsp;story. I&rsquo;d advise you to at least conside the&nbsp;following&nbsp;<a href="http://www.veronicasicoe.com/blog/2014/04/top-5-worldbuilding-must-haves/" target="_blank">Top 5 Worldbuilding Must-Haves</a>:</p>
+<ul>
+<li><strong>Basic infrastructure</strong><br />&ndash; housing, transporation, industry, energy storage and distrubution, food production and delivery, waste disposal, etc.</li>
+<li><strong>Diversity</strong><br />&ndash; different countries/states/regions, ethnic variants, social roles, jobs, hierarchies, etc.</li>
+<li><strong>Completeness</strong><br />&ndash; some things habitually get&nbsp;lost in worldbuilding, unless they&rsquo;re specifically needed, and we ought to remember to at least give them a cursory glance, such as: the legal systems, burrial&nbsp;rituals, infant care systems, medical systems, recreational facilities, etc.</li>
+<li><strong>Consequence</strong><br />&ndash; nothing in a&nbsp;civilization is isolated, and every choice we make when we develop&nbsp;our alien world will have consequences on all other aspects of it. You don&rsquo;t&nbsp;have to investigate all&nbsp;dependencies (that&rsquo;s not even possible for our world, and we have tons of&nbsp;knowledge about it at our disposal), but at least think about the things which you&rsquo;ll actually use in your story.</li>
+<li><strong>Immediacy</strong><br />&ndash; every world has a history, and every history is propped up by a handful of major events which have influenced the evolution of the species. Which are they, for your alien world?</li>
+</ul>
+<p>Go as deep as you need&nbsp;for your species and world to feel natural, logical, and&nbsp;<em>real</em>.</p>
+<p>If you&rsquo;re really pressed for time, or aren&rsquo;t such a big fan of extensive,&nbsp;exhaustive (and exhausting)&nbsp;worldbuilding (in which case #highfive because neither am I, but don&rsquo;t tell anyone or I&rsquo;ll have a lynchmob of sci-fi nerds hunting me down)&nbsp;you can just run through these&nbsp;<a href="http://www.veronicasicoe.com/blog/2012/05/13-worldbuilding-questions/" target="_blank">13 Worldbuilding Questions</a>&nbsp;and you&rsquo;ll be&nbsp;just&nbsp;fine.</p>
+<h3><strong>3. PICK YOUR ALIEN CHARACTER(S) WISELY</strong></h3>
+<p>While it may be incredibly tempting to pick the top of the crop and make your specific alien characters have all (or the very best) characteristics of your species, remember:&nbsp;<strong>story comes first</strong>. And no one likes a predictable&nbsp;story,&nbsp;so choose wisely.</p>
+<p>Your alien characters must fulfill the same criteria as your human characters, if not more (probably more). Hence, they must:</p>
+<ul>
+<li>be&nbsp;<strong>interesting and unique</strong>, not stereotypical and two-dimmensional;</li>
+<li>have&nbsp;<strong>problems of their own</strong>, personal, specific problems that only pertain to them as a person, not their species as a whole (too generic);</li>
+<li>have&nbsp;<strong>goals and interests</strong>&nbsp;of their own, which should ideally clash with everyone else&rsquo;s, even their own fellow aliens;</li>
+<li>have&nbsp;<strong>a&nbsp;character arc of their own</strong>, the size of which should be determined by their importance to the story.&nbsp;The more important the alien character, and the more screen time they get, the bigger&nbsp;their character arc.[Read more about&nbsp;<a href="http://www.veronicasicoe.com/blog/2013/04/the-3-types-of-character-arc-change-growth-and-fall/" target="_blank">The 3 Types of Character Arcs</a>&nbsp;and what they&nbsp;must cover to work.]</li>
+</ul>
+<p>That&rsquo;s basically it.</p>
+<p>You&rsquo;ve figured out what your&nbsp;<strong>story needs</strong>, developed your species&nbsp;<strong>logically</strong>, and picked&nbsp;<strong>memorable individuals</strong>&nbsp;that can push your story forward and complement&nbsp;your human characters. There are no limits to what you can come up with, really, as long as you stay consistent and you know,&nbsp;<em>sane</em>.</p>
+<p></p>
+<p>For some additional giggles, and maybe to check if a cliche may have&nbsp;slipped into your worldbuilding unnoticed (we&rsquo;re&nbsp;<em>all</em>&nbsp;prone to this, it&rsquo;s&nbsp;the&nbsp;media&rsquo;s fault, it&rsquo;s brainwashing us, I tell you!) take a peek at the following lists:</p>
+<p><a href="http://www.veronicasicoe.com/blog/2012/04/13-aspects-about-aliens-you-shouldnt-ignore/" target="_blank">13 Aspects About Aliens You Shouldn&rsquo;t Ignore</a></p>
+<p><a href="http://www.veronicasicoe.com/blog/2012/10/13-more-aspects-about-aliens-that-you-should-consider/" target="_blank">13 More Aspects About Aliens You Should Consider</a></p>
+<p>Damn I love those lists. Gotta write another one soon.</p>
+<p>But in the mean time I&rsquo;ll go check out the crazy&nbsp;<a href="http://www.scifiideas.com/category/sfi/alien-ideas/alien-profiles/" target="_blank">alien profiles on you&rsquo;ve been writing for Alien August</a>&nbsp;and see if I can spot the winner beforehand!</p>
+<hr />
+<p><em>Article by&nbsp;<strong>Veronica Sicoe</strong>.</em></p>
+<p><em>Veronica&rsquo;s d&eacute;but novel,&nbsp;<a href="http://amzn.to/1J9xdMs" target="_blank">The Deep Link</a>, was released this summer and is&nbsp;<a href="http://amzn.to/1J9xdMs" target="_blank">available on Amazon (kindle and paperback)</a>. This article first appeared on&nbsp;<a href="http://www.veronicasicoe.com/blog/" target="_blank">Veronica&rsquo;s blog</a>&nbsp;and is republished here with permission.</em></p>
