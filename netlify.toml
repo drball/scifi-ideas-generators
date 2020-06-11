@@ -90,6 +90,11 @@ to = "/posts/life-evolve-inside-gas-giant/"
 status = 301
 
 [[redirects]]
+from = "/science-2/traveling-through-time-and-not-space/"
+to = "/posts/traveling-through-time-and-not-space/"
+status = 301
+
+[[redirects]]
 from = "/writing-2/solarpunk-we-are-golden-and-our-future-is-bright/"
 to = "/posts/solarpunk-we-are-golden-and-our-future-is-bright/"
 status = 301
