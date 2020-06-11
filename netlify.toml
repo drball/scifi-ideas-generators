@@ -77,8 +77,6 @@ from = "/sfi/future-food-generator/"
 to = "/futuristic-food-generator/"
 status = 301
 
-
-
 [[redirects]]
 from = "/category/sfi/story-ideas/"
 to = "/story-idea-generator/"

@@ -5,7 +5,9 @@ description: "Need a fictional alien species in your sci-fi story, novel, or gam
 layout: alien-species-generator
 ---
 
-The SciFi Ideas Alien Species Generator has been designed to help writers and role-players come up with new ideas for alien races to include in their stories and games. It will automatically create a randomly generated name for an alien species, along with a short description of the species’ physiology and/or society.
+Need a fictional alien species in your sci-fi story, novel, or game? Here are some randomly generated suggestions! This Alien Species Generator has been designed to help writers & role-players come up with new ideas for alien races to include in their stories & games. 
+
+It will automatically create a randomly generated name for an alien species, along with a short description of the species’ physiology and/or society.
 
 Need a name for the planet these aliens live on? Use our <a href="/planet-name-generator">Planet Name Generator</a>.
 
