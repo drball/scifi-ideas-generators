@@ -1,5 +1,5 @@
 ---
-title: "Alien Species Name Generator"
+title: "Alien Name Generator"
 date: 2020-06-01T08:28:49+01:00
 description: "Need an alien character name in your project? Here are some randomly generated alien names"
 layout: alien-name-generator

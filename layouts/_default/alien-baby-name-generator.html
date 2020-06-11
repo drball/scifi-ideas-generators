@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    {{ partial "article-title.html" . }}
+
+    <section class="article">
+
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+
+            {{ partial "content-ad.html" . }}
+
+            <h2>Alien baby name generator</h2>
+
+            <div class="generated-content">
+
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+                <p class="alien-baby-name"></p>
+
+
+            </div>
+
+            <button class="button generate-button" onclick=generateNew()>Generate more!</button>
+        </div>
+
+        {{ partial "right-col.html" . }}
+
+    </section>
+
+    {{ partial "bottom-ad.html" . }}
+
+</article>
+
+<script src="/js/alien-name-generator.js"></script>
+<script src="/js/alien-baby-name-generator.js"></script>
+
+{{ partial "footer.html" . }}
