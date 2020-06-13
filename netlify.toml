@@ -83,6 +83,11 @@ to = "/story-idea-generator/"
 status = 301
 
 [[redirects]]
+from = "/sfi/planets-main/planet-profile-salsola/"
+to = "/posts/planet-profile-salsola/"
+status = 301
+
+[[redirects]]
 from = "/science-2/life-evolve-inside-gas-giant/"
 to = "/posts/life-evolve-inside-gas-giant/"
 status = 301

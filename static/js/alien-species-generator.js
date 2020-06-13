@@ -829,21 +829,21 @@ newAlienSpeciesDescription = function(){
     if(typeChance < 5){
         final = fullDescription();
     } else if (typeChance <= 5 && typeChance < 28 ){
-        final = randomStart + " " + randomAdjectives + " " + randomTypeOfSpecies() + " with " + randomSkills;
+        final = randomStart + " " + randomAdjectives + " " + randomTypeOfSpecies() + " with " + randomSkills + ".";
     } else if (typeChance <= 28 && typeChance < 50 ){
-        final = randomStart + " " + randomTypeOfSpecies() + " with " + randomSkills;
+        final = randomStart + " " + randomTypeOfSpecies() + " with " + randomSkills + ".";
     } else if (typeChance <= 50 && typeChance < 75 ){
-        final = randomAdjectives + " " + randomTypeOfSpecies() + " who " + randomThey;
+        final = randomAdjectives + " " + randomTypeOfSpecies() + " who " + randomThey + ".";
     } else {
-        final = randomAdjectives + " " + randomTypeOfSpecies() + " who have " + randomSkills;
+        final = randomAdjectives + " " + randomTypeOfSpecies() + " who have " + randomSkills + ".";
     }
 
     if(they2Chance < 50){
         var randomThey2 = they[Math.floor(Math.random() * they.length)];
-        final = final + ". They " + randomThey2;
+        final = final + " They " + randomThey2;
     }
 
-    final = final.substr(0,1).toUpperCase() + final.substr(1) + ".";
+    final = final.substr(0,1).toUpperCase() + final.substr(1);
 
     if(quirkChance < 70){
         final = final + " " + randomQuirk();
@@ -858,7 +858,16 @@ newAlienSpeciesDescription = function(){
     return final;
 }
 
-generateNew = function(){
+generateNewSpeciesDescription = function(){
+
+    $(".alien-species-name").each(function(){
+
+        $(this).html("");
+
+        $(this).prepend(newAlienSpeciesName());
+
+    });
+
     $(".alien-species-description").each(function(){
 
         $(this).html("");
@@ -868,7 +877,7 @@ generateNew = function(){
     });
 }
 
-generateNew();
+generateNewSpeciesDescription();
 
 
 
