@@ -33,6 +33,11 @@ to = "/alien-species-name-generator"
 status = 301
 
 [[redirects]]
+from = "/news/new-sci-fi-character-name-generator/"
+to = "/sci-fi-character-name-generator/"
+status = 301
+
+[[redirects]]
 from = "/category/sfi/alien-ideas/alien-profiles/"
 to = "/alien-species-generator"
 status = 301
