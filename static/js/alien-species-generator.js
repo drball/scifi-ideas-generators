@@ -49,7 +49,7 @@ var adjectives = [
     "humanoid",
     "incestuous",
     "intelligent",
-    "invertibrate",
+    "invertebrate",
     "jellyfish",
     "limbless",
     "motionless",
