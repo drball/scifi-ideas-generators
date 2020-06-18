@@ -840,7 +840,7 @@ newAlienSpeciesDescription = function(){
 
     if(they2Chance < 50){
         var randomThey2 = they[Math.floor(Math.random() * they.length)];
-        final = final + " They " + randomThey2;
+        final = final + " They " + randomThey2 + ".";
     }
 
     final = final.substr(0,1).toUpperCase() + final.substr(1);
