@@ -10,4 +10,4 @@ To get more star system names, press the button to generate more.
 
 <h2>The Star System name generator is coming soon!</h2>
 
-Why not try our <a href="/planet-name-generator">planet name generator?</a>
+Why not try our <a href="/planet-name-generator">Planet Name Generator?</a> or our <a href="/alien-species-generator">Alien Species Generator?</a>

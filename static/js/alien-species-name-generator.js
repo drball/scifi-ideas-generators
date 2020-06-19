@@ -142,6 +142,7 @@ var end = [
     "rn",
     "rn",
     "ro",
+    "ron",
     "sian",
     "tet",
     "tions",
@@ -171,18 +172,24 @@ var endPlural = [
     "eks",
     "zoks",
     "gers",
+    "gors",
     "gees",
     "jers",
     "jeks",
     "gex",
     "ors",
+    "rons",
+    "rods",
     "sions",
     "uns",
+    "urns",
     "lorians",
     'irans',
     "bulans",
     "pans",
-    "pons"
+    "pons",
+    "pods",
+    "ponds",
 ];
 
 function newSimpleAlienSpeciesName(){
