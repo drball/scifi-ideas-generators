@@ -23,7 +23,10 @@
     .p-menu__lists {
         margin: 0;
         padding: 0 0 0 20px;
-        //list-style-type: none;
+
+        @media (min-width: $breakpoint-medium) {
+            columns: 2;
+        }
 
         li {
             list-style: square;
