@@ -60,6 +60,11 @@ theme = "potato-dark"
     url = "/alien-creature-generator"
     weight = 2
 
+[[menu.footer]]
+    name = "Star system name generator"
+    url = "/star-system-name-generator"
+    weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"
