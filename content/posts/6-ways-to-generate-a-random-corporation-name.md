@@ -1,5 +1,5 @@
 ---
-title: "5 ways to generate a random sci-fi corporation name"
+title: "6 ways to generate a random sci-fi corporation name"
 date: 2020-06-11T18:28:49+01:00
 description: "Need to create a random sci-fi corporation name? Here's 5 generators"
 ---
@@ -32,6 +32,11 @@ This is a site for roleplayers which has useful generators for stats & names. Th
 
 It generates 10 at a time, & they're ideal for using as futuristic or scifi corporation names, e.g: "Astro Concepts", & "Advanced Cybernetics" although some end up being a little plain, like "First Legal", & "Southern Limited". 
 
+<h2><a href="https://donjon.bin.sh/scifi/name/#type=cp;cp=zaibatsu">Donjon Cyberpunk Corporation Names Generator</a></h2>
+
+Donjon is a website with generators for all sorts of names for writers, like <a href="https://donjon.bin.sh/scifi/name/#type=sx;sx=space_location">Space Location Name Generator</a>, and a <a href="https://donjon.bin.sh/scifi/name/#type=sx;sx=star">Star Name Generator</a>.
+
+This generator creates realistic sounding global company names, using nonsense words or acronyms. Often the words sound international, specifically Japanese.
 
 <h2><a href="https://namelix.com/">Namelix Business Name Generator</a></h2>
 

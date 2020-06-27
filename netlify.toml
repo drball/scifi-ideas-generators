@@ -108,7 +108,12 @@ to = "/posts/solarpunk-we-are-golden-and-our-future-is-bright/"
 status = 301
 
 [[redirects]]
-from = "/category/inspiration/starting-points/"
+from = "/5-ways-to-generate-a-random-corporation-name/"
+to = "/6-ways-to-generate-a-random-corporation-name/"
+status = 301
+
+[[redirects]]
+from = "/*"
 to = "/story-idea-generator/"
 status = 301
 
