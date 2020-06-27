@@ -29,6 +29,7 @@ function systemPrefix(){
         "Minor",
         "Major",
         "Greater",
+        Math.floor(Math.random() * 300),
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -178,6 +179,11 @@ function systemName(){
         "Knox",
         "Paraskevopoulos",
         "Weiss",
+        "Wilkins",
+        "Llewelyn",
+        "Gomez",
+        "Evans",
+        "Myanmar",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -221,6 +227,7 @@ function systemSuffix(){
         "Vortex",
         "Star System",
         "Cluster System",
+        Math.floor(Math.random() * 350) + " System",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -243,7 +250,7 @@ newStarSystemName = function(){
         final = systemName();
     }
 
-    if(suffixType <= 75){
+    if(suffixType <= 80){
         final += " " + systemSuffix();
     } else {
         final += " System";
