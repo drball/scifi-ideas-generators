@@ -1043,6 +1043,8 @@ function randomVIPEnd(){
         "dies before an important event. His staff pretend he's still alive with a complex series of levers & pulleys.",
         "dies before an important event. His staff pretend he's still alive using CGI.",
         "reveals he's actually an alien",
+        "reveals he's actually a prototype robot from another dimension",
+        "reveals he's actually from another dimension, but escaped here during a deadly war. He wants more refugees to be allowed from the other dimension.",
         "reveals he's been speaking to aliens, & becomes an interpreter for them. Do people believe him?",
         "turns evil. A team is sent to imprison him.",
         "invents a new religion where people have to kill their neighbours. Someone must stop him.",
@@ -1056,6 +1058,9 @@ function randomVIPEnd(){
         "realises he's living in a virtual reality. He must play along so he's not noticed, but eventually escape.",
         "has to go inside a mind of a dreaming man, & then inside the mind of a character in the dream.",
         "must save a town that's being destroyed by robots.",
+        "must win an interstellar singing competition to save the Earth.",
+        "is kidnapped by aliens & forced to take part in a gameshow. People of Earth must vote what he should do to survive.",
+        "unexpectedly becomes ambassador for Earth while he's drunk, & has to negotiate with powerful aliens who want to destroy Humanity.",
 
     ];
 
@@ -1094,17 +1099,26 @@ function randomVIP(){
         "Nish Kumar",
         "Romesh Ranganathan",
         "Donald Trump",
+        "Jack Black",
         "George Bush",
         "Ricky Gervais",
         "Simon Cowell",
         "Gordon Ramsay",
         "James Cordon",
         "Dev Patel",
+        "Tiger Woods",
         "Mike Tyson",
         "Dave Chapelle",
         "Aamir Khan",
         "The managing director of the world's biggest tech company",
         "The German Prime Minister",
+        "Kobe Bryant",
+        "Israels Prime Minister",
+        "Michael Jordan",
+        "Patrick Stewart",
+        "Benedict Cumberbatch",
+        "Jamie Oliver",
+        "Hugh Grant",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
