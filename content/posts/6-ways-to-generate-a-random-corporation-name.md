@@ -17,7 +17,7 @@ The company names generated are realistic, with a real-world kind of feel. Some 
 Seventh Sanctum also has a Sci-Fi Government Generator which creates names which could also work as corporations.
 
 
-<h2><a href="https://www.fantasynamegenerators.com/company-names.php">Fantasy Name Generator Fantasy Name Generator</a></h2>
+<h2><a href="https://www.fantasynamegenerators.com/company-names.php">Fantasy Name Generators Company Name Generator</a></h2>
 
 This site has probably a random generator for anything you can think of! According to this particular generator's description: "This name generator will give you 10 random names for companies ranging from entertainment and electronic companies to record labels and sports companies. The names have been based on real life companies." 
 
