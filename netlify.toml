@@ -108,8 +108,8 @@ to = "/posts/solarpunk-we-are-golden-and-our-future-is-bright/"
 status = 301
 
 [[redirects]]
-from = "/5-ways-to-generate-a-random-corporation-name/"
-to = "/6-ways-to-generate-a-random-corporation-name/"
+from = "/posts/5-ways-to-generate-a-random-corporation-name/"
+to = "/posts/6-ways-to-generate-a-random-corporation-name/"
 status = 301
 
 [[redirects]]
