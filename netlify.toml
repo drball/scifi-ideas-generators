@@ -113,11 +113,6 @@ to = "/6-ways-to-generate-a-random-corporation-name/"
 status = 301
 
 [[redirects]]
-from = "/*"
-to = "/story-idea-generator/"
-status = 301
-
-[[redirects]]
 from = "/category/inspiration/starting-points/*"
 to = "/story-idea-generator/"
 status = 301
