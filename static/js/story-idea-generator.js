@@ -26,6 +26,8 @@ var locationStart = [
     "On a potassium-rich planet",
     "On a acid planet",
     "On a planet where it rains acid",
+    "On a planet near the edge of the galaxy",
+    "At a restaurant in space",
     "Inside a nebula",
     "Inside a wormhole",
     "Inside a black hole",
@@ -61,16 +63,49 @@ var locationStart = [
     "On a tidally locked world with a thin atmosphere",
     "On a desert world with high gravity",
     "On an unstable moon",
+    "In German-occupied Poland in WW2",
+    "In Medieval times",
+    "In Prehistoric times",
+    "In a Viking town",
+    "In a theme park",
+    "At Disneyland",
+    "On a floating island",
+    "On an asteroid",
+    "Under the sea",
+    "On the sea bed",
+    "Deep inside the Earth",
+    "Deep inside a Martian cave",
+    "In the sewers",
+    "In an ancient alien sewer system",
+    "In a robot factory",
+    "In a spaceship factory",
+    "In an abandoned shipyard",
+    "In the body of a giant alien",
+    "In the belly of a giant space whale",
+    "In an unknown solar system",
+    "At an alien shopping centre",
+    "On a paradise planet",
+    "At the edge of the galaxy",
+    "Back in the past",
+    "In the future",
 ];
 
 var simpleSetting = [
     "on a spacestation",
+    "on a Russian spacestation",
+    "on a NASA spacestation",
     "aboard a spaceship",
+    "aboard an alien spaceship",
+    "aboard a NASA spaceship",
+    "aboard a European spaceship",
+    "aboard a Chinese spaceship",
     "on an alien planet",
     "on a farming colony",
     "in a small European town",
     "in a small American town",
     "in a rural village",
+    "in a towerblock",
+    "in a domed habitat",
 ]
 
 var planetType = [
@@ -88,6 +123,9 @@ var planetType = [
     "methane",
     "desserted",
     "lonely",
+    "sandy",
+    "cold",
+    "hot",
 ];
 
 var placeType = [
@@ -173,6 +211,15 @@ var creature = [
     "time travelling victorian man",
     "viking",
     "poodle",
+    "dog",
+    "otter",
+    "beaver",
+    "newt",
+    "salamander",
+    "fish",
+    "shark",
+    "alien insect",
+    "radioactive spider",
 ];
 
 var specialAbility = [
@@ -1151,6 +1198,7 @@ function randomInventorFemale(){
 function randomGunAbility(){
     var option = [
         "turns people to stone",
+        "turns people to dust",
         "can destroy a whole city",
         "freezes people",
         "shrinks people",
@@ -1163,6 +1211,10 @@ function randomGunAbility(){
         "pauses time",
         "creates a black hole",
         "cuts through any material",
+        "burns through skin",
+        "turns bones to jelly",
+        "makes people disappear",
+        "makes things disappear",
     ];
 
     return option[Math.floor(Math.random() * option.length)];
@@ -1349,7 +1401,6 @@ generateIdea = function(){
             }
 
             var sentientNoun = randomASentientNoun();
-            var sentientNoun = sentientNoun.substr(0,1).toUpperCase() + sentientNoun.substr(1);
 
             final = randomASentientNoun() + " begins to experience memories of a past life in which it was a " + person + ".";
             break;
@@ -1422,10 +1473,11 @@ generateIdea = function(){
 
         case 22:
             var personAdjective = randomPersonAdjective();
-            personAdjective = personAdjective.substr(0,1).toUpperCase() + personAdjective.substr(1);
             final =  randomAVillain() + " " + randomVillainPlot() + ". " + personAdjective + " " + randomPersonTypeMale() + " saves the day by " + randomSaveTheDay() + ".";
             break;
     }
+
+    final = final.substr(0,1).toUpperCase() + final.substr(1);
 
     return final;
 }

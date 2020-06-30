@@ -51,8 +51,8 @@ theme = "potato-dark"
     weight = 2
 
 [[menu.footer]]
-    name = "Cyberpunk generator"
-    url = "/cyberpunk-generator"
+    name = "Cyberpunk name generator"
+    url = "/cyberpunk-name-generator"
     weight = 2
 
 [[menu.footer]]

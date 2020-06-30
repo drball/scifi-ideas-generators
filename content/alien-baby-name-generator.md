@@ -9,4 +9,4 @@ Need an alien baby name for your project? Maybe the alien characters in your nov
 
 For adult alien names of all types, see our <a href="/alien-name-generator">Alien Name Generator</a>. If you need Human names for your sci-fi story, you can use <a href="/sci-fi-character-name-generator">our Sci-Fi Name Generator</a>, or if you need Human baby names, use <a href="https://www.name-generator.org.uk/baby/">this random baby name generator</a>.
 
-Top generate more alien baby names, press the button. 
+To generate more alien baby names, press the button. 
