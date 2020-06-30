@@ -188,7 +188,7 @@ img {
 .button {
     display: inline-block;
     background: $orange;
-    color: white;
+    color: white !important;
     font-family: $font-oswald;
     font-size: 30px;
     padding: 10px 30px;
@@ -201,25 +201,32 @@ img {
     position: relative;
     z-index: 1;
     outline: 0;
+    text-decoration: none !important;
+
+    &:visited {
+        background: $orange;
+    }
 
     &:hover,
-    &:after {
+    &:active {
         background: darken($orange,10%);
     }
 
-    &:after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: $orange;
-        animation: pulse-out 1.75s ease-out infinite;
-        z-index: -1;
-        border-radius: 7px;
-        pointer-events: none;
+    &.generate-button {
+        &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: $orange;
+            animation: pulse-out 1.75s ease-out infinite;
+            z-index: -1;
+            border-radius: 7px;
+            pointer-events: none;
+        }
     }
 }
 

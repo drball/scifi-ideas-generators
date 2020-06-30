@@ -1,7 +1,7 @@
 ---
 title: "IDEAS AND INSPIRATION FOR SCIENCE FICTION WRITERS"
 date: 2020-05-13T08:36:45+01:00
-layout: single
+layout: single-long
 description: "Ideas & inspiration for science fiction writers, including random name generators"
 ---
 
