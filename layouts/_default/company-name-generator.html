@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    {{ partial "article-title.html" . }}
+
+    <section class="article">
+
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+
+            {{ partial "content-ad.html" . }}
+
+            <h2>Company name generator</h2>
+
+            <div id="generated-names" class="generated-content">
+                <!-- names appear here -->
+            </div>
+
+            <button class="button generate-button" onclick=generateAll()>Generate more!</button>
+        </div>
+
+        {{ partial "right-col.html" . }}
+
+    </section>
+
+    {{ partial "bottom-ad.html" . }}
+
+</article>
+
+<script src="/js/planet-name-generator.js"></script>
+<script src="/js/company-name-generator.js"></script>
+
+{{ partial "footer.html" . }}
