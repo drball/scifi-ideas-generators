@@ -951,6 +951,7 @@ generateAcronym = function(){
 companyName = function(){
     var final = "";
     var type = Math.floor(Math.random() * 100);
+    var suffixChance = Math.floor(Math.random() * 10);
 
     if(type <= 5){
         final = planetName() + " of " + planetName();
@@ -958,15 +959,17 @@ companyName = function(){
     } else if (type > 10 && type <= 15){
         final = generateAcronym();
 
-        var suffixChance = Math.floor(Math.random() * 2);
-
-        if(suffixChance <=1){
+        if(suffixChance <=5){
             final += " " + companyEnd();
         }
 
     } else if (type > 15 && type <= 35){
 
         final = planetName() + companyPart2();
+
+        if(suffixChance <=6){
+            final += " " + companyEnd();
+        }
 
     } else if (type > 35 && type <= 55){
 
@@ -978,6 +981,10 @@ companyName = function(){
 
     } else {
         final = companyPart1() + companyPart2();
+
+        if(suffixChance <=6){
+            final += " " + companyEnd();
+        }
 
     }
 
