@@ -1,5 +1,3 @@
-var output = $("#generated-names");
-var num = 30;
 
 function companyWord(){
     var options = [
@@ -243,6 +241,7 @@ function companyWord(){
         "Nimitz",
         "Nina",
         "Nobel",
+        "Northern",
         "Noronha",
         "Nostromo",
         "Nova",
@@ -809,6 +808,8 @@ function companyPart1(){
 function companyPart2(){
     var options = [
 
+        "corp",
+        "co",
         "is",
         "ix",
         "motors",
@@ -850,8 +851,6 @@ function companyPart2(){
         "systems",
         "temic",
         "matic",
-        ".com",
-        ".biz",
         "media",
         "es",
         "wares",
@@ -883,6 +882,8 @@ function companyPart2(){
         "ronics",
         "romics",
         "search",
+        "corp",
+        "Corp",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -891,6 +892,7 @@ function companyPart2(){
 function companyEnd(){
     var options = [
 
+        "Atomic",
         "Applications",
         "Association",
         "Bionics",
@@ -899,8 +901,12 @@ function companyEnd(){
         "Limited",
         "Limited",
         "Ltd",
+        "Ltd",
         "Inc",
+        "Inc",
+        "LLP",
         "Incorporated",
+        "Industries",
         "Industries",
         "Holdings",
         "Acoustics",
@@ -910,6 +916,7 @@ function companyEnd(){
         "Energy",
         "Energies",
         "Components",
+        "Cybernetics",
         "Group",
         "Systems",
         "Solutions",
@@ -928,14 +935,18 @@ function companyEnd(){
     return options[Math.floor(Math.random() * options.length)];
 }
 
+generateAcronym = function(){
+    var charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var acronym = "";
+    var length = Math.floor(Math.random() * 2) + 3;
 
-generateAll = function(){
-    output.html("");
-
-    for (i = 0; i <= num; i++) {
-        output.prepend("<p>"+companyName()+"</p>");
+    for(i=0; i<length;i++){
+        acronym += charset.charAt(Math.floor(Math.random() * charset.length));
     }
+
+    return acronym;
 }
+
 
 companyName = function(){
     var final = "";
@@ -944,15 +955,24 @@ companyName = function(){
     if(type <= 5){
         final = planetName() + " of " + planetName();
 
-    } else if (type > 5 && type <= 25){
+    } else if (type > 10 && type <= 15){
+        final = generateAcronym();
+
+        var suffixChance = Math.floor(Math.random() * 2);
+
+        if(suffixChance <=1){
+            final += " " + companyEnd();
+        }
+
+    } else if (type > 15 && type <= 35){
 
         final = planetName() + companyPart2();
 
-    } else if (type > 25 && type <= 50){
+    } else if (type > 35 && type <= 55){
 
         final = planetName() + " " + companyEnd();
 
-    } else if (type > 50 && type <= 80){
+    } else if (type > 55 && type <= 80){
 
         final = companyWord() + " " + companyEnd();
 
@@ -962,6 +982,16 @@ companyName = function(){
     }
 
     return final;
+}
+
+generateAll = function () {
+    $(".single-line").each(function(){
+
+        $(this).html("");
+
+        $(this).prepend(companyName());
+
+    });
 }
 
 

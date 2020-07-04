@@ -80,7 +80,10 @@ theme = "potato-dark"
     url = "/planet-name-generator"
     weight = 2
 
-
+[[menu.main]]
+    name = "Scifi corporation name generator"
+    url = "/scifi-company-name-generator"
+    weight = 2
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.

@@ -2,7 +2,7 @@ function randomAlienFoodAdj(){
     return newSimpleAlienSpeciesName();
 }
 
-generateIdea = function(){
+generateFood = function(){
 
     final = "";
     var typeChance = Math.floor(Math.random() * 100);
@@ -25,7 +25,7 @@ generateAll = function () {
 
         $(this).html("");
 
-        $(this).prepend(generateIdea());
+        $(this).prepend(generateFood());
 
     });
 
