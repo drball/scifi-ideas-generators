@@ -491,6 +491,7 @@ function companyPart1(){
         "Cunha",
         "Cur",
         "Curry",
+        "Cyber",
         "Def",
         "Del",
         "Delta",
@@ -808,6 +809,7 @@ function companyPart1(){
 function companyPart2(){
     var options = [
 
+        "dyne",
         "corp",
         "co",
         "is",
