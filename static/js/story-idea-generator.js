@@ -1366,7 +1366,7 @@ function randomAVillain(){
 generateIdea = function(){
     var final = "";
 
-    var type = Math.floor(Math.random() * 22);
+    var type = Math.floor(Math.random() * 23);
 
     switch (type) {
         case 0:
