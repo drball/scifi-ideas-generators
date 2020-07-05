@@ -46,6 +46,8 @@ function locationToVisit(){
         "a dyson-sphere",
         "a planet where it rains acid",
         "a nebula",
+        "a spacestation",
+        "a derelict spaceship",
         "a virtual reality simulation",
         "a parallel universe",
         "the upper atmosphere of a gas giant",
@@ -89,7 +91,9 @@ function locationToVisit(){
         "a deserted prison",
         "a factory",
         "an empty warehouse",
-        "an castle",
+        "a castle",
+        "Atlantis",
+        "The Moon",
 
     ];
     return options[Math.floor(Math.random() * options.length)];
@@ -256,7 +260,7 @@ function vip(){
 generateIdea = function(){
     var final = "";
 
-    var type = Math.floor(Math.random() * 6);
+    var type = Math.floor(Math.random() * 8);
 
     switch (type) {
         case 0:
@@ -281,6 +285,14 @@ generateIdea = function(){
 
         case 5:
             final =  "You need to visit " + locationToVisit() + " to collect " + thingToDeliver() + ".";
+            break;
+
+        case 6:
+            final =  "You need to visit " + locationToVisit() + " to deliver a message. On the way, you encounter " + baddies() + ".";
+            break;
+
+        case 7:
+            final =  "You wake up on a planet called " + planetName() + " & have no idea why you're there. You're surrounded by "+ baddies() + ".";
             break;
 
     }
