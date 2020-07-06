@@ -14,7 +14,6 @@
 /* Base style */
 
 * {
-    transition-duration: 0.5s;
     box-sizing: border-box
 }
 
@@ -282,12 +281,14 @@ img {
 .generated-content {
 
     margin-bottom: 20px;
+    min-height: 400px; //--to mitigate layout shift
 
     p {
         font-size: 17px;
         margin: 0 0 15px;
         font-weight: $font-weight-bold;
         line-height: 1;
+        min-height: 17px; //--to mitigate layout shift
     }
 }
 
@@ -295,7 +296,7 @@ img {
     $c: &;
     //background: grey;
     //margin: 0 0 15px;
-    //min-height: 100px;
+    min-height: 200px;
     //
     //@media (min-width: $breakpoint-large) {
     //    margin-bottom: 20px;

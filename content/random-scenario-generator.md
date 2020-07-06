@@ -1,6 +1,6 @@
 ---
 title: "Random Scenario Generator"
-date: 2020-06-30T07:28:49+01:00
+date: 2020-07-05T07:28:49+01:00
 description: "This writing prompt creates a random scenario, a story idea for you to write about."
 layout: scenario-generator
 ---
