@@ -806,6 +806,10 @@ function fullDescription(){
         "An amphibious race who resemble newts. They are extremely intelligent. They evolved in a rainforest region, but much of their world is covered by a hot, dry desert. They have been able to redirect the flow of rivers in order to colonize much of the desert. Now, advanced technology is allowing them to alter the entire climate of their homeworld in a huge bioforming project.",
         "A race of strange, seemingly immortal beings. When their body dies, their heads detach and grow new bodies, carrying memories with them. The new body may develop as a male or a female, regardless of the individual's previous gender.",
         "An insectoid species with an internet-based democracy. Individuals vote on issues affecting society via cybernetic implants. Democracy is so important to them that almost no decision affecting the lives of others can be taken without approval from the “democrasphere”.\n",
+        "A race of immortal, omnipotent beings who might appear at random to interstellar travellers. They have infinite powers & can change reality to suit them. They are tricksters & will play with mortals until they are bored.",
+        "A powerful race of ancient beings who used to rule the galaxy but have been dormant for a long time. Every 2000 years they will wake, & purge the galaxy of the weakest civilisations.",
+        "A troll-like race of greedy individuals, who want nothing more than to make a profit out of interstellar travellers, for their own personal gain.",
+        "A Humanoid cat-like species who enjoy nothing more than hunting their prey. An individual in their society will be genetically engineered for survival, & allowed to escape, so that they can hunt it and kill it.",
 
     ];
 

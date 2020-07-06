@@ -70,6 +70,23 @@ theme = "potato-dark"
     url = "/random-scenario-generator"
     weight = 2
 
+[[menu.footer]]
+    name = "Alien species name generator"
+    url = "/alien-species-name-generator"
+    weight = 2
+
+[[menu.footer]]
+    name = "Alien character name generator"
+    url = "/alien-name-generator"
+    weight = 2
+
+[[menu.footer]]
+    name = "Robot name generator"
+    url = "/robot-name-generator"
+    weight = 2
+
+
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"

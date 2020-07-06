@@ -7,4 +7,4 @@ layout: cyberpunk-name-generator
 
 Need a random Cyberpunk name for a character in a game, or story? Here's a random generator that will create a random name of a character in a futuristic cyberpunk world. This generator takes names inspired by cyberpunk movies & games like Akira, Blade Runner, The Matrix, the RPG Cyberpunk 2020, & the video game Cyberpunk 2077.
 
-It displays male, female & androgynous names (or nicknames). To generate more cyberpunk names, press the button. If you need male names, use our <a href="/cyberpunk-male-name-generator">Cyberpunk Male Name Generator</a>. Or for male & female names, use the <a href="/cyberpunk-name-generator">Cyberpunk Name Generator</a>.
+It displays male, female & androgynous names (or nicknames). To generate more cyberpunk names, press the button. If you need male names, use our <a href="/cyberpunk-male-name-generator">Cyberpunk Male Name Generator</a>. Or for female names, use our <a href="/cyberpunk-female-name-generator">Cyberpunk Female Name Generator</a>.
