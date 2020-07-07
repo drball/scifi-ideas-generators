@@ -52,12 +52,18 @@ function locationToVisit(){
         "a parallel universe",
         "the upper atmosphere of a gas giant",
         "the rings of Saturn",
-        "th abandoned moon",
+        "an abandoned moon",
         "the jungle",
         "the jungle of an alien planet",
         "the swamp of a tropical world",
         "a swamp",
         "a desert",
+        "a cave",
+        "a furniture shop",
+        "a restaurant",
+        "a coffee shop",
+        "a zoo",
+        "a Dinosaur zoo",
         "Mars",
         "Neptune",
         "Pluto",
@@ -67,6 +73,10 @@ function locationToVisit(){
         "a bizarre world called "+planetName(),
         "a dimension called "+planetName(),
         "a fantasy world called "+planetName(),
+        "a space station orbiting a planet called "+planetName(),
+        "a space station orbiting Jupiter",
+        "a space station orbiting a distant star",
+        "Jupiter's largest moon",
         "a distant city",
         "New York",
         "Los Angeles",
@@ -118,6 +128,9 @@ function basicBaddies(){
         "insects",
         "Nazis",
         "sharks",
+        "hamsters",
+        "wolves",
+        "scorpions",
 
     ];
     return options[Math.floor(Math.random() * options.length)];
@@ -135,7 +148,6 @@ function baddies(){
         "trolls",
         "tigers",
         "panthers",
-        "giant hamsters",
         "giant rats",
         "terrorists",
         "terrorists from the planet "+planetName(),
@@ -176,6 +188,9 @@ function baddies(){
         "mind-control slugs",
         "alien " + basicBaddies(),
         "space " + basicBaddies(),
+        "robot " + basicBaddies(),
+        "ghost " + basicBaddies(),
+        "giant " + basicBaddies(),
 
     ];
     return options[Math.floor(Math.random() * options.length)];
@@ -195,6 +210,8 @@ function thingToDeliver(){
         "a mysterious alien artifact",
         "a mysterious ancient artifact",
         "an ancient artifact",
+        "an ancient weapon",
+        "an alien weapon",
         "some medicine",
         "important medicine",
         "something valuable",
@@ -209,6 +226,12 @@ function thingToDeliver(){
         "a shipment of rare materials",
         "a shipment of valuable crystals",
         "a container of valuable materials",
+        "a container of chemicals",
+        "a vial of chemicals",
+        "a box of fresh fish",
+        "a crate of beer",
+        "a rare box of strawberries",
+        "a rare pet",
         "supplies",
         "some supplies",
         "something to help them",
@@ -219,6 +242,12 @@ function thingToDeliver(){
         "something that can help them defeat the "+baddies(),
         "the ingredients for an antidote",
         "the raw ingredients to create a medicine",
+        "an Amazon parcel",
+        "a television",
+        "an elixir",
+        "alien technology",
+        "alien weapons",
+        "a guide on defeating "+baddies(),
     ]
 
     return options[Math.floor(Math.random() * options.length)];
@@ -251,6 +280,10 @@ function vip(){
         "an important figure",
         "an important celebrity",
         "a warrior",
+        "the President",
+        "the Prime Minister",
+        "the Queen",
+        "the King",
     ]
 
     return options[Math.floor(Math.random() * options.length)];
@@ -260,7 +293,7 @@ function vip(){
 generateIdea = function(){
     var final = "";
 
-    var type = Math.floor(Math.random() * 8);
+    var type = Math.floor(Math.random() * 11); //--num should be 1 greater than the amount of switch
 
     switch (type) {
         case 0:
@@ -295,6 +328,21 @@ generateIdea = function(){
             final =  "You wake up on a planet called " + planetName() + " & have no idea why you're there. You're surrounded by "+ baddies() + ".";
             break;
 
+        case 8:
+            final =  "You're far from home & need to fight some "+ baddies() + ".";
+            break;
+
+        case 9:
+            final =  baddies() + " have caused havoc in " + yourLocation() + ", you must chase them & bring them to justice.";
+            break;
+
+        case 10:
+            final =  baddies() + " have kidnapped " + vip() + ", & will only release them if you help them bring them something important from " + locationToVisit() + ".";
+            break;
+
+        case 11:
+            final =  "You accidentally travel to " + locationToVisit() + ".";
+            break;
     }
 
     final = final.substr(0,1).toUpperCase() + final.substr(1);
@@ -313,4 +361,9 @@ generateAll = function () {
 
 }
 
-generateAll();
+$(document).ready(function() {
+    generateAll();
+});
+
+
+

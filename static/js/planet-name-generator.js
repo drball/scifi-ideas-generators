@@ -1,6 +1,3 @@
-var output = $("#generated-names");
-var num = 30;
-
 
 var part1 = [
     "Æ",
@@ -455,6 +452,8 @@ var suffix = [
 ]
 
 generateNew = function () {
+    var output = $("#generated-names");
+    var num = 30;
     output.html("");
 
     for (i = 0; i <= num; i++) {
@@ -495,4 +494,6 @@ planetName = function(){
     return randomPart1 + randomPart2;
 }
 
-generateNew();
+$(document).ready(function() {
+    generateNew();
+});
