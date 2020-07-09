@@ -78,7 +78,9 @@ ol li {
 blockquote {
     margin: 0 0 15px;
     padding: 8px 12px;
-    border-left: 3px solid #ccc
+    border-left: 3px solid #ccc;
+    color: $text-dark;
+    font-size: 20px;
 }
 
 blockquote * {
@@ -366,6 +368,14 @@ img {
     }
 }
 
+.large-text {
+    p {
+        font-size: 17px;
+        margin: 0 0 15px;
+        font-weight: $font-weight-bold;
+        line-height: 1;
+    }
+}
 .paragraphs {
     //--used for technobabble & story idea
     p {
@@ -384,6 +394,7 @@ table {
         padding: 0 10px 5px 0;
     }
 }
+
 
 @import "topbar";
 @import "grid";

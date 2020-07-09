@@ -899,6 +899,7 @@ function companyPart2(){
 function companyEnd(){
     var options = [
 
+        "Aggregates Ltd",
         "Atomic",
         "Acoustics",
         "Applications",
