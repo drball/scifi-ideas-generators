@@ -85,7 +85,10 @@ theme = "potato-dark"
     url = "/robot-name-generator"
     weight = 2
 
-
+[[menu.footer]]
+    name = "Scifi gadget name generator"
+    url = "/gadget-name-generator"
+    weight = 2
 
 [[menu.main]]
     name = "Spaceship name generator"
