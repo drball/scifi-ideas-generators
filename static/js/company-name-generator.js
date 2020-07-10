@@ -818,6 +818,7 @@ function companyPart2(){
         "co",
         "is",
         "ix",
+        "ity",
         "motors",
         "nologies",
         "nology",
@@ -891,6 +892,10 @@ function companyPart2(){
         "search",
         "corp",
         "Corp",
+        "fy",
+        "lify",
+        "fix",
+        "doo",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
