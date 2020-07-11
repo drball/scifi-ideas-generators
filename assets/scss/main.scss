@@ -395,6 +395,12 @@ table {
     }
 }
 
+.two-col {
+    @media (min-width: $breakpoint-medium) {
+        columns: 2;
+    }
+}
+
 
 @import "topbar";
 @import "grid";
