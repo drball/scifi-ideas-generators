@@ -25,7 +25,7 @@ var prefix = [
 ];
 
 function alienNameStart(){
-    var start = [
+    var options = [
         "Ab",
         "Adr",
         "Arc",
@@ -90,107 +90,112 @@ function alienNameStart(){
         "Zey",
     ];
 
-    return start[Math.floor(Math.random() * start.length)];
+    return options[Math.floor(Math.random() * options.length)];
 }
 
+function alienNameEnd(){
+    var options = [
+        "'ala",
+        "'ed",
+        "'ok",
+        "'ots",
+        "'zed",
+        "aela",
+        "aico",
+        "aik",
+        "ain",
+        "ajoren",
+        "ala",
+        "ato",
+        "aveola",
+        "bon",
+        "bians",
+        "cers",
+        "cit",
+        "eax",
+        "ed",
+        "eds",
+        "egs",
+        "eks",
+        "engi",
+        "ertoni",
+        "etti",
+        "eux",
+        "gan",
+        "guns",
+        "juc",
+        "kid",
+        "kloren",
+        "kro",
+        "kruts",
+        "lan",
+        "lit",
+        "lites",
+        "nals",
+        "nirs",
+        "nu",
+        "ois",
+        "ons",
+        "orian",
+        "orn",
+        "qun",
+        "rn",
+        "rn",
+        "ro",
+        "ron",
+        "sian",
+        "tet",
+        "tions",
+        "tors",
+        "turian",
+        "urian",
+        "uts",
+        "zell",
+        "zoik",
+        "zoks",
+        "zon",
+        "zuc",
+        'irans',
+    ];
+    return options[Math.floor(Math.random() * options.length)];
+}
 
-var end = [
-    "'ala",
-    "'ed",
-    "'ok",
-    "'ots",
-    "'zed",
-    "aela",
-    "aico",
-    "aik",
-    "ain",
-    "ajoren",
-    "ala",
-    "ato",
-    "aveola",
-    "bon",
-    "bians",
-    "cers",
-    "cit",
-    "eax",
-    "ed",
-    "eds",
-    "egs",
-    "eks",
-    "engi",
-    "ertoni",
-    "etti",
-    "eux",
-    "gan",
-    "guns",
-    "juc",
-    "kid",
-    "kloren",
-    "kro",
-    "kruts",
-    "lan",
-    "lit",
-    "lites",
-    "nals",
-    "nirs",
-    "nu",
-    "ois",
-    "ons",
-    "orian",
-    "orn",
-    "qun",
-    "rn",
-    "rn",
-    "ro",
-    "ron",
-    "sian",
-    "tet",
-    "tions",
-    "tors",
-    "turian",
-    "urian",
-    "uts",
-    "zell",
-    "zoik",
-    "zoks",
-    "zon",
-    "zuc",
-    'irans',
-];
-
-var endPlural = [
-    "aelans",
-    "bees",
-    "bles",
-    "guns",
-    "ons",
-    "tors",
-    "cers",
-    "eds",
-    "egs",
-    "engi",
-    "eks",
-    "zoks",
-    "gers",
-    "gors",
-    "gees",
-    "jers",
-    "jeks",
-    "gex",
-    "ors",
-    "rons",
-    "rods",
-    "sions",
-    "uns",
-    "urns",
-    "lorians",
-    'irans',
-    "bulans",
-    "pans",
-    "pons",
-    "pods",
-    "ponds",
-];
+function alienNameEndPlural() {
+    var options = [
+        "aelans",
+        "bees",
+        "bles",
+        "guns",
+        "ons",
+        "tors",
+        "cers",
+        "eds",
+        "egs",
+        "engi",
+        "eks",
+        "zoks",
+        "gers",
+        "gors",
+        "gees",
+        "jers",
+        "jeks",
+        "gex",
+        "ors",
+        "rons",
+        "rods",
+        "sions",
+        "uns",
+        "urns",
+        "lorians",
+        'irans',
+        "bulans",
+        "pans",
+        "pons",
+        "pods",
+        "ponds",
+    ];
+    return options[Math.floor(Math.random() * options.length)];
+}
 
 function newSimpleAlienSpeciesName(){
     var randomStart = start[Math.floor(Math.random() * start.length)];
@@ -203,22 +208,20 @@ newAlienSpeciesName = function(){
     var final = "";
     var prefixChance = Math.floor(Math.random() * 100);
     var hyphenChance = Math.floor(Math.random() * 100);
-    var randomEnd = end[Math.floor(Math.random() * end.length)];
-    var randomEndPlural = endPlural[Math.floor(Math.random() * endPlural.length)];
     var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
 
     if(prefixChance < 10){
         if(hyphenChance < 50){
-            final = "The " + alienNameStart() + randomEnd;
+            final = "The " + alienNameStart() + alienNameEnd();
         } else {
-            final = "The " + randomPrefix + " "+ alienNameStart() + randomEndPlural;
+            final = "The " + randomPrefix + " "+ alienNameStart() + alienNameEndPlural();
         }
 
     }else {
         if(hyphenChance < 15){
-            final =  alienNameStart() + randomEnd + "-" + randomEndPlural;
+            final =  alienNameStart() + alienNameEnd() + "-" + alienNameEndPlural();
         }else {
-            final =  alienNameStart() + randomEnd;
+            final =  alienNameStart() + alienNameEnd();
         }
     }
 
