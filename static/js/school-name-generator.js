@@ -34,7 +34,9 @@ function schoolTypeEnd(){
     "Music School",
     "Middle School",
     "Grammar School",
+    "Elementary",
     "Elementary School",
+    "Navy Academy",
     "Institute",
     "Institute",
     "Learning Institute",
@@ -82,6 +84,7 @@ function place(){
         "Redwood",
         "Middlesborough",
         "Coventry",
+        "Ryder",
         "Patriot",
         "Faith",
         "Linton",
@@ -134,6 +137,7 @@ function place(){
         "Scholarly",
         "Scholastic",
         "Truthful",
+        "Spring",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -154,6 +158,7 @@ function placeEnd(){
         "Hill",
         "End",
         "Forest",
+        "Field",
         "County",
         "Cliff",
         "Valley",
@@ -169,6 +174,7 @@ function placeEnd(){
         "Springs",
         "Shelter",
         "Owls",
+        "Bay",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -184,6 +190,7 @@ function for1(){
         "Advanced",
         "Mediocre",
         "Intelligent",
+        "Empowering",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -194,6 +201,7 @@ function for2(){
         "Strivers",
         "Excellence",
         "Businessmen",
+        "Businesswomen",
         "Leaders",
         "Thinkers",
         "Free-thinkers",
@@ -235,9 +243,10 @@ function forSingle(){
         "Maritime Law",
         "Business Law",
         "The Mentally Disabled",
+        "The Disabled",
         "The Blind",
         "The Deaf",
-        "Gifted" + peopleType(),
+        "Gifted " + peopleType(),
         "Talented " + peopleType(),
         "Intellectual "+ peopleType(),
         "Artistic "+ peopleType(),
@@ -271,7 +280,6 @@ function peopleType(){
         "Offworlders",
         "Extra-Terrestrials",
         "Zombies",
-        "The Disabled",
         newSimpleAlienSpeciesName(),
         "Young " + newSimpleAlienSpeciesName(),
     ];
@@ -302,7 +310,13 @@ function schoolOf() {
         "Self Defence",
         "Fine Art",
         "Modern Art",
+        "Xenobiology",
+        "Biology",
+        "Veterinary Sciences",
+        "Disease Control",
         "Academic Learning",
+        newSimpleAlienSpeciesName() + " Study",
+        "Studying " + newSimpleAlienSpeciesName(),
     ];
 
     return options[Math.floor(Math.random() * options.length)];
