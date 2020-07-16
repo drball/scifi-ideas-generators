@@ -9,4 +9,4 @@ Need an alien character name for your project? This is a random alien name gener
 
 With several hundred thousand possible combinations, the usefulness, legibility, & strangeness of the generated alien names does vary significantly!
 
-For more alien character names, press the button. If you want names of alien species instead, use the <a href="alien-species-name-generator">alien species name generator</a>.
+For more alien character names, press the button. If you want names of alien species instead, use the <a href="/alien-species-name-generator">alien species name generator</a>.

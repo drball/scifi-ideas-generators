@@ -9,6 +9,6 @@ Need a fictional alien species in your sci-fi story, novel, or game? Here are so
 
 It will automatically create a randomly generated name for an alien species, along with a short description of the species’ physiology and/or society.
 
-Need a name for the planet these aliens live on? Use our <a href="/planet-name-generator">Planet Name Generator</a>, or for the name of an alien character use the <a href="alien-name-generator">Alien Character Name Generator</a>.
+Need a name for the planet these aliens live on? Use our <a href="/planet-name-generator">Planet Name Generator</a>, or for the name of an alien character use the <a href="/alien-name-generator">Alien Character Name Generator</a>.
 
 To get more alien species, press the button. 

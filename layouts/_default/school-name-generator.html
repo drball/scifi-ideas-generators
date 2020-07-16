@@ -1,0 +1,78 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    {{ partial "article-title.html" . }}
+
+    <section class="article">
+
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+
+            {{ partial "content-ad.html" . }}
+
+            <h2>School Names</h2>
+
+            <div id="generated-names" class="generated-content">
+
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+                <p class="school-name"></p>
+
+
+
+            </div>
+
+            <button class="button generate-button" onclick=generateNewSchools()>Generate more!</button>
+        </div>
+
+        {{ partial "right-col.html" . }}
+
+    </section>
+
+    {{ partial "bottom-ad.html" . }}
+
+</article>
+
+<script src="/js/alien-species-name-generator.js" defer></script>
+<script src="/js/simple-character-name-generator.js" defer></script>
+<script src="/js/school-name-generator.js" defer></script>
+
+{{ partial "footer.html" . }}

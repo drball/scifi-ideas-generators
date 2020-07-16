@@ -198,8 +198,8 @@ function alienNameEndPlural() {
 }
 
 function newSimpleAlienSpeciesName(){
-    var randomStart = start[Math.floor(Math.random() * start.length)];
-    var randomEnd = end[Math.floor(Math.random() * end.length)];
+    var randomStart = alienNameStart[Math.floor(Math.random() * alienNameStart.length)];
+    var randomEnd = alienNameEnd[Math.floor(Math.random() * alienNameEnd.length)];
 
     return randomStart + randomEnd;
 }
