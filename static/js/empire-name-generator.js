@@ -2,6 +2,7 @@
 
 var prefix = [
     "Mighty",
+    "Mighty Empire of",
     "Ancient",
     "Faithful",
     "Republic of",
@@ -40,6 +41,11 @@ var prefix = [
     "Former Republic of",
     "Benevolent Republic of",
     "Realm of",
+    "Dictatorship of",
+    "Planetary Dictatorship of",
+    "Empire of",
+    "Empire of",
+    "Ancient Empire of",
 ];
 
 var suffix = [
@@ -47,6 +53,7 @@ var suffix = [
     "Empire",
     "Old Empire",
     "Consortium",
+    "Dynasty",
     "Dynasty",
     "Dynasties",
     "Kingdom",
@@ -77,6 +84,17 @@ var suffix = [
     "Czardom",
     "Electorate",
     "Realm",
+    "Autocracy",
+    "Aristocracy",
+    "Dictatorship",
+    "Oligarchy",
+    "Raj",
+    "Caliphate",
+    "Khanate",
+    "League",
+    "Khaganate",
+    "Colonial Empire",
+    "Sultanate",
 
 ];
 

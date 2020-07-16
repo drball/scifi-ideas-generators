@@ -136,3 +136,8 @@ status = 301
 from = "/sfi/story-ideas/10-ideas-for-a-cyberpunk-story/"
 to = "/posts/10-ideas-for-a-cyberpunk-story/"
 status = 301
+
+[[redirects]]
+from = "/inspiration/inspiration-gallery/9-awe-inspiring-spaceship-videos-star-citizen/"
+to = "/spaceship-name-generator/"
+status = 301

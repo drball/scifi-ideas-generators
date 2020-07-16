@@ -1,17 +1,19 @@
 ---
-title: "Tables of positive & negative character traits"
+title: "Positive & negative character traits"
 date: 2020-05-21T08:01:40+01:00
 description: "Tables of postive & negative versions of the same character trait. Useful for writers."
 ---
 
-<p>Sometimes it&rsquo;s fun to&nbsp;<a href="http://www.ongoingworlds.com/blog/2015/01/pairing-up-characters-with-opposite-traits/">pair characters up with their opposites</a>, so here&rsquo;s a list of character traits that might be useful when inventing new character. Each trait is accompanied by an opposite character trait.</p>
+<p>Sometimes it&rsquo;s fun to&nbsp;<a href="http://www.ongoingworlds.com/blog/2015/01/pairing-up-characters-with-opposite-traits/">pair characters up with their opposites</a>, so here&rsquo;s a list of character traits that might be useful when inventing new character. 
+
+Each trait is accompanied by an opposite character trait.</p>
 <p>(Go directly to:&nbsp;<a href="#Attitudes">Attitudes</a>,&nbsp;<a href="#Attributes">Attributes</a>,&nbsp;<a href="#Skills">Skills</a>, <a href="#Endowments">Social Endowments</a>)</p>
 <h2><a name="Attitudes"></a>Attitudes</h2>
 <table>
 <tbody>
 <tr>
-<td><strong>Trait-Positive</strong></td>
-<td><strong>Trait-Negative</strong></td>
+<td><h3>Positive character traits</h3></td>
+<td><h3>Negative character traits</h3></td>
 </tr>
 <tr>
 <td>accepts authority, loyal, devoted</td>
@@ -311,8 +313,8 @@ description: "Tables of postive & negative versions of the same character trait.
 <table>
 <tbody>
 <tr>
-<td><strong>Trait positive</strong></td>
-<td><strong>Trait negative</strong></td>
+<td><h3>Positive character traits</h3></td>
+<td><h3>Negative character traits</h3></td>
 </tr>
 <tr>
 <td>achieved; has-</td>
@@ -700,8 +702,8 @@ description: "Tables of postive & negative versions of the same character trait.
 <table>
 <tbody>
 <tr>
-<td><strong>Trait Positive</strong></td>
-<td><strong>Trait Negative</strong></td>
+<td><h3>Positive character traits</h3></td>
+<td><h3>Negative character traits</h3></td>
 </tr>
 <tr>
 <td>capacity to judge others</td>
@@ -801,8 +803,8 @@ description: "Tables of postive & negative versions of the same character trait.
 <table>
 <tbody>
 <tr>
-<td><strong>Trait Positive</strong></td>
-<td><strong>Trait Negative</strong></td>
+<td><h3>Positive character trait</h3></td>
+<td><h3>Negative character traits</h3></td>
 </tr>
 <tr>
 <td>affectionate family upbringing</td>
