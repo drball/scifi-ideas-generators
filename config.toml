@@ -90,6 +90,11 @@ theme = "potato-dark"
     url = "/gadget-name-generator"
     weight = 2
 
+[[menu.footer]]
+    name = "City name generator"
+    url = "/city-name-generator"
+    weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"

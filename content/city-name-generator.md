@@ -9,4 +9,6 @@ Need a fictional city name? This generator randomly creates unique city names fo
 
 This generator was inspired by place names (towns, villages & cities) from the United Kingdom, America, Australia, Germany, & China. The result is can be quite unnatural, so this can be used as inspiration for alien cities on strange other planets perhaps? 
 
+You might also be interested in our <a href="/planet-name-generator">Alien Planet Name Generator</a>.
+
 To generate more city names, press the button.
