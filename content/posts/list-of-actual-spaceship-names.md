@@ -11,7 +11,7 @@ On this website we have random name generators that are meant to inspire writers
 <li><a href="/planet-name-generator">Random Planet Name Generator</a></li>
 </ul>
 
-The <a href="/spaceship-name-generator">Random Spaceship Name Generator</a> shows a list of actual spaceship & ship names from history, as well as showing words that would make great spaceship names. 
+The <a href="/spaceship-name-generator/">Random Spaceship Name Generator</a> shows a list of actual spaceship & ship names from history, as well as showing words that would make great spaceship names. 
  
 But we thought it might be interesting to include the list of every actual manned spaceship here too. So here's a list of every spaceship that's ever carried an astronaut into orbit:
 

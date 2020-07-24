@@ -37,6 +37,8 @@ function systemPrefix(){
 
 function systemName(){
     var options = [
+        "Arf",
+        "Alf",
         "Aeron",
         "Andromeda",
         "Apius",
@@ -49,6 +51,7 @@ function systemName(){
         "Algol",
         "Antares",
         "Basri",
+        "Behram",
         "Beta Picoris",
         "Boötes",
         "Cancri",
@@ -184,6 +187,8 @@ function systemName(){
         "Gomez",
         "Evans",
         "Myanmar",
+        "Dilhan",
+        "Eryurt",
     ];
 
     return options[Math.floor(Math.random() * options.length)];

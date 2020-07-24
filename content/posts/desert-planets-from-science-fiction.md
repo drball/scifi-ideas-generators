@@ -128,6 +128,6 @@ Vulcan, from Star Trek
 
 The above is a list of planets which already exist in fiction, & might be useful to you when inventing your own idea of a desert planet in your story or game. 
 
-If you are creating a new planet, you can use our <a href="/planet-name-generator">Planet Name Generator</a> to create a unique name for your planet!  
+If you are creating a new planet, you can use our <a href="/planet-name-generator/">Planet Name Generator</a> to create a unique name for your planet!  
 
 

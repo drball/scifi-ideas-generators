@@ -6,6 +6,6 @@ description: "Need a biography for a fictional character? Generate a character p
 
 Need a biography for a fictional character? Generate a character profile with a random name & backstory. 
 
-This is for Human charactors, if you're creating an alien character, use our <a href="/alien-species-name-generator">alien name generator</a>.
+This is for Human charactors, if you're creating an alien character, use our <a href="/alien-species-name-generator/">alien name generator</a>.
 
 <h2>The character biography generator is coming soon!</h2>

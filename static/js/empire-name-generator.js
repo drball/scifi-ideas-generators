@@ -12,6 +12,8 @@ var prefix = [
     "Collective",
     "Collective Planets of",
     "Collective Realities of",
+    "Dark Empire of",
+    "Dark Commonwealth of",
     "Federated States of",
     "Federated Planets of",
     "Federal Galaxies of",
@@ -21,6 +23,7 @@ var prefix = [
     "Confederated States of",
     "Confederated Planets of",
     "Confederated Worlds of",
+    "United Empire of",
     "United Planets of",
     "United Kingdoms of",
     "Commonwealth of",
@@ -46,6 +49,8 @@ var prefix = [
     "Empire of",
     "Empire of",
     "Ancient Empire of",
+    "Peaceful",
+    "Nether",
 ];
 
 var suffix = [
@@ -56,6 +61,9 @@ var suffix = [
     "Dynasty",
     "Dynasty",
     "Dynasties",
+    "Dominance",
+    "Dominion",
+    "Domain",
     "Kingdom",
     "Kingdoms",
     "Collective",

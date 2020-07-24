@@ -9,4 +9,4 @@ Writing a sci-fi story & need a name for a star system or region of space? This 
 
 To get more star system names, press the button to generate more. 
 
-Also maybe try our <a href="/planet-name-generator">Planet Name Generator?</a> or our <a href="/alien-species-generator">Alien Species Generator?</a>
+Also maybe try our <a href="/planet-name-generator">Planet Name Generator?</a> or our <a href="/alien-species-generator/">Alien Species Generator?</a>

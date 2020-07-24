@@ -7,6 +7,6 @@ layout: alien-species-name-generator
 
 The SciFi Ideas Alien Species Name Generator has been designed to help writers & role-players come up with new name for your alien race.
 
-If you want a description for your alien species too, see the <a href="/alien-species-generator">alien species generator</a>, & if you need the name of a planet where these aliens live, see our <a href="/planet-name-generator">Planet Name Generator</a>.
+If you want a description for your alien species too, see the <a href="/alien-species-generator/">alien species generator</a>, & if you need the name of a planet where these aliens live, see our <a href="/planet-name-generator">Planet Name Generator</a>.
 
 To get more alien species, press the button. 

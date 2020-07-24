@@ -286,10 +286,10 @@ It looks like most of these movies will be available to watch right now on Disne
 
 If you're writing a scifi story, you might find these tools useful: 
 
-<a href="/sci-fi-character-name-generator">Character name generator</a>
+<a href="/sci-fi-character-name-generator/">Character name generator</a>
 
-<a href="/robot-name-generator">Robot name generator</a>
+<a href="/robot-name-generator/">Robot name generator</a>
 
-<a href="/planet-name-generator">Planet name generator</a>
+<a href="/planet-name-generator/">Planet name generator</a>
 
-<a href="/story-idea-generator">Random story idea generator</a>
+<a href="/story-idea-generator/">Random story idea generator</a>

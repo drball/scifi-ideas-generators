@@ -51,6 +51,7 @@ var names = [
     "Artemis",
     "Arthur",
     "Asimov",
+    "Astro",
     "Asteria",
     "Athena",
     "Atlantic",
@@ -141,6 +142,7 @@ var names = [
     "Destiny",
     "Dezhnev",
     "Discovery",
+    "Dilhan",
     "Drake",
     "Drifter",
     "Eagle",
@@ -148,6 +150,7 @@ var names = [
     "Einstein",
     "El-Baz",
     "Ellsworth",
+    "Eryurt",
     "Emissary",
     "Endeavor",
     "Engel",
@@ -192,6 +195,7 @@ var names = [
     "Grissom",
     "Guerrero",
     "Hades",
+    "Halamandaris",
     "Hannu",
     "Hansa",
     "Harlequin",
@@ -296,6 +300,7 @@ var names = [
     "Paramount",
     "Pasteur",
     "Pathfinder",
+    "Paradise",
     "Pearce",
     "Pegasus",
     "Pegasus",
@@ -564,6 +569,7 @@ var lastName = [
 ];
 
 var verbs = [
+    "Astro",
     "Black",
     "Black",
     "Blackstone",

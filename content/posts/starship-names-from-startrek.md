@@ -33,7 +33,8 @@ There's more information on <a href="https://memory-alpha.fandom.com/wiki/Federa
 <p><em>Woden</em></p>
 <p><em>Yorkshire</em></p>
 <p>B-24-CLN</p>
-<p>DEV <em>Eagle Valley</em>USS <em>Earhart</em></p>
+<p>DEV <em>Eagle Valley</em></p>
+<p>USS <em>Earhart</em></p>
 <p>HMS <em>Bounty</em></p>
 <p>SS <em>Artemis</em></p>
 <p>SS <em>Augyn</em></p>
@@ -156,7 +157,7 @@ There's more information on <a href="https://memory-alpha.fandom.com/wiki/Federa
 <p>USS <em>Gremlin</em></p>
 <p>USS <em>Greyhound</em></p>
 <p>USS <em>Grissom</em></p>
-<p>USS <em>Grissom</em>USS <em>Grissom</em></p>
+<p>USS <em>Grissom</em></p>
 <p>USS <em>Hathaway</em></p>
 <p>USS <em>Heart of Gold</em></p>
 <p>USS <em>Helin</em></p>
@@ -186,7 +187,8 @@ There's more information on <a href="https://memory-alpha.fandom.com/wiki/Federa
 <p>USS <em>Kyushu</em></p>
 <p>USS <em>Lakota</em></p>
 <p>USS <em>Lalo</em></p>
-<p>USS <em>Lantree</em><em>LaSalle</em></p>
+<p>USS <em>Lantree</em></p>
+<p><em>LaSalle</em></p>
 <p>USS <em>Leeds</em></p>
 <p>USS <em>Leondegrance</em></p>
 <p>USS <em>Lexington</em></p>
@@ -326,4 +328,4 @@ There's more information on <a href="https://memory-alpha.fandom.com/wiki/Federa
 <p>USS <em>Zhukov</em></p>
 </div>
 
-If you're looking for spaceship names & this list isn't enough inspiration for you, try our <a href="spaceship-name-generator">spaceship name generator</a>.
+If you're looking for spaceship names & this list isn't enough inspiration for you, try our <a href="/spaceship-name-generator/">spaceship name generator</a>.

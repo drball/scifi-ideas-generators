@@ -36,5 +36,5 @@ description: "10 short ideas for a cyberpunk story. Original story ideas from Sc
 <p>The world of horse racing has been&nbsp;corrupted&nbsp;by the introduction of cybernetic enhancements. Horses are enhanced by artificial limbs and computer intelligence. Sponsorship allows for increasingly advanced technologies to be used, and mega-corporations begin to dominate the sport.</p>
 <p>Drink Vitalade is a champion. The horse has not lost a race in over 40 years. Each time the horse is injured or retired, its memories are&nbsp;transferred&nbsp;into a new model with the latest technology.</p>
 <p>The mega-corporations begin to fight over this valuable champion. Should Drink Vitalade be disqualified from the sport?</p>
-<p>We have a <a href="story-idea-generator">Random Story Idea Generator</a> which includes similar ideas above, but randomly spliced together with other ideas. Maybe it'll show you an idea which will inspire you?</p>
-<p><a href="/story-idea-generator" class="button">Use our story idea generator</a></p>
+<p>We have a <a href="/story-idea-generator/">Random Story Idea Generator</a> which includes similar ideas above, but randomly spliced together with other ideas. Maybe it'll show you an idea which will inspire you?</p>
+<p><a href="/story-idea-generator/" class="button">Use our story idea generator</a></p>

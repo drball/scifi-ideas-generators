@@ -11,6 +11,6 @@ It will also generate names for random names for universities, colleges & other 
 
 Names are based on real schools in America, Australia & The United Kingdom, as well as from fiction, like "Professor Xavier's School for Gifted Youngsters" from X-men, & "Hogwarts School of Witchcraft & Wizardry" from Harry Potter.
 
-Schools are sometimes named after famous people. This generator will sometimes take a name from our <a href="/sci-fi-character-name-generator">Scifi Character Name Generator</a>, or feel free to replace this with an actual historical person who exists in the canon of your universe.
+Schools are sometimes named after famous people. This generator will sometimes take a name from our <a href="/sci-fi-character-name-generator/">Scifi Character Name Generator</a>, or feel free to replace this with an actual historical person who exists in the canon of your universe.
 
 Press the button to generate more school names. 

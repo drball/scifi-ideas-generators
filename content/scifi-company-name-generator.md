@@ -11,4 +11,4 @@ This takes inspiration from real companies (mostly tech companies as this is int
 
 Careful using these though, as they might actually exist as real company names!
 
-To generate more corporation names, press the button. You might also be looking for a <a href="/planet-name-generator">Planet Name Generator</a> or an <a href="/alien-species-generator">Alien Species Generator</a>.
+To generate more corporation names, press the button. You might also be looking for a <a href="/planet-name-generator/">Planet Name Generator</a> or an <a href="/alien-species-generator">Alien Species Generator</a>.
