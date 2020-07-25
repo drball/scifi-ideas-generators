@@ -89,7 +89,11 @@ blockquote {
 }
 
 blockquote * {
-    margin: 0
+    margin: 0 0 1rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 img {
@@ -103,6 +107,14 @@ img {
     height: 1px;
     width: 1px;
     overflow: hidden
+}
+
+hr {
+    margin: 30px 0;
+    color: #dddddd;
+    background-color: #ddd;
+    border: 0;
+    border-bottom: 1px solid #ddd;
 }
 
 .p-screen-reader-text:hover,
@@ -192,6 +204,7 @@ img {
 }
 
 .button {
+    $c: &;
     display: inline-block;
     background: $orange;
     color: white !important;
@@ -233,6 +246,13 @@ img {
             border-radius: 7px;
             pointer-events: none;
         }
+    }
+
+    &--sm.button {
+        font-size: 15px;
+        padding: 5px 10px;
+        letter-spacing: 0;
+        border-radius: 5px;
     }
 }
 

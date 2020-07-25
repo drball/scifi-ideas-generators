@@ -141,3 +141,8 @@ status = 301
 from = "/inspiration/inspiration-gallery/9-awe-inspiring-spaceship-videos-star-citizen/"
 to = "/spaceship-name-generator/"
 status = 301
+
+[[redirects]]
+from = "/inspiration/starting-point-family-trees"
+to = "/posts/starting-point-family-trees/"
+status = 301
