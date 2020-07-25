@@ -43,6 +43,10 @@ Dorvan V, from Star Trek: The Next Generation
 
 Dozaria, from Star Trek: Deep Space Nine
 
+Elaaden, from Mass Effect: Andromeda
+
+Eos, from Mass Effect: Andromeda
+
 Fire, from Lexx 
 
 Fyrine IV, from Enemy Mine
