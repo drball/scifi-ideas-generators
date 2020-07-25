@@ -146,3 +146,9 @@ status = 301
 from = "/inspiration/starting-point-family-trees"
 to = "/posts/starting-point-family-trees/"
 status = 301
+
+[[redirects]]
+from = "/inspiration/starting-points/starting-point-inevitable-destination/"
+to = "/posts/starting-point-inevitable-destination/"
+status = 301
+

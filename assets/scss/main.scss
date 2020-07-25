@@ -82,10 +82,11 @@ ol li {
 
 blockquote {
     margin: 0 0 15px;
-    padding: 8px 12px;
-    border-left: 3px solid #ccc;
+    padding: 12px 12px;
+    border-left: 3px solid $orange;
     color: $text-dark;
     font-size: 20px;
+    background: #F2E0C6;
 }
 
 blockquote * {
@@ -300,6 +301,10 @@ hr {
 
         @media (min-width: $breakpoint-large) {
             padding: 0 15px;
+        }
+
+        img {
+            margin-bottom: 1rem;
         }
 
     }
