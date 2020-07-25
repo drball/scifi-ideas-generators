@@ -4,6 +4,7 @@ date: 2020-07-10T08:50:49+01:00
 description: "Need a scifi gadget name? This is a generator for creating gadget names"
 layout: gadget-generator
 ---
+<img src="/post-images/medical-gadgets.jpg" alt="Medical gadgets for poser">
 
 Need a scifi gadget name? This is a generator that creates scifi-sounding gadget names for writers to use in their projects. 
 Try out the gadget name generator below to see if its randomly generated gadgets make sense for your story! 

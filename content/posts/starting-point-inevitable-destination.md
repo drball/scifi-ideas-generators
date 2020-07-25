@@ -6,7 +6,7 @@ description: "A starting point to inspire a scifi story"
 ---
 
 
-<img src="/images/the_galactic_arena_by_samuel_nordius-d76etga.jpg" alt="The galactic arena by samuel nordius">
+<img src="/post-images/the_galactic_arena_by_samuel_nordius-d76etga.jpg" alt="The galactic arena by samuel nordius">
 
 <p>The city was entering into its third generation by the time they reached the fringes of the Lukida cloud. It never occured to the inhabitants of the giant spaceship that “the city” was an odd name for a craft, it was all they’d ever known.</p>
 <p>The fiery orange cloud they were powerless to avoid hadn’t been seen by their ancestors who’d set their course. Or perhaps it had, but they’d suspected it wasn’t dangerous? There was nobody left from that era to ask now.</p>
