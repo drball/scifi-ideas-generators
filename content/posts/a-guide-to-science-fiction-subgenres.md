@@ -45,6 +45,7 @@ Since the 1980’s steampunk has grown beyond a simple literary genre and expand
 CYBERPUNK
 
 Fiction relating to the science of cybernetics, which views nature as a series of interconnecting mechanical systems. Specifically, cyberpunk deals with the link between biology and computer technology, and explores humanity’s changing relationship with computer systems. Virtual reality, prosthetics, cyborgs and internet fraud are all part of the cyberpunk niche, and usually go hand-in-hand with social decline.
+See our <a href="/cyberpunk-city-name-generator/">cyberpunk City Name Generator</a>
 
 BIOPUNK
 

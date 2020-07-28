@@ -10,4 +10,6 @@ Generate spaceship names for freelance merchants, traders, raiders, pirates & bo
 
 This tool is for science fiction writers & role-players quickly create names for the spaceships that feature in their stories. The spaceship name generator will randomly display a ship name from our database. Maybe also useful for naming spaceships in games like <em>Elite Dangerous</em> or <em>EVE Online</em>.
 
+If you can't find a good name on this list, see our <a href="/spaceship-name-generator/">Spaceship Name Generator</a>.
+
 Don’t like the names you’ve been given? Press the button to generate some more!
