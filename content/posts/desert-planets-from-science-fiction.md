@@ -65,6 +65,8 @@ Imecka, from Dragonball GT
 
 Jakku, from Star Wars: The Force Awakens
 
+Kakrafoon Kappa, from The Hitchhikers Guide to the Galaxy
+
 Katina, from Star Fox 64 
 
 Kerona, from Space Quest: The Sarien Encounter

@@ -152,3 +152,18 @@ from = "/inspiration/starting-points/starting-point-inevitable-destination/"
 to = "/posts/starting-point-inevitable-destination/"
 status = 301
 
+[[redirects]]
+from = "/sfi/alien-ideas/alien-profile-the-skrav/"
+to = "/posts/alien-profile-the-skrav/"
+status = 301
+
+[[redirects]]
+from = "/science-2/atlantropa-draining-the-mediterranian-sea/"
+to = "/posts/atlantropa-draining-the-mediterranian-sea/"
+status = 301
+
+[[redirects]]
+from = "/writing-2/writing-advice/four-part-story-structure-explained/"
+to = "/posts/four-part-story-structure-explained/"
+status = 301
+
