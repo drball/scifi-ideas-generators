@@ -159,3 +159,5 @@ Stories written by fans of an existing science fiction franchise, using previous
 EROTIC SCIENCE FICTION
 
 Sexually explicit science fiction designed to titillate readers/viewers. Most erotic science fiction is written by hormonally challenged fans.
+
+You might be interested in <a href="/posts/four-part-story-structure-explained/">our article on the four-part story structure</a>
