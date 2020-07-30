@@ -177,3 +177,7 @@ from = "/sfi/alien-ideas/creature-concepts/creature-concept-horned-raxomajup/"
 to = "/posts/creature-concept-horned-raxomajup/"
 status = 301
 
+[[redirects]]
+from = "/sfi/alien-ideas/creature-concepts/acid-dragon-zeta-anchora/"
+to = "/posts/acid-dragon-zeta-anchora/"
+status = 301

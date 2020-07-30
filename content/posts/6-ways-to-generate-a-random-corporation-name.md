@@ -53,3 +53,7 @@ The generated names are a little bit more fantastic, and more like the sort of n
 <h2><a href="https://brandlance.com/category/evil-company-names.html">Evil Company Name ideas List</a></h2>
 
 This is a legitimate tool for generating actual business names, not a tool for writers, but it does have a list of cool sounding names for companies, complete with an actual logo - although it looks like you'll have to purchase the rights to them. But, good for some inspiration. 
+
+<h2><a href="/scifi-company-name-generator/">Scifi Ideas Company Name Generator</a></h2>
+
+Sneaking our own generator onto this list, the <a href="/scifi-company-name-generator/">Scifi Ideas Company Name Generator</a> creates futuristic sounding & unusual corporation names to use in your projects. 
