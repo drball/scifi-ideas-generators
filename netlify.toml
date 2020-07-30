@@ -167,3 +167,8 @@ from = "/writing-2/writing-advice/four-part-story-structure-explained/"
 to = "/posts/four-part-story-structure-explained/"
 status = 301
 
+[[redirects]]
+from = "/science-2/cities-of-the-future-the-domed-city-of-mir/"
+to = "/posts/cities-of-the-future-the-domed-city-of-mir/"
+status = 301
+
