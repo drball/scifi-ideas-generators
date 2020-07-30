@@ -172,3 +172,8 @@ from = "/science-2/cities-of-the-future-the-domed-city-of-mir/"
 to = "/posts/cities-of-the-future-the-domed-city-of-mir/"
 status = 301
 
+[[redirects]]
+from = "/sfi/alien-ideas/creature-concepts/creature-concept-horned-raxomajup/"
+to = "/posts/creature-concept-horned-raxomajup/"
+status = 301
+
