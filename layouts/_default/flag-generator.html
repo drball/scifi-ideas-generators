@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    {{ partial "article-title.html" . }}
+
+    <section class="article">
+
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+
+            {{ partial "content-ad.html" . }}
+
+            <h2>Random Flag Generator</h2>
+
+            <div class="flag"></div>
+
+            <form>
+                <button class="generate button generate-button">Create new flag</button>
+            </form>
+
+        </div>
+
+        {{ partial "right-col.html" . }}
+
+    </section>
+
+    {{ partial "bottom-ad.html" . }}
+
+</article>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+<link href="/css/flag-generator.css" rel="stylesheet">
+<script src="/js/flag-generator.js" defer></script>
+
+
+{{ partial "footer.html" . }}

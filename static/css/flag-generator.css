@@ -1,0 +1,39 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+.flag {
+    border: 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 0 2rem;
+}
+.flag--vertical {
+    flex-direction: row;
+}
+.flag .band {
+    flex-grow: 1;
+}
+.flag .icon {
+    font-family: "Material Icons";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 130px;
+}
+.flag .triangle {
+    position: absolute;
+    border-color: transparent transparent transparent yellow;
+    border-style: solid;
+    border-width: 90px 0 90px 125px;
+}
