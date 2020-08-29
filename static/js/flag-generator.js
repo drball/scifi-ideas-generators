@@ -144,33 +144,6 @@ function createFlag(amount, orientation, colourList, shape) {
     }
 }
 
-function createFlagFromString(encodedString) {
-    const bandAmount = Number(encodedString[0]);
-    const bandOrientation = encodedString[1] === 'v' ? 'vertical' : 'horizontal';
-    const colourList = encodedString
-        .substring(2, 2 + bandAmount).split('')
-        .map(encodedColour => [...colours, ...brightColours][parseInt(encodedColour, 16)]);
-    let shape = encodedString.length > 2 + bandAmount
-        ? encodedString[2 + bandAmount]
-        : '';
-    if (shape) {
-        const hex = encodedString[encodedString.length - 1];
-        const colour = [...colours, ...brightColours][parseInt(hex, 16)];
-        colourList.push(colour);
-    }
-    switch (shape) {
-        case 'c': shape = 'circle'; break;
-        case 'f': shape = 'favorite'; break;
-        case 'r': shape = 'remove_red_eye'; break;
-        case 's': shape = 'star'; break;
-        case 't': shape = 'triangle'; break;
-    }
-
-    // Output
-    clear();
-    createFlag(bandAmount, bandOrientation, colourList, shape)
-}
-
 function generateRandomFlag(localColours) {
     clear();
     // Get options
