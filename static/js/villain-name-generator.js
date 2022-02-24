@@ -11,9 +11,15 @@ var prefix = [
     "Dark",
     "Bloody",
     "Lord",
+    "Lady",
+    "Mistress",
     "Grotty",
     "Dangerous",
     "Nasty",
+    "Dr.",
+    "Professor",
+    "Sergent",
+    "Don",
 ];
 
 var longPrefix = [
@@ -122,11 +128,13 @@ var start = [
     "Na",
     "Nel",
     "Nir",
+    "Nov",
     "Odor",
     "Olg",
     "Olk",
     "Osa",
     "Pro",
+    "Puk",
     "Que",
     "Queeb",
     "Roy",
@@ -134,6 +142,8 @@ var start = [
     "Sit",
     "Sik",
     "Spa",
+    "Slime",
+    "Sov",
     "Stra",
     "Suda",
     "Swamp",
@@ -192,11 +202,16 @@ var end = [
     "bong",
     "cat",
     "cer",
+    "chev",
+    "chov",
+    "chok",
     "cit",
     "cot",
     "cow",
     "crow",
     "cut",
+    "dax",
+    "dred",
     "eax",
     "ed",
     "ed",
@@ -326,6 +341,7 @@ var end = [
 ];
 
 var suffix = [
+    "the angry",
     "the unclean",
     "the filthy",
     "the dirty",
@@ -333,6 +349,8 @@ var suffix = [
     "the arsehole",
     "the dick",
     "the horrible",
+    "the cruel",
+    "the foul",
     "the murderer",
     "the naughty",
     "the haughty",
@@ -342,6 +360,8 @@ var suffix = [
     "the raven",
     "the untrustworthy",
     "hellbourne",
+    "the rotten",
+    "the crafty",
 ];
 
 var place = [
@@ -353,6 +373,8 @@ var place = [
     "the dark zone",
     "the dark empire",
     "the dead",
+    "Chaos",
+    "Death",
 ];
 
 
@@ -386,16 +408,14 @@ newAlienSpeciesName = function(){
     var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
 
 
-    if(typeChance < 10){
-
+    if(typeChance < 15){
         final = randomPrefix + " "+ alienName();
-
-    }else if (typeChance >= 10 && typeChance < 15) {
-        final = randomLongPrefix + " "+ alienName() + " of " + planetName();
     }else if (typeChance >= 15 && typeChance < 25) {
+        final = randomLongPrefix + " "+ alienName() + " of " + planetName();
+    }else if (typeChance >= 25 && typeChance < 35) {
         var placeName = place[Math.floor(Math.random() * place.length)];
         final = alienName() + " of " + placeName;
-    }else if (typeChance >= 25 && typeChance < 35) {
+    }else if (typeChance >= 35 && typeChance < 45) {
         var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
         final = alienName() + " " + randomSuffix;
     }else {
