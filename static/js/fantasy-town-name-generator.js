@@ -42,6 +42,7 @@ function city1(){
         "Cook",
         "Cor",
         "Col",
+        "Cole",
         "Cold",
         "Cur",
         "Dragon",

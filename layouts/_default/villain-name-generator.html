@@ -1,0 +1,57 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article class="p-article">
+    {{ partial "article-title.html" . }}
+
+    <section class="article">
+
+        {{ partial "left-col.html" . }}
+
+        <div class="article__middle-col">
+            {{ .Content }}
+
+            {{ partial "content-ad.html" . }}
+
+            <h2>Villain name generator</h2>
+
+            <div class="generated-content">
+
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+                <p class="alien-name"></p>
+
+            </div>
+
+            <button class="button generate-button" onclick=generateNew()>Generate more!</button>
+        </div>
+
+        {{ partial "right-col.html" . }}
+
+    </section>
+
+    {{ partial "bottom-ad.html" . }}
+
+</article>
+
+<script src="/js/planet-name-generator.js" defer></script>
+<script src="/js/villain-name-generator.js" defer></script>
+
+{{ partial "footer.html" . }}

@@ -2,13 +2,18 @@
 
 var prefix = [
     "Captain",
-    "Admiral",
-    "Ambassador",
-    "High Ambassador",
-    "Subcommander",
-    "Ser",
+    "President",
+    "General",
     "Colonel",
-    "Colonel",
+    "Commander",
+    "King",
+    "Queen",
+    "Dark",
+    "Bloody",
+    "Lord",
+    "Grotty",
+    "Dangerous",
+    "Nasty",
 ];
 
 var longPrefix = [
@@ -16,24 +21,30 @@ var longPrefix = [
     "The Ancient",
     "The",
     "The High",
-    "The Great",
+    "Great",
+    "The Nasty",
+    "The Dark",
+    "The High Lord",
 ];
 
 
 var start = [
     "Ab",
+    "Ar",
     "Adr",
     "Arc",
     "And",
     "Altis",
-    "B",
     "B'",
     "Ba'",
     "Bax",
     "Be'",
+    "Ber",
     "Bos",
     "Bob",
     "Bop",
+    "Borg",
+    "Berg",
     "Bor",
     "Bine",
     "Bing",
@@ -52,6 +63,7 @@ var start = [
     "Dop",
     "Dud",
     "Edo",
+    "Fat",
     "Fer",
     "Flim",
     "G",
@@ -67,9 +79,11 @@ var start = [
     "Gob",
     "Gor",
     "Gutt",
+    "Grot",
     "Gw",
     "Hap",
     "Hel",
+    "Hell",
     "Hob",
     "Hon",
     "Jada",
@@ -77,6 +91,7 @@ var start = [
     "Jar",
     "Jud",
     "Jur",
+    "Jizz",
     "K",
     "Ka'",
     "Kack",
@@ -86,6 +101,8 @@ var start = [
     "Ke'",
     "Kla",
     "Kla",
+    "Kip",
+    "Kik",
     "Klup",
     "Klum",
     "Klop",
@@ -95,6 +112,7 @@ var start = [
     "Lur",
     "Lux",
     "Ma",
+    "Mar",
     "Mesa",
     "Meta",
     "Mo",
@@ -113,9 +131,12 @@ var start = [
     "Queeb",
     "Roy",
     "So",
+    "Sit",
+    "Sik",
     "Spa",
     "Stra",
     "Suda",
+    "Swamp",
     "Squ",
     "Tam",
     "Tamer",
@@ -134,6 +155,7 @@ var start = [
     "Vod",
     "Vop",
     "Vol",
+    "Volder",
     "Vrok",
     "Vul",
     "Wo",
@@ -172,6 +194,8 @@ var end = [
     "cer",
     "cit",
     "cot",
+    "cow",
+    "crow",
     "cut",
     "eax",
     "ed",
@@ -185,17 +209,24 @@ var end = [
     "etox",
     "etti",
     "eux",
+    "face",
+    "fark",
     "flam",
     "flen",
     "flim",
     "flom",
+    "fuk",
     "gan",
+    "glak",
     "gon",
+    "gorn",
     "gun",
+    "grots",
     "gong",
     "gogo",
     "gongon",
     "hop",
+    "hound",
     "hun",
     "hura",
     "huru",
@@ -203,6 +234,7 @@ var end = [
     "ill",
     "illit",
     "jar",
+    "jaz",
     "jan",
     "jed",
     "jo",
@@ -212,6 +244,7 @@ var end = [
     "jid",
     "jin",
     "jis",
+    "jiz",
     "kid",
     "koo",
     "kop",
@@ -247,8 +280,13 @@ var end = [
     "oria",
     "orn",
     "ot",
+    "pit",
+    "plop",
+    "pik",
     "qun",
     "rew",
+    "rev",
+    "revon",
     "rn",
     "rn",
     "ro",
@@ -256,7 +294,10 @@ var end = [
     "rop",
     "rop",
     "rot",
+    "saw",
     "sin",
+    "shart",
+    "shark",
     "so",
     "sor",
     "sloff",
@@ -284,6 +325,36 @@ var end = [
     "zulu",
 ];
 
+var suffix = [
+    "the unclean",
+    "the filthy",
+    "the dirty",
+    "the bastard",
+    "the arsehole",
+    "the dick",
+    "the horrible",
+    "the murderer",
+    "the naughty",
+    "the haughty",
+    "the nasty",
+    "the fat",
+    "the terrible",
+    "the raven",
+    "the untrustworthy",
+    "hellbourne",
+];
+
+var place = [
+    "the dark realm",
+    "the underworld",
+    "hell",
+    "the swamp",
+    "the underworld",
+    "the dark zone",
+    "the dark empire",
+    "the dead",
+];
+
 
 function alienName(){
     var randomStart = start[Math.floor(Math.random() * start.length)];
@@ -305,21 +376,28 @@ function alienLastName(){
     }else {
         return randomStart + randomEnd;
     }
-
 }
 
-newAlienName = function(){
+
+newAlienSpeciesName = function(){
     var final = "";
     var typeChance = Math.floor(Math.random() * 100);
     var randomLongPrefix = longPrefix[Math.floor(Math.random() * longPrefix.length)];
     var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
 
+
     if(typeChance < 10){
 
         final = randomPrefix + " "+ alienName();
 
-    }else if (typeChance >= 10 && typeChance < 20) {
+    }else if (typeChance >= 10 && typeChance < 15) {
         final = randomLongPrefix + " "+ alienName() + " of " + planetName();
+    }else if (typeChance >= 15 && typeChance < 25) {
+        var placeName = place[Math.floor(Math.random() * place.length)];
+        final = alienName() + " of " + placeName;
+    }else if (typeChance >= 25 && typeChance < 35) {
+        var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
+        final = alienName() + " " + randomSuffix;
     }else {
         final =  alienName() + " " + alienLastName();
     }
@@ -332,7 +410,7 @@ generateNew = function(){
 
         $(this).html("");
 
-        $(this).prepend(newAlienName());
+        $(this).prepend(newAlienSpeciesName());
 
     });
 }
