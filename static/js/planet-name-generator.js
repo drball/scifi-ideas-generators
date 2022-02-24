@@ -444,6 +444,7 @@ var prefix = [
     "The ghost world of",
     "The desert planet of",
     "The ancient planet of",
+    "The rock of",
     "New",
     "White",
     "East",
@@ -462,10 +463,37 @@ var suffix = [
     "Kappa",
     "Sigma",
     "Prime",
+    "Major",
+    "Minor",
+    "One",
+    "Two",
+    "Epsilon",
+    "Zeta",
+    "Quintus",
     "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12",
     "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIV", "XV", "XVI",
     "World", "Moon", "gas giant",
     "e1", "e2", "e3", "e4"
+]
+
+var posession = [
+    "Haven",
+    "Hope",
+    "World",
+    "Forge",
+    "Paradise",
+    "Fall",
+    "Reach",
+    "Stronghold",
+    "Beacon",
+    "Outpost",
+    "Sanctum",
+    "Refuge",
+    "Retreat",
+    "Terminus",
+    "Moon",
+    "World",
+    "Planetoid",
 ]
 
 generateNew = function () {
@@ -495,8 +523,11 @@ generateNew = function () {
 
         if (suffixChance <= 25){
             final = final + " " + randomSuffix;
-        } else if(suffixChance > 25 && suffixChance <= 50) {
+        } else if(suffixChance > 25 && suffixChance <= 45) {
             final = final + " " + Math.floor(Math.random() * 400);
+        } else if(suffixChance > 45 && suffixChance <= 50) {
+            var randomPosession = posession[Math.floor(Math.random() * posession.length)];
+            final = final + "'s "+ randomPosession;
         }
 
         output.prepend("<p>"+final+"</p>");
