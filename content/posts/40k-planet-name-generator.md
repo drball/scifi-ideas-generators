@@ -8,3 +8,5 @@ layout: planet-name-generator
 Need a fictional planet name for the setting of a battle in your Warhammer 40K game? Or maybe you're writing some 40K fanfiction? Here are some suggestions from our random Planet Name Generator. If you need an idea for the name of a crashed spaceship that you might find on this planet, use our <a href="/spaceship-name-generator/">Spaceship Name Generator</a>.
 
 To get more planet names, press the button. 
+
+<img class="alignnone size-full wp-image-7892" src="/post-images/warhammer-40k-planet-name-generator.jpg" alt="Warhammer 40k planet name generator">
