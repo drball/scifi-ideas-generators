@@ -93,6 +93,7 @@ function SuperheroFirst(){
     "Sally",
     "Peter",
     "Tony",
+    "Dave",
 
     ];
 
@@ -259,6 +260,7 @@ function SuperheroNoun(){
         "Robot",
         "Bird",
         "Parrot",
+        "Pirahna",
         "Beast",
         "Eagle",
         "Crow",
@@ -287,6 +289,12 @@ function SuperheroNoun(){
         "Beaver",
         "Pigeon",
         "Wolf",
+        "Sapphire",
+        "Orchid",
+        "Prism",
+        "Pearl",
+        "Torpedo",
+        "Ray",
 
     ];
 
@@ -365,6 +373,7 @@ function SuperheroEndThe(){
         "Champ",
         "Searcher",
         "Seeker",
+        "Wonder",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
