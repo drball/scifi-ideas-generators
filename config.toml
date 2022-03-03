@@ -95,6 +95,16 @@ theme = "potato-dark"
     url = "/city-name-generator"
     weight = 2
 
+[[menu.footer]]
+    name = "Villain name generator"
+    url = "/villain-name-generator"
+    weight = 2
+
+[[menu.footer]]
+    name = "Superhero name generator"
+    url = "/superhero-name-generator"
+    weight = 2
+
 [[menu.main]]
     name = "Spaceship name generator"
     url = "/spaceship-name-generator"
@@ -114,6 +124,7 @@ theme = "potato-dark"
     name = "Scifi corporation name generator"
     url = "/scifi-company-name-generator"
     weight = 2
+
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.

@@ -20,6 +20,11 @@ var prefix = [
     "Professor",
     "Sergent",
     "Don",
+    "Untrustworthy",
+    "Stinking",
+    "Foul",
+    "Warty",
+    "Ugly",
 ];
 
 var longPrefix = [
@@ -31,18 +36,22 @@ var longPrefix = [
     "The Nasty",
     "The Dark",
     "The High Lord",
+    "The ugly",
+    "The evil",
 ];
 
 
 var start = [
     "Ab",
     "Ar",
+    "Ak",
     "Adr",
     "Arc",
     "And",
     "Altis",
     "B'",
     "Ba'",
+    "Bak",
     "Bax",
     "Be'",
     "Ber",
@@ -66,15 +75,19 @@ var start = [
     "Ch",
     "Dar",
     "Din",
+    "Dik",
+    "Dip",
     "Dop",
     "Dud",
     "Edo",
     "Fat",
     "Fer",
     "Flim",
+    "Fuk",
     "G",
     "Gal",
     "Gar",
+    "Gak",
     "Geb",
     "Glo",
     "Glob",
@@ -84,6 +97,7 @@ var start = [
     "Gur",
     "Gob",
     "Gor",
+    "Gok",
     "Gutt",
     "Grot",
     "Gw",
@@ -105,8 +119,10 @@ var start = [
     "Kay",
     "Kai",
     "Ke'",
+    "Kok",
     "Kla",
     "Kla",
+    "Kid",
     "Kip",
     "Kik",
     "Klup",
@@ -147,6 +163,7 @@ var start = [
     "Stra",
     "Suda",
     "Swamp",
+    "Slither",
     "Squ",
     "Tam",
     "Tamer",
@@ -165,6 +182,7 @@ var start = [
     "Vod",
     "Vop",
     "Vol",
+    "Vlad",
     "Volder",
     "Vrok",
     "Vul",
@@ -192,6 +210,7 @@ var end = [
     "arg",
     "ato",
     "aveola",
+    "bad",
     "bag",
     "bip",
     "bian",
@@ -263,6 +282,7 @@ var end = [
     "kid",
     "koo",
     "kop",
+    "kok",
     "kloren",
     "kro",
     "krut",
@@ -313,6 +333,8 @@ var end = [
     "sin",
     "shart",
     "shark",
+    "spider",
+    "slither",
     "so",
     "sor",
     "sloff",
@@ -324,6 +346,7 @@ var end = [
     "urian",
     "uts",
     "uth",
+    "worm",
     "zad",
     "zar",
     "zed",
@@ -359,22 +382,55 @@ var suffix = [
     "the terrible",
     "the raven",
     "the untrustworthy",
+    "the unclean",
+    "the unworthy",
     "hellbourne",
     "the rotten",
     "the crafty",
+    "the destroyed",
+    "the worst",
+    "the liar",
+    "the criminal",
+    "the burgler",
+    "the slaughterer",
+    "the slicer",
+    "the mauler",
+    "the devourer",
+    "the stomper",
+    "the shit",
+    "the fucker",
+    "the awful",
+    "the toad",
 ];
 
 var place = [
     "the dark realm",
     "the underworld",
-    "hell",
+    "Hell",
     "the swamp",
     "the underworld",
     "the dark zone",
     "the dark empire",
+    "the cavern",
     "the dead",
     "Chaos",
     "Death",
+    "Mayhem",
+    "Earthquakes",
+    "snakes",
+    "bastards",
+    "wasps",
+    "sharks",
+    "worms",
+    "sewers",
+    "the sewer",
+    "the pit",
+    "your nightmares",
+    "your worst nightmare",
+    "shit",
+    "the worst shit",
+    "the toilet",
+    "the slime",
 ];
 
 
@@ -408,14 +464,14 @@ newAlienSpeciesName = function(){
     var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
 
 
-    if(typeChance < 15){
+    if(typeChance < 20){
         final = randomPrefix + " "+ alienName();
-    }else if (typeChance >= 15 && typeChance < 25) {
+    }else if (typeChance >= 20 && typeChance < 30) {
         final = randomLongPrefix + " "+ alienName() + " of " + planetName();
-    }else if (typeChance >= 25 && typeChance < 35) {
+    }else if (typeChance >= 30 && typeChance < 40) {
         var placeName = place[Math.floor(Math.random() * place.length)];
         final = alienName() + " of " + placeName;
-    }else if (typeChance >= 35 && typeChance < 45) {
+    }else if (typeChance >= 40 && typeChance < 50) {
         var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
         final = alienName() + " " + randomSuffix;
     }else {
