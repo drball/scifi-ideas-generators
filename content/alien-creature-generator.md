@@ -1,5 +1,5 @@
 ---
-title: "Alien Creature Generator"
+title: "Alien Creature Description Generator"
 date: 2020-06-16T08:28:49+01:00
 description: "Need a way of generating the name & description of a random alien creature?"
 layout: alien-creature-generator
