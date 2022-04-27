@@ -989,7 +989,7 @@ function companyEnd(){
         "LLC",
         "™",
         "& sons",
-        
+
     ];
 
     return options[Math.floor(Math.random() * options.length)];
