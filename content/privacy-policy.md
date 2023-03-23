@@ -180,5 +180,5 @@ date: 2023-03-23T07:00:00+01:00
 <h1>Contact Us</h1>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By email: david@ongoingworlds.com</li>
+<li>By email: scifiideas@ongoingworlds.com</li>
 </ul>
