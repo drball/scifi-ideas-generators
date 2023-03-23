@@ -14,7 +14,7 @@
             {{ .Content }}
 
             <ul class="p-menu__lists">
-                {{ range .Site.RegularPages }}
+                {{ range (where .Site.RegularPages ".Params.unlisted" "!=" "true") }}
                 <li>
                     <a href="{{.Permalink}}">{{.Title}}</a>
                 </li>

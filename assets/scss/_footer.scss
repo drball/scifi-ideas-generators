@@ -8,7 +8,7 @@
         color: white;
         font-size: 18px;
         font-weight: normal;
-        margin: 0 0 5px;
+        margin: 0 0 10px;
 
         @media (min-width: $breakpoint-large) {
             font-size: 22px;
@@ -22,7 +22,7 @@
 
     .p-menu__lists {
         margin: 0;
-        padding: 0 0 0 20px;
+        padding: 0 0 15px 20px;
 
         @media (min-width: $breakpoint-medium) {
             columns: 2;
@@ -30,6 +30,7 @@
 
         li {
             list-style: square;
+            margin-bottom: 1rem;
         }
 
         a,

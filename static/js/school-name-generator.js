@@ -28,11 +28,11 @@ function schoolTypeEnd(){
     "Education Institute",
     "High School",
     "Middle School",
+    "Middle School",
     "Charter School",
     "Technical School",
     "Technical College",
     "Music School",
-    "Middle School",
     "Grammar School",
     "Elementary",
     "Elementary School",
@@ -70,6 +70,9 @@ function schoolTypeEnd(){
     "Pre-School",
     "Nursery",
     "Academic Nursery",
+    "Virtual Academy",
+    "Online Academy",
+    "Preparatory School",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -92,7 +95,10 @@ function place(){
         "Green",
         "Dirt",
         "Colville",
+        "Manchester",
+        "Mexico",
         "York",
+        "Beijing",
         "Chester",
         "Central",
         "Hunter",
@@ -164,6 +170,7 @@ function place(){
         "Garmony",
         "Castlebay",
         "Dalness",
+        "Musk",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -201,6 +208,9 @@ function placeEnd(){
         "Shelter",
         "Owls",
         "Bay",
+        "Moon",
+        "Ridge",
+        "Road",
     ];
 
     return options[Math.floor(Math.random() * options.length)];
@@ -226,6 +236,7 @@ function for2(){
     var options = [
         "Strivers",
         "Excellence",
+        "Business",
         "Businessmen",
         "Businesswomen",
         "Leaders",
@@ -341,6 +352,7 @@ function schoolOf() {
         "Geography",
         "Engineering & Maths",
         "Combat & Defence",
+        "Cooking",
         "The Dark Arts",
         "Self Defence",
         "Fine Art",
