@@ -378,6 +378,7 @@ var suffix = [
     "the cruel",
     "the foul",
     "the murderer",
+    "the rapist",
     "the naughty",
     "the haughty",
     "the nasty",
@@ -404,6 +405,8 @@ var suffix = [
     "the fucker",
     "the awful",
     "the toad",
+    "the strangler",
+    "the destroyer",
 ];
 
 var place = [

@@ -1,5 +1,5 @@
 var output = $("#generated-names");
-var num = 30;
+var num = 20;
 
 var prefix = [
     "Artificial",

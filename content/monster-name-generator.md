@@ -9,6 +9,6 @@ Need a name for a terrible monster? This generator randomly creates unique monst
 
 This random generator is ideal for creating monsterous fantasy villains from another world, dimension, realm or planet.
 
-You might also be interested in our <a href="/alien-creature-generator/">Alien Creature Generator</a>.
+You might also be interested in our <a href="/alien-creature-generator/">Alien Creature Generator</a> or our <a href="/villain-name-generator/">Villain Name Generator</a>.
 
 To generate more fake names, press the button.

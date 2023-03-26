@@ -11,4 +11,4 @@ Androids have long been a stable of science fiction, machines that look Human, b
 
 In science fiction, Androids are often used in stories that hint at what it is to be alive, or how we treat others through slavery & servitude. 
 
-Below is some examples of android names. Press the button to generate more names. For more normal names, you might also want to see our <a href="/sci-fi-character-name-generator/">Character Name Generator</a>. 
+Below is some examples of android names. Press the button to generate more names. You might also like our <a href="/robot-name-generator/">Robot Name Generator</a> and <a href="/sci-fi-character-name-generator/">Character Name Generator</a>. 

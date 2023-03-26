@@ -1,7 +1,7 @@
 ---
 title: "Random Superhero Name Generator"
 date: 2022-03-01T06:00:49+01:00
-description: "This random superhero name generator gives you names of fictional superheroes"
+description: "This superhero name generator creates names of fictional superheroes"
 layout: superhero-name-generator
 ---
 

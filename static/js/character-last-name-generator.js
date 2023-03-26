@@ -1058,7 +1058,16 @@ var lastNames = [
     'Xavier',
     'Xue',
     'Zamora',
-    'Zimmerman'
+    'Zimmerman',
+    'Acharya',
+    'Agarwal',
+    'Khatri',
+    'Anand',
+    'Laghari',
+    'Sánchez',
+    'Pérez',
+    'Rodríguez',
+    'López',
 ];
 
 var consonants = [
@@ -1129,6 +1138,7 @@ var lastAfterConsonant = [
     "ogawa",
     "ulan",
     "ursor",
+    "pez",
 
 ];
 
@@ -1162,6 +1172,7 @@ var lastPart1 = [
     "Baker",
     "Smith",
     "Grey",
+    "Gon",
     "O'",
     "High",
     "Hi",
@@ -1229,15 +1240,18 @@ var lastPart2 = [
     "lyle",
     "over",
     "ox",
+    "pez",
     "aney",
     "smith",
+    "shez",
     "watcher",
     "scraper",
     "sailer",
     "coller",
     "coiler",
     "seeker",
-    "sock"
+    "sock",
+    "zález"
 ];
 
 generateNew = function(){
@@ -1249,13 +1263,13 @@ generateNew = function(){
         var last = "";
 
         //--last name
-        if(lastTypeChance <= 15){
+        if(lastTypeChance <= 30){
             var randomConsonant = consonants[Math.floor(Math.random() * consonants.length)];
             var randomLastAfterConsonant = lastAfterConsonant[Math.floor(Math.random() * lastAfterConsonant.length)];
 
             last = randomConsonant + randomLastAfterConsonant;
 
-        } else if(lastTypeChance > 15 && lastTypeChance <= 30){
+        } else if(lastTypeChance > 30 && lastTypeChance <= 60){
             var randomLastPart1 = lastPart1[Math.floor(Math.random() * lastPart1.length)];
             var randomLastPart2 = lastPart2[Math.floor(Math.random() * lastPart2.length)];
 
