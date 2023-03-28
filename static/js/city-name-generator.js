@@ -1,7 +1,4 @@
 
-
-
-
 function city1(){
     var options = [
         "Ad",
