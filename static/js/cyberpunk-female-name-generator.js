@@ -342,7 +342,7 @@ function randomCyberpunkFemaleName(){
 
 
 
-generateNewCyberpunkFemaleName = function(){
+generateNewCyberpunkFemaleNames = function(){
     output.html("");
 
     for (i = 0; i <= num; i++) {
@@ -376,4 +376,4 @@ generateNewCyberpunkFemaleName = function(){
     }
 }
 
-generateNewCyberpunkFemaleName();
+generateNewCyberpunkFemaleNames();

@@ -343,7 +343,7 @@ function randomCyberpunkMaleName(){
     return options[Math.floor(Math.random() * options.length)];
 }
 
-generateNewCyberpunkMaleName = function(){
+generateNewCyberpunkMaleNames = function(){
     output.html("");
 
     for (i = 0; i <= num; i++) {
@@ -377,4 +377,4 @@ generateNewCyberpunkMaleName = function(){
     }
 }
 
-generateNewCyberpunkMaleName();
+generateNewCyberpunkMaleNames();
