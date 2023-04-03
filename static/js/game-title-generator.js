@@ -91,7 +91,6 @@ var single = [
     "Titan",
     "Pluto",
     "Dead Earth",
-    "Hubble",
     "Burrito",
     "Chef",
     "Jetpack",
@@ -130,6 +129,9 @@ var single = [
     "Battlefield",
     "Pizza",
     "Man",
+    "Train",
+    "Car",
+    "Express",
 ];
 
 //--a plural noun
@@ -207,7 +209,6 @@ var word2Concept = [
     "Cleaning",
     "Destruction",
     "Ops",
-    "Says",
     "Walks",
     "Escape",
     "Highway",
@@ -273,10 +274,17 @@ generateNew = function () {
         var randomWord2Concept = word2Concept[Math.floor(Math.random() * word2Concept.length)];
         var randomStart = start[Math.floor(Math.random() * start.length)];
 
+        //--get planet name parts from the planet name generator
+        var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
+        var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
+
         if (typeChance <= 20){
             final = randomWord1 + " " + randomSingle;
-        } else if(typeChance > 20 && typeChance <= 40) {
+        } else if(typeChance > 20 && typeChance <= 30) {
             final = randomSingle + " of " + randomWord2Plural;
+        } else if(typeChance > 30 && typeChance <= 40) {
+            console.log("sdafas");
+            final = randomPart1 + randomPart2 + " " + randomWord2Concept;
         } else if(typeChance > 40 && typeChance <= 60) {
             final = randomSingle + " " + randomWord2Plural;
         } else if(typeChance > 60 && typeChance <= 70) {
@@ -284,10 +292,6 @@ generateNew = function () {
         } else if(typeChance > 70 && typeChance <= 80) {
             final = randomStart + " " + randomWord2Plural;
         } else {
-            //--get planet name parts from the planet name generator
-            var randomPart1 = part1[Math.floor(Math.random() * part1.length)];
-            var randomPart2 = part2[Math.floor(Math.random() * part2.length)];
-
             final = randomStart + " " + randomPart1 + randomPart2;
         }
 

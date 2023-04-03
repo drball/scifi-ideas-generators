@@ -425,6 +425,7 @@ var femaleFirstNames = [
     "Sara",
     "Sarah",
     "Savannah",
+    "Sally",
     "Scarlett",
     "Selena",
     "Serena",
